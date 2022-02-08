@@ -1,0 +1,28 @@
+.sitemap-nav {
+    padding: 0;
+
+}
+.sitemap-nav ul{
+    font-weight: 600;
+}
+.sitemap-nav li
+{
+	/*background-image: url(../img/small.png);
+    background-position: 1px 12px;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    list-style: outside none none;
+    margin-bottom: 5px;
+    padding-left: 25px;*/
+}
+
+.sitemap-nav li a
+{
+    color: #000;
+    list-style: outside none none;
+    text-decoration: none;
+    font-size: 15px !important;
+    font-weight: 500;
+}
