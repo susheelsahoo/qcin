@@ -68,7 +68,7 @@
                                             <li>
                                             <li class=""><a class="" href="{{ route('frontend.mission') }}">Mission</a>
                                             <li>
-                                            <li class=""><a class="" href="vision{{ route('frontend.vision') }}">Vision</a>
+                                            <li class=""><a class="" href="{{ route('frontend.vision') }}">Vision</a>
                                             <li>
                                             <li class=""><a class="" href="{{ route('frontend.moa') }}">MOA</a>
                                             <li>
