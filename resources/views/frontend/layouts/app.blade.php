@@ -18,7 +18,7 @@
     @stack('before-styles')
     <!-- fronted CSS -->
     <link href="{{ asset('fronted/css/fonts-family.css?family=Montserrat:300,300i,400,400i,500,500i,600,700,800,900&amp;display=swap') }}" rel="stylesheet">
-    <link href="{{ asset('fronted/css/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="{{ asset('fronted/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('fronted/js/jquery.scrollable.css') }}" rel="stylesheet">
     <link href="{{ asset('fronted/css/custom.css') }}" rel="stylesheet">
@@ -28,24 +28,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- Check if the language is set to RTL, so apply the RTL layouts -->
     <!-- Otherwise apply the normal LTR layouts -->
-    {{ style(mix('css/frontend.css')) }}
+    <!-- {{ style(mix('css/frontend.css')) }} -->
 
     @stack('after-styles')
 </head>
 
-<body>
-
-
-    <div id="app">
-
-
-        <div class="container">
-
-        </div>
-    </div>
-
-
-</body>
 
 <body data-plugin-cursor-effect>
     <div class="body">
@@ -54,6 +41,7 @@
         @include('frontend.includes.header')
 
         @include('includes.partials.messages')
+
         @yield('content')
         @include('frontend.includes.footer')
 
@@ -62,7 +50,7 @@
 
         <script type="text/javascript" src="{{ asset('fronted/js/popper.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('fronted/js/bootstrap.min.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('fronted/js/js/custom.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('fronted/js/custom.js') }}"></script>
         <script type="text/javascript" src="{{ asset('fronted/js/jquery-ui.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('fronted/js/jquery.mousewheel.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('fronted/js/jquery.scrollable.js') }}"></script>

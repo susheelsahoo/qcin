@@ -57,7 +57,10 @@
                         <li><a href="https://www.youtube.com/channel/UCnweuDB5aFL3HkP7wg-_8rA" target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube-play"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/quality-council-of-india-qci-/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="https://instagram.com/qualitycouncilofindia?igshid=g8fy7zpychy0" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a></li>
-                        <li class="koo-link"><a href="https://www.kooapp.com/profile/QualityCouncilofIndia" target="_blank" rel="noopener noreferrer"><img src="public/img/Koo_Logo.png" alt="koo icon" class="koo" style="height: 22px;"><img src="public/img/Koo_Logo_white.png" alt="koo icon" class="koo-hover" style="height: 22px;"></a></li>
+                        <li class="koo-link"><a href="https://www.kooapp.com/profile/QualityCouncilofIndia" target="_blank" rel="noopener noreferrer">
+                                <img src="{{ asset('/img/Koo_Logo.png') }}" alt="koo icon" class="koo" style="height: 22px;">
+                                <img src="{{ asset('/img/Koo_Logo_white.png') }}" alt="koo icon" class="koo-hover" style="height: 22px;">
+                            </a></li>
                     </ul>
                 </div>
             </div>

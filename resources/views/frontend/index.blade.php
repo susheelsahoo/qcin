@@ -13,49 +13,61 @@
         <li data-target="#myCarousel" data-slide-to="4" class=""></li>
         <li data-target="#myCarousel" data-slide-to="5" class=""></li>
         <li data-target="#myCarousel" data-slide-to="6" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="7" class=""></li>
+        <!-- <li data-target="#myCarousel" data-slide-to="7" class=""></li>
         <li data-target="#myCarousel" data-slide-to="8" class=""></li>
         <li data-target="#myCarousel" data-slide-to="9" class=""></li>
         <li data-target="#myCarousel" data-slide-to="10" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="11" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="11" class=""></li> -->
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <a href="#" target="_blank" rel="noopener noreferrer"><img src="public/uploads/sliderimages/1618045147-Post-1-04.jpg" style="width:100%;margin-top: 36px;" alt="Corona Hoarding"></a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="{{ url('/img/frontend/sliderimages/1618045147-Post-1-04.jpg') }}" style="width:100%;margin-top: 36px;" alt="Corona Hoarding"></a>
         </div>
         <div class="carousel-item ">
-            <a href="#" target="_blank" rel="noopener noreferrer"><img src="public/uploads/sliderimages/1618035337-Post-1-01.jpg" style="width:100%;margin-top: 36px;" alt="Corona Hoarding"></a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="{{ url('/img/frontend/sliderimages/1618035337-Post-1-01.jpg') }}" style="width:100%;margin-top: 36px;" alt="Corona Hoarding"></a>
         </div>
         <div class="carousel-item ">
-            <a href="https://swachhsurvekshan2021.org/" target="_blank" rel="noopener noreferrer"><img src="public/uploads/sliderimages/1614944838-website-header.jpg" style="width:100%;margin-top: 36px;" alt="SS2021"></a>
+            <a href="https://swachhsurvekshan2021.org/" target="_blank" rel="noopener noreferrer">
+                <img src="{{ url('/img/frontend/sliderimages/1614944838-website-header.jpg') }}" style="width:100%;margin-top: 36px;" alt="SS2021"></a>
         </div>
         <div class="carousel-item ">
-            <a href="https://udyogmanthan.qcin.org/" target="_blank" rel="noopener noreferrer"><img src="public/uploads/sliderimages/1609409346-1500x500.jpg" style="width:100%;margin-top: 36px;" alt="udyog manthan"></a>
+            <a href="https://udyogmanthan.qcin.org/" target="_blank" rel="noopener noreferrer">
+                <img src="{{ url('/img/frontend/sliderimages/1609409346-1500x500.jpg') }}" style="width:100%;margin-top: 36px;" alt="udyog manthan"></a>
         </div>
         <div class="carousel-item ">
-            <a href="#" target="_blank" rel="noopener noreferrer"><img src="public/uploads/sliderimages/1611577415-WEB%20BANNER-01%20(1)%20(3).jpg" style="width:100%;margin-top: 36px;" alt="AB PMJAY"></a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="{{ url('/img/frontend/sliderimages/1611577415-WEB%20BANNER-01%20(1)%20(3).jpg') }} " style="width:100%;margin-top: 36px;" alt="AB PMJAY"></a>
         </div>
         <div class="carousel-item ">
-            <a href="#" target="_blank" rel="noopener noreferrer"><img src="public/uploads/sliderimages/1580714902-banner%20mission.jpg" style="width:100%;margin-top: 36px;" alt="INQ"></a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="{{ url('/img/frontend/sliderimages/1580714902-banner%20mission.jpg') }}" style="width:100%;margin-top: 36px;" alt="INQ"></a>
         </div>
         <div class="carousel-item ">
-            <a href="#" target="_blank" rel="noopener noreferrer"><img src="public/uploads/sliderimages/1581079847-piyush-goyal.jpg" style="width:100%;margin-top: 36px;" alt="Piyush Goyal"></a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="{{ url('/img/frontend/sliderimages/1581079847-piyush-goyal.jpg') }}" style="width:100%;margin-top: 36px;" alt="Piyush Goyal"></a>
+        </div>
+        <!--<div class="carousel-item ">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="{{ url('/img/frontend/sliderimages//1628761117-b6dec78f-1a66-4d7f-b84f-eed789b8a9be.jpg') }}" style="width:100%;margin-top: 36px;" alt="Fit India Freedom Run"></a>
         </div>
         <div class="carousel-item ">
-            <a href="#" target="_blank" rel="noopener noreferrer"><img src="public/uploads/sliderimages/1628761117-b6dec78f-1a66-4d7f-b84f-eed789b8a9be.jpg" style="width:100%;margin-top: 36px;" alt="Fit India Freedom Run"></a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="{{ url('/img/frontend/sliderimages/1641798321-WhatsApp%20Image%202022-01-10%20at%2011.57.45%20AM.jpg') }}" style="width:100%;margin-top: 36px;" alt="Hindi Diwas"></a>
         </div>
         <div class="carousel-item ">
-            <a href="#" target="_blank" rel="noopener noreferrer"><img src="public/uploads/sliderimages/1641798321-WhatsApp%20Image%202022-01-10%20at%2011.57.45%20AM.jpg" style="width:100%;margin-top: 36px;" alt="Hindi Diwas"></a>
+            <a href="https://labexcellenceaward.qcin.org/Home.aspx" target="_blank" rel="noopener noreferrer">
+                <img src="{{ url('/img/frontend/sliderimages/1631096424-Laboratory%20Excellence%20Award%20banner%202.jpg') }}" style="width:100%;margin-top: 36px;" alt="Prof. S.K Joshi Laboratory Excellence Award"></a>
         </div>
         <div class="carousel-item ">
-            <a href="https://labexcellenceaward.qcin.org/Home.aspx" target="_blank" rel="noopener noreferrer"><img src="public/uploads/sliderimages/1631096424-Laboratory%20Excellence%20Award%20banner%202.jpg" style="width:100%;margin-top: 36px;" alt="Prof. S.K Joshi Laboratory Excellence Award"></a>
+            <a href="https://www.qcin.org/nbqp/dsa/home/home.aspx" target="_blank" rel="noopener noreferrer">
+                <img src="{{ url('/img/frontend/sliderimages/1630655422-2%20copy%208%402x-100.jpg') }}" style="width:100%;margin-top: 36px;" alt="QCI has announced the 3rd edition of  QCI Quality Champion Award"></a>
         </div>
         <div class="carousel-item ">
-            <a href="https://www.qcin.org/nbqp/dsa/home/home.aspx" target="_blank" rel="noopener noreferrer"><img src="public/uploads/sliderimages/1630655422-2%20copy%208%402x-100.jpg" style="width:100%;margin-top: 36px;" alt="QCI has announced the 3rd edition of  QCI Quality Champion Award"></a>
-        </div>
-        <div class="carousel-item ">
-            <a href="https://www.qcin.org/nbqp/dsa/home/home.aspx" target="_blank" rel="noopener noreferrer"><img src="public/uploads/sliderimages/1629800932-social%20media%20artwork.png" style="width:100%;margin-top: 36px;" alt="Call for Applications : 14th QCI - D.L. Shah Quality Award(Project based)"></a>
-        </div>
+            <a href="https://www.qcin.org/nbqp/dsa/home/home.aspx" target="_blank" rel="noopener noreferrer">
+                <img src="{{ url('/img/frontend/sliderimages/1629800932-social%20media%20artwork.png') }}" style="width:100%;margin-top: 36px;" alt="Call for Applications : 14th QCI - D.L. Shah Quality Award(Project based)"></a>
+        </div> -->
     </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
     </a>
@@ -97,7 +109,7 @@
             <div class="col-md-4 pd-0">
                 <div class="qci-box qci-box-1">
                     <a href="nbqp/index.html" target="_blank" rel="noopener noreferrer">
-                        <img src="public/uploads/homeimages/1629872120.NBQP-03%20(1).png" alt="NBQP" />
+                        <img src="{{ url('/img/frontend/homeimages/1629872120.NBQP-03%20(1).png') }}" alt="NBQP" />
                     </a>
                     <h5>National Board for Quality Promotion</h5>
                     <p> </p>
@@ -106,7 +118,7 @@
             <div class="col-md-4 pd-0">
                 <div class="qci-box qci-box-2">
                     <a href="nabcb/index.html" target="_blank" rel="noopener noreferrer">
-                        <img src="public/uploads/homeimages/1629880224.NABCB-05.png" alt="NABCB" />
+                        <img src="{{ url('/img/frontend/homeimages/1629880224.NABCB-05.png') }}" alt="NABCB" />
                     </a>
                     <h5>National Accreditation Board for Certification Bodies</h5>
                 </div>
@@ -114,7 +126,7 @@
             <div class="col-md-4 pd-0">
                 <div class="qci-box qci-box-3">
                     <a href="nabet/index.html" target="_blank" rel="noopener noreferrer">
-                        <img src="public/uploads/homeimages/1629880115.NABET-04.png" alt="NABET" />
+                        <img src="{{ url('/img/frontend/homeimages/1629880115.NABET-04.png') }}" alt="NABET" />
                     </a>
                     <h5>National Accreditation Board for Education and Training</h5>
                 </div>
@@ -122,7 +134,7 @@
             <div class="col-md-4 pd-0">
                 <div class="qci-box qci-box-4">
                     <a href="nabh/index.html" target="_blank" rel="noopener noreferrer">
-                        <img src="public/uploads/homeimages/1629880152.NABH-06.png" alt="NABH" />
+                        <img src="{{ url('/img/frontend/homeimages/1629880152.NABH-06.png') }}" alt="NABH" />
                     </a>
                     <h5>National Accreditation Board for Hospitals &amp; Healthcare Providers</h5>
                 </div>
@@ -130,7 +142,7 @@
             <div class="col-md-4 pd-0">
                 <div class="qci-box qci-box-5">
                     <a href="https://nabl-india.org/" target="_blank" rel="noopener noreferrer">
-                        <img src="public/uploads/homeimages/1574668175.nabl.jpg" alt="NABL" />
+                        <img src="{{ url('/img/frontend/homeimages/1574668175.nabl.jpg') }}" alt="NABL" />
                     </a>
                     <h5>National Accreditation Board for Testing and Calibration Laboratories</h5>
                 </div>
@@ -155,14 +167,14 @@
                     <div class="col-md-4">
                         <div class="divimg">
                             <div class="img-hover-zoom">
-                                <a href="zed.html" target="_blank" rel="noopener noreferrer"><img src="public/uploads/homeimages/1629882957.ZED-08.png" alt="ZED" /></a>
+                                <a href="zed.html" target="_blank" rel="noopener noreferrer"><img src="{{ url('/img/frontend/homeimages/1629882957.ZED-08.png') }}" alt="ZED" /></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="divimg">
                             <div class="img-hover-zoom">
-                                <a href="project-planning-and-implementation-division.html"><img src="public/uploads/homeimages/1574668175.PPID.png" alt="PPID" /></a>
+                                <a href="project-planning-and-implementation-division.html"><img src="{{ url('/img/frontend/homeimages/1574668175.PPID.png') }}" alt="PPID" /></a>
                             </div>
                         </div>
                     </div>
@@ -170,7 +182,7 @@
                         <div class="divimg">
                             <div class="img-hover-zoom">
                                 <a href="project-analysis-and-documentation-division.html">
-                                    <img src="public/uploads/homeimages/1611332114.1601022998.output-onlinejpgtools%20(1).jpg" alt="PADD" />
+                                    <img src="{{ url('/img/frontend/homeimages/1611332114.1601022998.output-onlinejpgtools%20(1).jpg') }}" alt="PADD" />
                                 </a>
                             </div>
                         </div>
@@ -187,7 +199,7 @@
                 <div class="equest-inner">
                     <div class="img-hover-zoom">
                         <a href="training-and-capacity-building.html" target="_blank" rel="noopener noreferrer">
-                            <img src="public/uploads/homeimages/1610367839.1609500844.imageedit_2_3264141636%20(1).jpg" alt="equest">
+                            <img src="{{ url('/img/frontend/homeimages/1610367839.1609500844.imageedit_2_3264141636%20(1).jpg') }}" alt="equest">
                         </a>
                     </div>
                     <h3>TCB</h3>
@@ -198,7 +210,7 @@
                 <div class="equest-inner">
                     <div class="img-hover-zoom">
                         <a href="https://equest.co.in/" target="_blank" rel="noopener noreferrer">
-                            <img src="public/uploads/homeimages/1629883413.eQuest-07.png" alt="icsts">
+                            <img src="{{ url('/img/frontend/homeimages/1629883413.eQuest-07.png') }}" alt="icsts">
                         </a>
                     </div>
                     <h3>EQuest</h3>
@@ -212,15 +224,15 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-4 text-center">
-                <div class="imgbox-hover-zoom"><a href="find-accredited-organizations.html"><img alt="NBQP" class="img-circle circleimg" src="public/img/stamp-2.png" /></a></div>
+                <div class="imgbox-hover-zoom"><a href="find-accredited-organizations.html"><img alt="NBQP" class="img-circle circleimg" src="{{ asset('/img/stamp-2.png') }}" /></a></div>
                 <div class="text-center"><a class="btn btn-primary servicebtn col-sm-12" href="find-accredited-organizations.html">Accredited &amp; Certified Organizations</a></div>
             </div>
             <div class="col-md-4 text-center">
-                <div class="imgbox-hover-zoom"><a href="looking-for-accreditation.html"><img alt="NBQP" class="img-circle circleimg" src="public/img/accreditation.jpg" /></a></div>
+                <div class="imgbox-hover-zoom"><a href="looking-for-accreditation.html"><img alt="NBQP" class="img-circle circleimg" src="{{ asset('/img/accreditation.jpg') }}" /></a></div>
                 <div class="text-center"><a class="btn btn-primary servicebtn col-sm-12" href="looking-for-accreditation.html">Looking for Accreditation</a></div>
             </div>
             <div class="col-md-4 text-center">
-                <div class="imgbox-hover-zoom"><a href="training.html"><img alt="NBQP" class="img-circle circleimg" src="public/img/Training-Indian.jpg" /></a></div>
+                <div class="imgbox-hover-zoom"><a href="training.html"><img alt="NBQP" class="img-circle circleimg" src="{{ asset('/img/Training-Indian.jpg') }}" /></a></div>
                 <div class="text-center"><a class="btn btn-primary servicebtn col-sm-12" href="training.html">Training </a></div>
             </div>
         </div>
@@ -379,7 +391,7 @@
             <div class="col-sm-12 ">
                 <div class="row justify-content-center text-center  publishcontainer ">
                     <div class="col-sm-4 pull-left dirltr">
-                        <div class="imgclass"><a href="public/uploads/ck-docs/1612776695.QCI_Magazine%20(Oct-Dec%202020)_vF6_11%20Jan%202021.pdf" target="_blank" rel="noreferrer noopener"><img alt="1608536202.Screenshot 2020-12-21 130551.png" class="img-responsive" src="public/uploads/ck-images/1620453414.QI%20Magazine.jpg" style="width:250px;height:250px;" /></a><img alt="" src="public/uploads/ck-images/1615287545.bestpracticesvol6.png" style="width:250px;height:250px;margin-top:15px;margin-bottom:15px;" /></div>
+                        <div class="imgclass"><a href="public/uploads/ck-docs/1612776695.QCI_Magazine%20(Oct-Dec%202020)_vF6_11%20Jan%202021.pdf" target="_blank" rel="noreferrer noopener"><img alt="1608536202.Screenshot 2020-12-21 130551.png" class="img-responsive" src="{{ asset('/img/1620453414.QI%20Magazine.jpg') }}" style="width:250px;height:250px;" /></a><img alt="" src="{{ asset('/img/1615287545.bestpracticesvol6.png') }}" style="width:250px;height:250px;margin-top:15px;margin-bottom:15px;" /></div>
                     </div>
                     <div class="col-sm-8">
                         <h5>QCI MAGAZINE | JAN - MAR 2021</h5>
