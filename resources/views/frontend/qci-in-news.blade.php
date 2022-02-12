@@ -3,116 +3,158 @@
 @section('title', app_name() . ' | ' . __('labels.frontend.contact.box_title'))
 
 @section('content')
-<div class="row justify-content-center">
-    <div class="col col-sm-8 align-self-center">
-        <div class="card">
-            <div class="card-header">
-                <strong>
-                    @lang('labels.frontend.contact.box_title')
-                </strong>
+<section class="basic-inner-page">
+    <div class="container">
+        <div class="inner-grp clearfix">
+            <div id="sticky-anchor"></div>
+            <div class="left-menu" id="sticky">
+                <ul id="test" style="margin-bottom: 20px;" class="nav nav-pills">
+                    <div class="accordion my-accord" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link active collapsed" data-toggle="collapse" data-target="#collapseone-2" style="width:100%">
+                                    <a href="{{ route('frontend.qci-in-news') }}">QCI in news</a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-3" style="width:100%">
+                                    <a href="{{ route('frontend.qci-magazines') }}">QCI Magazines</a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-4" style="width:100%">
+                                    <a href="{{ route('frontend.quality-best-practices') }}">Quality Best Practices</a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-5" style="width:100%">
+                                    <a href="{{ route('frontend.editorial') }}">Editorials</a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                    <p><a class="blue-btn" href="#">Back</a></p>
+                </ul>
             </div>
-            <!--card-header-->
-
-            <div class="card-body">
-                {{ html()->form('POST', route('frontend.contact.send'))->open() }}
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.name'))->for('name') }}
-
-                            {{ html()->text('name', optional(auth()->user())->name)
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.name'))
-                                        ->attribute('maxlength', 191)
-                                        ->required()
-                                        ->autofocus() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
+            <div class="right-side">
+                <h1>QCI in News</h1>
+                <div class="descripton mb-30"></div>
+                <div class="row new-secc">
+                    <ul>
+                        <li>
+                            <div class="news-box">
+                                <h3> QCI has announced Prof. S.K. Joshi Laboratory Excellence Award</h3>
+                                <a class="news-a" href="{{ route('frontend.news/prof') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> QCI has announced the 3rd edition of QCI Quality Champion Award</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> QCI has announced the 14th QCI-D.L. Shah Quality Award.</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> #Unite2FightCorona</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> Call for Proposal/EOI-Protection of Child Right</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> QCI has been awarded Grade A (93%) by Central Information Commission for the year 2019-20</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> NABET has been conducting online Workshops for schools across India to skill teachers to sail through the COVID-19 induced closure of schools</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> Quality Council of India, with support from the National Medicinal Plants Board Quality Council of India</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> 7th National Conclave for Laboratories on 23rd-24th Jan, 2018 at Hotel Hyatt Regency, Ahmedabad (video clippings)</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> FSSAI launches food regulatory portal on eve of World Food India 2017</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> Ayush Mark Publication</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> Traditional Knowledge system losing significance due to modernization</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> Swachh Survekshan Gramin 2016</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> Over 8,000 yoga professionals register with QCI in one year</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> Online Portal for EIA Consultant Organisations</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> First Mango Farm to Get Certified under INDGAP Scheme</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-box">
+                                <h3> Adil Zainulbhai on Uber&#039;s global advisory panel</h3>
+                                <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.email'))->for('email') }}
-
-                            {{ html()->email('email', optional(auth()->user())->email)
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.email'))
-                                        ->attribute('maxlength', 191)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.phone'))->for('phone') }}
-
-                            {{ html()->text('phone')
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.phone'))
-                                        ->attribute('maxlength', 191)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.message'))->for('message') }}
-
-                            {{ html()->textarea('message')
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.message'))
-                                        ->attribute('rows', 3)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                @if(config('access.captcha.contact'))
-                <div class="row">
-                    <div class="col">
-                        @captcha
-                        {{ html()->hidden('captcha_status', 'true') }}
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-                @endif
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group mb-0 clearfix">
-                            {{ form_submit(__('labels.frontend.contact.button')) }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-                {{ html()->form()->close() }}
             </div>
-            <!--card-body-->
         </div>
-        <!--card-->
     </div>
-    <!--col-->
-</div>
+</section>
 <!--row-->
 @endsection
 

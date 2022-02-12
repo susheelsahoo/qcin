@@ -3,116 +3,57 @@
 @section('title', app_name() . ' | ' . __('labels.frontend.contact.box_title'))
 
 @section('content')
-<div class="row justify-content-center">
-    <div class="col col-sm-8 align-self-center">
-        <div class="card">
-            <div class="card-header">
-                <strong>
-                    @lang('labels.frontend.contact.box_title')
-                </strong>
+<section class="basic-inner-page">
+    <div class="container">
+        <div class="inner-grp clearfix">
+            <div id="sticky-anchor"></div>
+            <div class="left-menu" id="sticky">
+                <ul id="test" style="margin-bottom: 20px;" class="nav nav-pills">
+                    <div class="accordion my-accord" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link active collapsed" data-toggle="collapse" data-target="#collapseone-2" style="width:100%">
+                                    <a href="{{ route('frontend.careers') }}">Careers</a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-3" style="width:100%">
+                                    <a href="{{ route('frontend.tenders') }}">Tenders</a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
+                </ul>
             </div>
-            <!--card-header-->
-
-            <div class="card-body">
-                {{ html()->form('POST', route('frontend.contact.send'))->open() }}
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.name'))->for('name') }}
-
-                            {{ html()->text('name', optional(auth()->user())->name)
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.name'))
-                                        ->attribute('maxlength', 191)
-                                        ->required()
-                                        ->autofocus() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
+            <div class="right-side">
+                <h1>Careers</h1>
+                <div class="descripton mb-30">
+                    <p><big><strong style="font-size:18px;">Career opportunities in QCI</strong></big></p>
+                    <p><strong>Last date to submit the online application against the Advt. No. QCI/1/2021 dated 12.12.2021 is 20.1.2022, 5:30 pm. In case of any issue /difficulty in submission of application, the applicant is advised to inform the same immediately at email <a href="mailto:hr@qcin.org" target="_blank" rel="noreferrer noopener">hr@qcin.org</a> or <a href="mailto:support@7techies.com" target="_blank" rel="noreferrer noopener">support@7techies.com</a> for its resolution in timely manner.</strong></p>
+                    <ul>
+                        <li>
+                            <a href="#"><big><strong>Advertisement for recruitment (Dec. 2021)</strong> </big></a>
+                            <ul>
+                                <li><a href="#">Other details &amp; General terms &amp; conditions</a></li>
+                                <li><a href="#">Post details </a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Registration/login to fill application form</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" target="_blank" rel="noreferrer noopener">Hiring of Professionals</a></li>
+                    </ul>
+                    <div class="left_"></div>
+                    <div class="descripton1 mb-30"></div>
+                    <div class="descripton2 mb-30"></div>
                 </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.email'))->for('email') }}
-
-                            {{ html()->email('email', optional(auth()->user())->email)
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.email'))
-                                        ->attribute('maxlength', 191)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.phone'))->for('phone') }}
-
-                            {{ html()->text('phone')
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.phone'))
-                                        ->attribute('maxlength', 191)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.message'))->for('message') }}
-
-                            {{ html()->textarea('message')
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.message'))
-                                        ->attribute('rows', 3)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                @if(config('access.captcha.contact'))
-                <div class="row">
-                    <div class="col">
-                        @captcha
-                        {{ html()->hidden('captcha_status', 'true') }}
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-                @endif
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group mb-0 clearfix">
-                            {{ form_submit(__('labels.frontend.contact.button')) }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-                {{ html()->form()->close() }}
             </div>
-            <!--card-body-->
         </div>
-        <!--card-->
     </div>
-    <!--col-->
-</div>
+</section>
 <!--row-->
 @endsection
 

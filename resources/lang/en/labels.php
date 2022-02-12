@@ -301,6 +301,18 @@ return [
             'box_title' => 'Contact Us',
             'button' => 'Send Information',
         ],
+        'about' => [
+            'box_title' => 'About Us',
+            'button' => 'Send Information',
+        ],
+        // 'about' => [
+        //     'box_title' => 'About Us',
+        //     'button' => 'Send Information',
+        // ],
+        // 'about' => [
+        //     'box_title' => 'About Us',
+        //     'button' => 'Send Information',
+        // ],
 
         'passwords' => [
             'expired_password_box_title' => 'Your password has expired.',

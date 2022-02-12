@@ -3,116 +3,63 @@
 @section('title', app_name() . ' | ' . __('labels.frontend.contact.box_title'))
 
 @section('content')
-<div class="row justify-content-center">
-    <div class="col col-sm-8 align-self-center">
-        <div class="card">
-            <div class="card-header">
-                <strong>
-                    @lang('labels.frontend.contact.box_title')
-                </strong>
+<section class="basic-inner-page">
+    <div class="container">
+        <div class="inner-grp clearfix">
+            <div id="sticky-anchor"></div>
+            <div class="left-menu" id="sticky">
+                <ul id="test" style="margin-bottom: 20px;" class="nav nav-pills">
+                    <div class="accordion my-accord" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link active collapsed" data-toggle="collapse" data-target="#collapseone-2" style="width:100%">
+                                    <a href="{{ route('frontend.the-governing-council') }}">The Governing Council</a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-3" style="width:100%">
+                                    <a href="{{ route('frontend.the-governing-body') }}">The Governing Body</a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-4" style="width:100%">
+                                    <a href="{{ route('frontend.finance-committee') }}">Finance Committee</a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-5" style="width:100%">
+                                    <a href="{{ route('frontend.boards') }}">Boards</a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
+                </ul>
             </div>
-            <!--card-header-->
-
-            <div class="card-body">
-                {{ html()->form('POST', route('frontend.contact.send'))->open() }}
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.name'))->for('name') }}
-
-                            {{ html()->text('name', optional(auth()->user())->name)
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.name'))
-                                        ->attribute('maxlength', 191)
-                                        ->required()
-                                        ->autofocus() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
+            <div class="right-side">
+                <h1>The Governing Council</h1>
+                <div class="descripton mb-30">
+                    <ul>
+                        <li>The Governing Council of QCI was initially constituted by the government as a part of the Cabinet decision in 1996. There were initially 31 constituent members, with equal representation from the Government, Industry and other stakeholders. Presently, the Governing Council comprises 38 members. Every member has one vote in the Governing Council.</li>
+                        <li>The Governing Council is the apex level body responsible for formulating the strategy, general policy, constitution and monitoring of various components of QCI, including the Accreditation Boards with the objective of ensuring transparent and credible accreditation system.</li>
+                        <li>The Governing Council is headed by the Chairperson, QCI.</li>
+                        <li>The Governing Council, through a Governing Body monitors the progress of activities of the respective boards</li>
+                    </ul>
+                    <div class="left_"></div>
+                    <div class="descripton1 mb-30"></div>
+                    <div class="descripton2 mb-30"></div>
                 </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.email'))->for('email') }}
-
-                            {{ html()->email('email', optional(auth()->user())->email)
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.email'))
-                                        ->attribute('maxlength', 191)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.phone'))->for('phone') }}
-
-                            {{ html()->text('phone')
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.phone'))
-                                        ->attribute('maxlength', 191)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.message'))->for('message') }}
-
-                            {{ html()->textarea('message')
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.message'))
-                                        ->attribute('rows', 3)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                @if(config('access.captcha.contact'))
-                <div class="row">
-                    <div class="col">
-                        @captcha
-                        {{ html()->hidden('captcha_status', 'true') }}
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-                @endif
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group mb-0 clearfix">
-                            {{ form_submit(__('labels.frontend.contact.button')) }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-                {{ html()->form()->close() }}
             </div>
-            <!--card-body-->
         </div>
-        <!--card-->
     </div>
-    <!--col-->
-</div>
+</section>
 <!--row-->
 @endsection
 

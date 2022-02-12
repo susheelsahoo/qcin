@@ -3,116 +3,135 @@
 @section('title', app_name() . ' | ' . __('labels.frontend.contact.box_title'))
 
 @section('content')
-<div class="row justify-content-center">
-    <div class="col col-sm-8 align-self-center">
-        <div class="card">
-            <div class="card-header">
-                <strong>
-                    @lang('labels.frontend.contact.box_title')
-                </strong>
+<section class="basic-inner-page">
+    <div class="container">
+        <div class="inner-grp clearfix">
+            <div id="sticky-anchor"></div>
+            <div class="left-menu" id="sticky">
+                <ul id="test" style="margin-bottom: 20px;" class="nav nav-pills">
+                    <div class="accordion my-accord" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link active collapsed" data-toggle="collapse" data-target="#collapseone-2" style="width:100%">
+                                    <a href="{{ route('frontend.ppid-projects') }}">PPID Projects</a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-3" style="width:100%">
+                                    <a href="{{ route('frontend.padd-projects') }}">PADD Projects</a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <p><a class="blue-btn" href="https://qcin.org/projects">Back</a></p> -->
+                    <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
+                </ul>
             </div>
-            <!--card-header-->
+            <div class="right-side">
+                <h1>PPID Projects</h1>
+                <div class="descripton mb-30">
+                    <h3 style="text-align:justify;">Third Party Quality assessment of Coal</h3>
+                    <p style="text-align:justify;">Quality Council of India (QCI) has undertaken 3rd Party Sampling, Testing and Analysis of coal supplied through special forward e-auction for power consumer/s and linkage auction for non-power consumer/s. Further, the scope of work has been extended to spot e auction/ special spot e auction/ Shakti Scheme.</p>
+                    <ul>
+                        <li style="text-align:justify;">Quality Council of India (QCI) has commenced third party sampling across all 8 subsidiaries of Coal India Limited (CIL).</li>
+                        <li style="text-align:justify;">Tripartite agreements of volume of 121 million metric tonne have been signed for conducting the third-party sampling, testing and analysis.</li>
+                        <li style="text-align:justify;">A total volume of 110.65 MMT of coal is already being sampled from date of commencement. QCI has already sampled 65.95 Million Metric Tonnes in F/Y 2018-19.</li>
+                        <li style="text-align:justify;">In order to ensure double blinding of Coal Sample, QCI has developed QR Code based application to capture collection, preparation across all loading points of Coal India Limited (CIL). The same has been already implemented across all subsidiaries.</li>
+                        <li style="text-align:justify;"> Also, QCI has extended its coal sampling assessment and carried out “Quantitative and Qualitative Analysis of Coal” for “Sembcorp Energy India Limited (SEIL)”.</li>
+                    </ul>
+                    <h3 style="text-align:justify;">SBM-ODF</h3>
+                    <p style="text-align:justify;">For the MoHUA, QCI verified and certified 4041 cities and towns on the parameters of ODF, in line with the objective of making India ODF by 2019 as stated in the Swachh Bharat Mission. The project involved survey assessment of self-declared Urban Bodies through document verification and on-site inspection. This 2-part assessment was followed by declaration of the city as ODF and finally the awarding of the esteemed “Swachhta Certificate”. The project is still underway as the ULBs declared as ODF are revisited on a bi-annual basis to ensure that ULBs are vigilant and to avoid slippages.</p>
+                    <h3 style="text-align:justify;">Third Party Quality Assessment of Pulses and Oil Seeds</h3>
+                    <p style="text-align:justify;">Food, being one of the basic things needs to have its reach to common man and also not to have any compromise on quality. National Agricultural Cooperative Marketing Federation of India Ltd. (NAFED) was setup in 1958 with the objective of benefiting the farmers (the main stakeholders) by promoting their agricultural produced at various levels. Ensuring food availability and stabilizing food prices through large scale interventions in the food grain sector has been an old tradition in India. </p>
+                    <p style="text-align:justify;">Quality Council of India provides NAFED a mechanism for Third Party Quality Assessment which includes drawing and analysis of pulses and oil seeds during procurement at its various storage locations in the state of Rajasthan and Gujarat. </p>
+                    <p style="text-align:justify;">Third Party Quality Assessment by Quality Council of India (QCI) provides NAFED with an independent, credible, and reliable result on the quality of pulses and oil seeds procured. The drawing of pulses and oil seeds samples is carried out while off-loading at various storage locations like depots of Central Warehousing Corporations/State Warehousing Corporations (CWCs/SWCs)/ Private warehouse of Rajasthan and Gujarat through personnel of NABCB accredited inspection bodies deployed by QCI. The testing of these samples are done on-site as per IS 14818: 2000 methodology.</p>
+                    <p style="text-align:justify;">QCI has worked on a customized dashboard and mobile application which includes features such as scanning of QR Code, capturing photographs and videos with geo-tag and time-stamp. QCI then delivers report of the analysis to NAFED allowing entry of stocks in the warehouses depending on the test results.</p>
+                    <p style="text-align:justify;">Quality council of India is dispensing a multi-level checking system before unloading the pulses and oil seeds at warehouses of Rajasthan and Gujarat for Quality assessment.<br />
 
-            <div class="card-body">
-                {{ html()->form('POST', route('frontend.contact.send'))->open() }}
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.name'))->for('name') }}
+                    </p>
+                    <ul>
+                        <li style="text-align:justify;">Quality council of India has deployed 77 Assessors for Quality assessment at various locations in Rajasthan and Gujarat</li>
+                        <li style="text-align:justify;">Quality council of India has covered across 20 districts and 147 warehouses of Rajasthan, Gujarat </li>
+                        <li style="text-align:justify;">A total number of 13,344 trucks has been surveyed in both Rajasthan and Gujarat</li>
+                        <li style="text-align:justify;">A total number of 5547934 bags of food grain has been sampled during the procurement season out of which 95.48 % of bags accepted and 4.51% of bags rejected at warehouses of Rajasthan</li>
+                        <li style="text-align:justify;">A total number of 2137274 bags of food grain has been sampled during the procurement season out of which 98.61% of bags accepted and 1.38% of bags rejected at warehouses of Gujarat</li>
+                    </ul>
+                    <p style="text-align:justify;">The QCI project helps in saving Rs 41 crores for NAFED in the Kharif season 2018. The sampling process inculcated by QCI is unique as for the first time, an Online Monitoring System for sampling and analysis process has been developed for NAFED with multi-level quality checks which has provided NAFED with an independent, credible, and reliable quality check system, monitoring each bag of the truck. This has eliminated the risk of acceptance of bad quality food grain which has forced the farmers and mandi people to strictly assure good quality of food grains which will get rejected otherwise.<br />
+                        (vii) Grievances arising out of discharge or dismissal of an employee
+                    </p>
+                    <h3 style="text-align:justify;">Citizen’s Charter (Extension)</h3>
+                    <p style="text-align:justify;">QCI reviewed the current Citizen Charter of Ministry of External Affairs and went through each service that MEA provides and got to know that there is no single charter for the Ministry. We interacted with Passports division, OIA, OIA 2, CPV as well as PGOE division. After careful analysis of the charter, we removed certain services and added some relevant services. Also after much deliberation our recommendation was accepted to include Nodal officer name as well as contact details and Price, a citizen has to pay to avail a service along with forms required. Procedure to avail a service was also included in the new Charter</p>
+                    <p style="text-align:justify;"><br />
+                        The new charter was launched by the Foreign Secretary and has been rolled out PAN India and is also available on External Affairs's website. The new charter has provided citizens with much more information about MEA's services and the grievances for MEA have gone down
+                    </p>
+                    <h3 style="text-align:justify;">Statue of Unity</h3>
+                    <p style="text-align:justify;">Statue Of Unity Tourism Corporation of Gujarat Limited (TCGL) awarded the contract for conducting high-end cleanliness assessments in and around the world’s tallest statue, Statue of Unity, in October 2018. QCI is conducting assessments at the location twice a month and provides a monthly report to TCGL briefing them about the cleanliness level at the location and areas of improvement, if any.</p>
+                    <p style="text-align:justify;">A location is assessed across three broad categories, namely:</p>
+                    <ul>
+                        <li style="text-align:justify;">Documentation</li>
+                        <li style="text-align:justify;">Direct Observation &amp;</li>
+                        <li style="text-align:justify;">Public Feedback</li>
+                    </ul>
+                    <p style="text-align:justify;">There are 18 indicators across these categories which assess manpower deployment, dustbin availability and visibility, records of stock, burning and dumping of waste, swachhta related activities etc. Ranking of locations is done based on the final score and suggestions for improvement are provided to the respective agency. </p>
+                    <h3 style="text-align:justify;"><br />
+                        Google Toilet Locator
+                    </h3>
+                    <p style="text-align:justify;">We are proudly working on this initiative under Swachh Bharat Mission - Urban, in which MoHUA has partnered with Google Maps to list all publicly accessible toilets across the country. The advantage of the listing on Google Maps is that the users can rate and provide rating and additional feedback of the facility. It can benefit MoHUA as well as local city administration by making general upkeep easier and complaint resolution faster</p>
+                    <h3 style="text-align:justify;">Monthly Cleanliness Assessment of 8 Yatradhams of Gujarat</h3>
+                    <p style="text-align:justify;">Gujarat Pavitra Yatradham Vikas Board (GPYVB) engaged QCI in October 2017 to conduct monthly high-end cleanliness assessments of their famous eight yatradhams (Somnath, Dwarka, Ambaji, Dakor, Palitana, Girnaur, Shamlaji &amp; Pavagarh) that attract highest tourist footfall in Gujarat. Each location is assessed once a month and a monthly report consisting of the performance scorecards, cleanliness indexes, analysis etc. is developed by the team to keep GPYVB informed of the work being done by the cleaning and monitoring agencies at these locations. With the first year of assessments completed and reports submitted to the GPYVB, the project was extended for another 6 months till March, 2019 to continue the work being done at the locations.</p>
+                    <h3 style="text-align:justify;">Gujarat Tourism</h3>
+                    <p style="text-align:justify;">To carry out the assessment at 47 tourist locations, each location is assessed twice or thrice in a quarter for 1 or 2 days depending upon the tier-1 or tier-2 tourist locations and area as provided by TCGL respectively. Below given is the detailed process defined for carrying out the assessment at 47 tourist locations across Gujarat: </p>
+                    <p style="text-align:justify;">Designing and development of framework for assessment, including parameter weightages and scoring methodology in consultation with TCGL.The Framework has been designed keeping in mind the three main categories: Documentation, Direct Observation and Public Feedback.</p>
+                    <ul>
+                        <li style="text-align:justify;">Conduct system reviews on continuous basis and suggest corrective actions.</li>
+                        <li style="text-align:justify;">Develop detailed scorecards to evaluate the performance of Cleaning Agencies and Monitoring Agencies at each location and furnish quarterly reports</li>
+                        <li style="text-align:justify;">Identify scope of improvement in the performance of the agencies and suggest recommendations to agencies for process improvement</li>
+                    </ul>
+                    <p style="text-align:justify;">Based on the assessment and evaluation of the cleanliness work,it was observed that the overall performance of all 4 Cleaning Agencies and 2 Monitoring Agencies has been improved as compared with previous Quarters.</p>
+                    <ul>
+                        <li style="text-align:justify;">Monitoring agencies have started using Mobile Application instead of manual forms to capture data record on a daily basis </li>
+                        <li style="text-align:justify;">Cleaning Agencies have have become much more aware and responsible towards cleanliness, documentation, usage of cleaning equipment, uniforms etc.</li>
+                        <li style="text-align:justify;">Swachhata Awareness Activities have been conducted on a regular basis which has led to enhanced public awareness which in turn has played a key role in achieving the goal of “Swachhata”. </li>
+                        <li style="text-align:justify;">Increased employment of cleaning staff due to stringent tender requirements.</li>
+                        <li style="text-align:justify;">Enhanced availability of cleaning stock.</li>
+                        <li style="text-align:justify;">Presence of cleaning staff in proper uniform.</li>
+                    </ul>
+                    <h3 style="text-align:justify;">GeM (Government e Market Place)</h3>
+                    <p style="text-align:justify;">GeM PMU is mandated to perform multiple activities as a Knowledge and Quality Partner to GeM to assure quality in the procurement of goods and services. PMU has created a mechanism to investigate the disputes/incidents between sellers/seller-buyer as a neutral body as per GeM's requirement. PMU has coordinated and executed online/ offline collaboration with accredited Certification/ Regulatory bodies (BIS, ZED, PSARA, FSSAI, etc.) to ensure quality in procurement. Quality Check of Service Providers is a critical activity of PMU, wherein the quality of the service provider is checked by validation of the certification(s) &amp; project experience of service providers to eliminate ingenuine and deceptive sellers/transactions in “Services” on the portal. It helps in drafting Service Level Agreements (SLAs) for various services available on the GeM Portal, especially in the identification the mandatory/ voluntary compliances. PMU is also responsible for validating the claims/ request of vendors, under the exemption category of vendor assessment (i.e. NSIC, DIC, BIS, ZED, CPSU/SPSU/Govt. societies) and conducts research on the compliance/certification requirements under both products and services as per the requirement and demand of GeM. PMU also facilitated Pre &amp; Post-dispatch inspection service through inspection bodies accredited by NABCB (for all consumer related products) or approved by DGQA (for defense products). Suggestive solutions are provided to enhance the user experience on the portal after conducting root cause analysis in order to make interface robust and technologically equipped with minimal human intervention.</p>
+                    <p style="text-align:justify;">PMU provided investigation reports &amp; suggestive solutions to GeM on special incident cases and has resolved 30 such cases till September 2019. After an intensive quality check on certifications and project experience of service providers, 29,814 service providers have been liquidated (till 25th September 2019), with 21,211 (71%) being approved while 8603 (29%) were rejected on the basis of wrong/expired/incomplete compliance certificates and/or public project experience.1565 cases have been validated under Vendor Assessment Exemption and 64% vendors have been exempted whereas 36% failed (till 25th September 2019). PMU has coordinated and executed online/ offline collaboration with accredited certification/ regulatory bodies and facilitated API of BIS, FSSAI and ZED to check the license/certification details of a vendor on a real-time basis with minimal human intervention. Identified and drafted SLAs for the following 8 services: Car Rental, HR Services, Florist Services, Security Services, Scanning and Digitization Services, Healthcare Services (Laundry, Security, Sanitation Maintenance), Spot Hiring (Car Rental and Taxi Services) and Pest Control Services. GeM is in process of implementing the PMU’s objective solutions (like more medium of awareness, dashboard, IVR system, etc.) to enhance the user experience. </p>
+                    <h3 style="text-align:justify;">Performance Rating of Concession, Contractors &amp; Consultants (MoRTH)</h3>
+                    <p style="text-align:justify;">The Ministry of Road Transport &amp; Highways engaged Quality Council of India to prepare a robust and objective assessment framework. In order to formulate the performance rating framework and methodology, extensive research was conducted. Codes and standards were studied, international performance rating models were reviewed and sector experts were consulted. QCI developed a performance-based rating mechanism for key vendors engaged in the highway development process. Customized rating frameworks were developed according to different modes of implementation and stage of progress. The frameworks provide a holistic assessment of vendor performance and evaluate vendors on parameters like quality of construction, timely submission of progress reports and audit reports, adherence to guidelines and IRC codes, compliance with industry standards and specifications and overall process management. The vendors are required to submit documentary evidence in support of their claims. Information was also corroborated with supporting vendors.</p>
+                    <p style="text-align:justify;">In order to test the efficacy of the frameworks, a two-phased pilot was conducted on 20 national highway projects. The results of the pilot, challenges faced and our recommendations were discussed in detail in a meeting under the chairmanship of the Hon'ble Secretary. Our recommendations were primarily concerned with improving data management protocols, standardization of data and removing process bottlenecks. We also presented a rollout model to scale the performance rating process to cover all national highway projects in India. In addition to this, QCI designed a framework for incorporating performance rating in future bids. In such a way, the quality of past performance will play a key role in the award of future contracts. The framework for incorporation of performance rating was also reviewed in a separate meeting.</p>
+                    <p style="text-align:justify;"><br />
+                        A robust performance rating system can ensure high quality output and timely completion of projects. According to the Ministry of Statistics &amp; Programme Implementation, 74 highway projects face significant time overrun and 43 highway projects face significant cost overrun. An objective and robust performance rating system can ensure that highway construction vendors adhere to timelines and desired quality standards.
+                    </p>
+                    <p style="text-align:justify;">In this way, an objective assessment of all projects is carried out. This would result in overall improvement of quality of road infrastructure and vendor performance can be benchmarked against each other. Corrective actions may be taken in case of poor performance. Moreover, significant steps have been taken in direction of proper data management and standardization of reporting documents. </p>
+                    <h3 style="text-align:justify;">Ranking of Police Station 2018</h3>
+                    <p style="text-align:justify;">It has long been recognized that effective policing is fundamental to a safe and secure society which is the bedrock of economic and social progress. Improving the efficiency and performance of the Police force is important because it is the basis of Good Governance.</p>
+                    <p style="text-align:justify;">In 2015, Hon’ble Prime Minister Shri Narendra Modi directed during his address to the DsGP Conference in Kutch, Gujarat to lay down parameters for grading of Police Stations on their performance as well as citizen feedback. Accordingly, a framework was formulated by the Quality Council of India with the approval of the Hon’ble Home Minister to identify and recognize the ten best police stations of the country and also the best police station in a particular state or Union Territory.</p>
+                    <p style="text-align:justify;">The Police Modernization Division of the Ministry of Home Affairs shortlisted the police stations from all over India for the survey. The criteria for choosing the best police stations in the country was primarily their performance in crime prevention, investigation and disposal of cases, crime detection, community policing and maintenance of law and order. </p>
+                    <p style="text-align:justify;">A detailed methodology for the survey was prepared by incorporating assessment of performance in controlling crime, infrastructure and citizen feedback. The data and responses of the survey were taken on a customized tech application with geo- tagged and time stamped photographs, ensuring accuracy of the survey which were analyzed along with data of the performance for the final evaluation. Weightage of 20% was given to the infrastructure of the police stations and the citizen feedback of the performance of the Police personnel in each Police Station. </p>
+                    <p style="text-align:justify;">The purpose of conducting this survey year after year is to establish a system for performance measurement and additionally to inculcate the habit to utilize and maintain the data on CCTNS (Crime and Criminal Tracking Network and System) regularly by all police stations. </p>
+                    <p style="text-align:justify;">The on-ground survey was conducted from 19th November 2018 to 10th December 2018 covering 87 police stations all across India. Kalu Police Station in Bikaner, Rajasthan topped the list whereas Campbell Bay Police Station in Nicobar, A&amp;N Islands took the second spot and Farakka Police Station in Murshidabad, West Bengal grabbed third position.</p>
+                    <p style="text-align:justify;">This result is a reflection of the performance measurement and the on-ground assessment of the police stations for the year 2018. All the States and UTs participated and the number of police stations covered during on-ground survey increased from 59 (in 2017 survey) to 87 in 2018 survey. </p>
+                    <h3 style="text-align:justify;">National Highways Awards for Excellence 2018 (MoRTH)</h3>
+                    <p style="text-align:justify;">Developing road infrastructure in the country has been a top priority of the government. Today at present, India is constructing 26.9 kilometers per day (FY 2017-18). Building on this vision to further strengthen highway infrastructure in the country, Hon’ble Minister of Road Transport and Highways, Shri Nitin Gadkari launched Annual Awards for National Highway Projects on 6th August 2018. This was an initiative to recognise companies which performed exceptionally and delivered finest quality services during the construction, operations, maintenance and tolling stage of highway development. MoRTH in association with Quality Council of India (QCI) developed a rigorous assessment framework and process roadmap to identify and award the best performing companies in the highway development sector.</p>
+                    <p style="text-align:justify;">The awards were designed across five categories, recognizing excellence in Construction Management, Operation and Maintenance, Toll Plaza Management, Highway Safety and Innovation. These awards were further customised based on the mode of implementation, terrain and construction technique. Under these categories, the projects were assessed on objective and quantifiable parameters.</p>
+                    <p style="text-align:justify;">The assessment process was modelled on best international and national awards programs in the construction sector, insights from sector experts such as MoRTH and NHAI Officials, industry leaders and academicians, and detailed review of the official codes &amp; guidelines. Applicants were invited to nominate themselves on an online application portal designed by NIC. Over 107 nominations were received across five categories in the one-month long nomination period. For every nominated project, the companies submitted a unique application with supporting documents. This was followed by two rigorous rounds of assessment: desktop and on-site. In the first round, 84 valid applications were scrutinised between September 24th to October 7th 2018, by officials from MoRTH, NHAI, NHIDCL and QCI to check the validity and propriety of the information submitted by the applicant. Documentary evidence was checked to validate the performance and compliance levels.</p>
+                    <p style="text-align:justify;">Following this, a unique score was assigned to each nominated project to draw up the first shortlist of 57 projects. The Screening Committee reviewed the assessment process and approved the shortlisted projects in each award category. In the second round, an on-site assessment was conducted between October 25th to November 17th 2018, at project-sites across India by trained assessors and professionals of QCI. The purpose was to corroborate submitted data and evaluate performance indicators for on-ground reality. A standardised operation procedure was developed for each award category which included travelling across the length of the highway checking various parameters, surveying toll plazas and conducting interviews with project heads and key officials. A cellular device, app-based technical platform was used to conduct the field survey where geotagged and time stamped photographic evidence was collected for each parameter. This data was checked in real-time by the central team of QCI on the back-end of the platform. The findings on the field were used to corroborate scores assigned to each project. Final scores were computed to shortlist the top 36 projects. These results were validated by the Screening Committee.</p>
+                    <p style="text-align:justify;">A special three member, independent Jury Committee, comprising of Shri. Jagdish Khattar, Shri. AV Sinha, and Shri. LK Joshi was constituted to deliberate upon the selection of final winners. Through this selection process, MoRTH has found some exceptionally well-constructed and managed highway projects in a wide range of locations and geographies. Stakeholders across the board, ranging from ROs, PIUs, Concessionaires, Contractors and Supervision Consultants went the extra mile to make the efforts requisite to bring the idea of the annual awards program into fruition. The Awards for Excellence programme shall continue to highlight the significant strides made in construction, operation, management and innovation in highways projects across India for the years to come.<br />
 
-                            {{ html()->text('name', optional(auth()->user())->name)
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.name'))
-                                        ->attribute('maxlength', 191)
-                                        ->required()
-                                        ->autofocus() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
+                    </p>
+                    <div class="left_"></div>
+                    <div class="descripton1 mb-30"></div>
+                    <div class="descripton2 mb-30"></div>
                 </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.email'))->for('email') }}
-
-                            {{ html()->email('email', optional(auth()->user())->email)
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.email'))
-                                        ->attribute('maxlength', 191)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.phone'))->for('phone') }}
-
-                            {{ html()->text('phone')
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.phone'))
-                                        ->attribute('maxlength', 191)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.message'))->for('message') }}
-
-                            {{ html()->textarea('message')
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.message'))
-                                        ->attribute('rows', 3)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                @if(config('access.captcha.contact'))
-                <div class="row">
-                    <div class="col">
-                        @captcha
-                        {{ html()->hidden('captcha_status', 'true') }}
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-                @endif
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group mb-0 clearfix">
-                            {{ form_submit(__('labels.frontend.contact.button')) }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-                {{ html()->form()->close() }}
             </div>
-            <!--card-body-->
         </div>
-        <!--card-->
     </div>
-    <!--col-->
-</div>
+</section>
 <!--row-->
 @endsection
 

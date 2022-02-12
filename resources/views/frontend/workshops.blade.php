@@ -3,116 +3,195 @@
 @section('title', app_name() . ' | ' . __('labels.frontend.contact.box_title'))
 
 @section('content')
-<div class="row justify-content-center">
-    <div class="col col-sm-8 align-self-center">
-        <div class="card">
-            <div class="card-header">
-                <strong>
-                    @lang('labels.frontend.contact.box_title')
-                </strong>
+<section class="basic-inner-page">
+    <div class="container">
+        <div class="inner-grp clearfix">
+            <div id="sticky-anchor"></div>
+            <div class="left-menu" id="sticky">
+                <ul id="test" style="margin-bottom: 20px;" class="nav nav-pills">
+                    <div class="accordion my-accord" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-2" style="width:100%">
+                                    <a href="{{ route('frontend.conclaves') }}">Conclaves</a>
+                                    <i class="fa fa-plus plus"></i>
+                                </li>
+                            </div>
+                            <div id="collapseone-2" class="collapse" aria-labelledby="headingone" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <ul class="avvv" style="padding-left:20px;">
+                                        <li class="submenu-xcb "><a href="{{ route('frontend.national-quality-conclave') }}">National Conclaves</a></li>
+                                        <li class="submenu-xcb "><a href="{{ route('frontend.regional-quality-conclave') }}">Regional Conclaves</a></li>
+                                        <li class="submenu-xcb "><a href="{{ route('frontend.virtual-quality-conclave') }}">Virtual Conclaves</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link active collapsed" data-toggle="collapse" data-target="#collapseone-3" style="width:100%">
+                                    <a href="{{ route('frontend.workshops') }}">Workshops</a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-4" style="width:100%">
+                                    <a href="{{ route('frontend.webinars') }}">Webinars</a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-5" style="width:100%">
+                                    <a href="{{ route('frontend.training') }}">Trainings</a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-6" style="width:100%">
+                                    <a href="{{ route('frontend.icsts') }}">ICSTS</a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo" style="padding:0px;">
+                                <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-7" style="width:100%">
+                                    <a href="{{ route('frontend.other-events') }}">Other Events</a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <p><a class="blue-btn" href="https://qcin.org/events">Back</a></p> -->
+                    <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
+                </ul>
             </div>
-            <!--card-header-->
-
-            <div class="card-body">
-                {{ html()->form('POST', route('frontend.contact.send'))->open() }}
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.name'))->for('name') }}
-
-                            {{ html()->text('name', optional(auth()->user())->name)
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.name'))
-                                        ->attribute('maxlength', 191)
-                                        ->required()
-                                        ->autofocus() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
+            <div class="right-side">
+                <h1>Workshops</h1>
+                <div class="descripton mb-30">
+                    <table cellpadding="7" cellspacing="0" class="table-responsive" width="601">
+                        <tbody>
+                            <tr>
+                                <td valign="top" width="585">
+                                    <p><b>Gujrat - <a>03 days Awareness workshop on Accreditation Standard for Quality School Governance</a></b></p>
+                                    <ul>
+                                        <li>When: 16th Oct 2019 – 18<sup>th</sup> Oct 2019</li>
+                                        <li>Where: Gujrat</li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">Gujarat 16th to 18th October.pdf</a></li>
+                                    </ul>
+                                    <p> </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="585">
+                                    <p><b>Delhi - 03 days Awareness workshop on Accreditation Standard for Quality School Governance</b></p>
+                                    <ul>
+                                        <li>When: 10th Oct 2019 – 12<sup>th</sup> Oct 2019</li>
+                                        <li>Where: New Delhi</li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">Delhi 10th to 12th October</a></li>
+                                    </ul>
+                                    <p> </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="585">
+                                    <p><b>How to reduce cost of quality using Industry 4.0</b></p>
+                                    <ul>
+                                        <li>When: 1st Oct 2019</li>
+                                        <li>Where: Online</li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                    </ul>
+                                    <p> </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="585">
+                                    <p><b>Enhancing Eﬃciency &amp; Mitigating Risks at Workplace</b></p>
+                                    <ul>
+                                        <li>When: To be announced</li>
+                                        <li>Where: New Delhi</li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                    </ul>
+                                    <p> </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="585">
+                                    <p><b>One-day awareness workshop on Energy Management System ISO 50001 :2018</b></p>
+                                    <ul>
+                                        <li>When: 23<sup>rd</sup> Nov 2019 (planned)</li>
+                                        <li>Where: Delhi/NCR</li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                    </ul>
+                                    <p> </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="585">
+                                    <p><b>One day awareness workshop on Occupational Health &amp; Safety Management System, OHSMS, ISO 45000: 2018</b></p>
+                                    <ul>
+                                        <li>When: 30<sup>th</sup> Nov 2019 (planned)</li>
+                                        <li>Where: Delhi/NCR</li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                    </ul>
+                                    <p> </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="585">
+                                    <p><b>Half day awareness program on Road Safety management</b></p>
+                                    <ul>
+                                        <li>When: December 2019 (planned)</li>
+                                        <li>Where: To be announced</li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                    </ul>
+                                    <p> </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="585">
+                                    <p><b>Low cost automation on Quality function deployment</b></p>
+                                    <ul>
+                                        <li>When: January 2020 (planned)</li>
+                                        <li>Where: Gurugram</li>
+                                        <li>Details: <a href="#">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                    </ul>
+                                    <p> </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="585">
+                                    <p><b>Understanding core technique of TS 16949)</b></p>
+                                    <ul>
+                                        <li>When: February 2020 (planned)</li>
+                                        <li>Where: Gurugram</li>
+                                        <li>Details: <a href="#">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                    </ul>
+                                    <p> </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="585">
+                                    <p><b>TRIZ</b></p>
+                                    <ul>
+                                        <li>When: March 2020 (planned)</li>
+                                        <li>Where: Pune</li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                    </ul>
+                                    <p> </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="left_"></div>
+                    <div class="descripton1 mb-30"></div>
+                    <div class="descripton2 mb-30"></div>
                 </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.email'))->for('email') }}
-
-                            {{ html()->email('email', optional(auth()->user())->email)
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.email'))
-                                        ->attribute('maxlength', 191)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.phone'))->for('phone') }}
-
-                            {{ html()->text('phone')
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.phone'))
-                                        ->attribute('maxlength', 191)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            {{ html()->label(__('validation.attributes.frontend.message'))->for('message') }}
-
-                            {{ html()->textarea('message')
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.message'))
-                                        ->attribute('rows', 3)
-                                        ->required() }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-
-                @if(config('access.captcha.contact'))
-                <div class="row">
-                    <div class="col">
-                        @captcha
-                        {{ html()->hidden('captcha_status', 'true') }}
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-                @endif
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group mb-0 clearfix">
-                            {{ form_submit(__('labels.frontend.contact.button')) }}
-                        </div>
-                        <!--form-group-->
-                    </div>
-                    <!--col-->
-                </div>
-                <!--row-->
-                {{ html()->form()->close() }}
             </div>
-            <!--card-body-->
         </div>
-        <!--card-->
     </div>
-    <!--col-->
-</div>
+</section>
 <!--row-->
 @endsection
 

@@ -81,7 +81,7 @@
                 <div class="col-lg-8 col-sm-12 col-ms-12 col-xs-12 col-md-8">
                     <h2>About QCI</h2>
                     <p style="text-align:justify;">Quality Council of India (QCI) was established as a National body for Accreditation on recommendations of Expert Mission of EU after consultations in Inter-ministerial Task Force, Committee of Secretaries and Group of Ministers through a Cabinet decision in 1996<b> </b>....</p>
-                    <a href="about-us.html" class="btn btn-dark">Read More</a>
+                    <a href="about-us{{ route('frontend.history') }}" class="btn btn-dark">Read More</a>
                 </div>
                 <div class="col-lg-4 col-sm-12 col-ms-12 col-xs-12 col-md-4 h-about-img">
                     <div class="abou-event upcoming-event-border">
@@ -108,7 +108,7 @@
         <div class="row justify-content-center">
             <div class="col-md-4 pd-0">
                 <div class="qci-box qci-box-1">
-                    <a href="nbqp/index.html" target="_blank" rel="noopener noreferrer">
+                    <a href="nbqp/{{ route('frontend.index') }}" target="_blank" rel="noopener noreferrer">
                         <img src="{{ url('/img/frontend/homeimages/1629872120.NBQP-03%20(1).png') }}" alt="NBQP" />
                     </a>
                     <h5>National Board for Quality Promotion</h5>
@@ -117,7 +117,7 @@
             </div>
             <div class="col-md-4 pd-0">
                 <div class="qci-box qci-box-2">
-                    <a href="nabcb/index.html" target="_blank" rel="noopener noreferrer">
+                    <a href="nabcb/{{ route('frontend.index') }}" target="_blank" rel="noopener noreferrer">
                         <img src="{{ url('/img/frontend/homeimages/1629880224.NABCB-05.png') }}" alt="NABCB" />
                     </a>
                     <h5>National Accreditation Board for Certification Bodies</h5>
@@ -125,7 +125,7 @@
             </div>
             <div class="col-md-4 pd-0">
                 <div class="qci-box qci-box-3">
-                    <a href="nabet/index.html" target="_blank" rel="noopener noreferrer">
+                    <a href="nabet/{{ route('frontend.index') }}" target="_blank" rel="noopener noreferrer">
                         <img src="{{ url('/img/frontend/homeimages/1629880115.NABET-04.png') }}" alt="NABET" />
                     </a>
                     <h5>National Accreditation Board for Education and Training</h5>
@@ -133,7 +133,7 @@
             </div>
             <div class="col-md-4 pd-0">
                 <div class="qci-box qci-box-4">
-                    <a href="nabh/index.html" target="_blank" rel="noopener noreferrer">
+                    <a href="nabh/{{ route('frontend.index') }}" target="_blank" rel="noopener noreferrer">
                         <img src="{{ url('/img/frontend/homeimages/1629880152.NABH-06.png') }}" alt="NABH" />
                     </a>
                     <h5>National Accreditation Board for Hospitals &amp; Healthcare Providers</h5>
@@ -167,21 +167,21 @@
                     <div class="col-md-4">
                         <div class="divimg">
                             <div class="img-hover-zoom">
-                                <a href="zed.html" target="_blank" rel="noopener noreferrer"><img src="{{ url('/img/frontend/homeimages/1629882957.ZED-08.png') }}" alt="ZED" /></a>
+                                <a href="zed{{ route('frontend.history') }}" target="_blank" rel="noopener noreferrer"><img src="{{ url('/img/frontend/homeimages/1629882957.ZED-08.png') }}" alt="ZED" /></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="divimg">
                             <div class="img-hover-zoom">
-                                <a href="project-planning-and-implementation-division.html"><img src="{{ url('/img/frontend/homeimages/1574668175.PPID.png') }}" alt="PPID" /></a>
+                                <a href="project-planning-and-implementation-division{{ route('frontend.history') }}"><img src="{{ url('/img/frontend/homeimages/1574668175.PPID.png') }}" alt="PPID" /></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="divimg">
                             <div class="img-hover-zoom">
-                                <a href="project-analysis-and-documentation-division.html">
+                                <a href="project-analysis-and-documentation-division{{ route('frontend.history') }}">
                                     <img src="{{ url('/img/frontend/homeimages/1611332114.1601022998.output-onlinejpgtools%20(1).jpg') }}" alt="PADD" />
                                 </a>
                             </div>
@@ -198,7 +198,7 @@
             <div class="col-md-6 equest-cl">
                 <div class="equest-inner">
                     <div class="img-hover-zoom">
-                        <a href="training-and-capacity-building.html" target="_blank" rel="noopener noreferrer">
+                        <a href="training-and-capacity-building{{ route('frontend.history') }}" target="_blank" rel="noopener noreferrer">
                             <img src="{{ url('/img/frontend/homeimages/1610367839.1609500844.imageedit_2_3264141636%20(1).jpg') }}" alt="equest">
                         </a>
                     </div>
@@ -224,16 +224,16 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-4 text-center">
-                <div class="imgbox-hover-zoom"><a href="find-accredited-organizations.html"><img alt="NBQP" class="img-circle circleimg" src="{{ asset('/img/stamp-2.png') }}" /></a></div>
-                <div class="text-center"><a class="btn btn-primary servicebtn col-sm-12" href="find-accredited-organizations.html">Accredited &amp; Certified Organizations</a></div>
+                <div class="imgbox-hover-zoom"><a href="find-accredited-organizations{{ route('frontend.history') }}"><img alt="NBQP" class="img-circle circleimg" src="{{ asset('/img/stamp-2.png') }}" /></a></div>
+                <div class="text-center"><a class="btn btn-primary servicebtn col-sm-12" href="find-accredited-organizations{{ route('frontend.history') }}">Accredited &amp; Certified Organizations</a></div>
             </div>
             <div class="col-md-4 text-center">
-                <div class="imgbox-hover-zoom"><a href="looking-for-accreditation.html"><img alt="NBQP" class="img-circle circleimg" src="{{ asset('/img/accreditation.jpg') }}" /></a></div>
-                <div class="text-center"><a class="btn btn-primary servicebtn col-sm-12" href="looking-for-accreditation.html">Looking for Accreditation</a></div>
+                <div class="imgbox-hover-zoom"><a href="looking-for-accreditation{{ route('frontend.history') }}"><img alt="NBQP" class="img-circle circleimg" src="{{ asset('/img/accreditation.jpg') }}" /></a></div>
+                <div class="text-center"><a class="btn btn-primary servicebtn col-sm-12" href="looking-for-accreditation{{ route('frontend.history') }}">Looking for Accreditation</a></div>
             </div>
             <div class="col-md-4 text-center">
-                <div class="imgbox-hover-zoom"><a href="training.html"><img alt="NBQP" class="img-circle circleimg" src="{{ asset('/img/Training-Indian.jpg') }}" /></a></div>
-                <div class="text-center"><a class="btn btn-primary servicebtn col-sm-12" href="training.html">Training </a></div>
+                <div class="imgbox-hover-zoom"><a href="training{{ route('frontend.history') }}"><img alt="NBQP" class="img-circle circleimg" src="{{ asset('/img/Training-Indian.jpg') }}" /></a></div>
+                <div class="text-center"><a class="btn btn-primary servicebtn col-sm-12" href="training{{ route('frontend.history') }}">Training </a></div>
             </div>
         </div>
     </div>
@@ -280,55 +280,55 @@
                                     <br><a target="_blank" href="https://www.qcin.org/nbqp/dsa/home/home.aspx">Read more</a>
                                 </li>
                                 <li class=""><span class="title">QCI has announced Prof. S.K. Joshi Laboratory Excellence Award</span>
-                                    <br><a href="news/prof.-s.-k.html">Read more</a>
+                                    <br><a href="news/prof.-s.-k{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">QCI has announced the 3rd edition of QCI Quality Champion Award</span>
-                                    <br><a href="news/qci-has-announced-the-3rd-edition-of-qci-quality-champion-award.html">Read more</a>
+                                    <br><a href="news/qci-has-announced-the-3rd-edition-of-qci-quality-champion-award{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">QCI has announced the 14th QCI-D.L. Shah Quality Award.</span>
-                                    <br><a href="news/we-have-announced-the-14th-qci-d.l.-shah-quality-award.html">Read more</a>
+                                    <br><a href="news/we-have-announced-the-14th-qci-d.l.-shah-quality-award{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">#Unite2FightCorona</span>
-                                    <br><a href="news/unite2fightcorona.html">Read more</a>
+                                    <br><a href="news/unite2fightcorona{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">Call for Proposal/EOI-Protection of Child Right</span>
-                                    <br><a href="news/call-for-proposal-eoi-protection-of-child-right.html">Read more</a>
+                                    <br><a href="news/call-for-proposal-eoi-protection-of-child-right{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">QCI has been awarded Grade A (93%) by Central Information Commission for the year 2019-20</span>
-                                    <br><a href="news/qci-has-been-awarded-grade.html">Read more</a>
+                                    <br><a href="news/qci-has-been-awarded-grade{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">NABET has been conducting online Workshops for schools across India to skill teachers to sail through the COVID-19 induced closure of schools</span>
-                                    <br><a href="news/nabet-has-been-conducting-online-workshops-for-schools-across-india-to-skill-teachers-to-sail-through-the-covid-19-induced-closure-of-schools.html">Read more</a>
+                                    <br><a href="news/nabet-has-been-conducting-online-workshops-for-schools-across-india-to-skill-teachers-to-sail-through-the-covid-19-induced-closure-of-schools{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">Quality Council of India, with support from the National Medicinal Plants Board Quality Council of India</span>
-                                    <br><a href="news/quality-council-of-india%2c-with-support-from-the-national-medicinal-plants-board-quality-council-of-india.html">Read more</a>
+                                    <br><a href="news/quality-council-of-india%2c-with-support-from-the-national-medicinal-plants-board-quality-council-of-india{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">7th National Conclave for Laboratories on 23rd-24th Jan, 2018 at Hotel Hyatt Regency, Ahmedabad (video clippings)</span>
-                                    <br><a href="news/7th-national-conclave-for-laboratories-on-23rd-24th-jan%2c-2018-at-hotel-hyatt-regency%2c-ahmedabad-(video-clippings).html">Read more</a>
+                                    <br><a href="news/7th-national-conclave-for-laboratories-on-23rd-24th-jan%2c-2018-at-hotel-hyatt-regency%2c-ahmedabad-(video-clippings){{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">FSSAI launches food regulatory portal on eve of World Food India 2017</span>
-                                    <br><a href="news/fssai-launches-food-regulatory-portal-on-eve-of-world-food-india-2017.html">Read more</a>
+                                    <br><a href="news/fssai-launches-food-regulatory-portal-on-eve-of-world-food-india-2017{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">Ayush Mark Publication</span>
-                                    <br><a href="news/ayush-mark-publication.html">Read more</a>
+                                    <br><a href="news/ayush-mark-publication{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">Traditional Knowledge system losing significance due to modernization</span>
-                                    <br><a href="news/traditional-knowledge-system-losing-significance-due-to-modernization.html">Read more</a>
+                                    <br><a href="news/traditional-knowledge-system-losing-significance-due-to-modernization{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">Swachh Survekshan Gramin 2016</span>
-                                    <br><a href="news/swachh-survekshan-gramin-2016.html">Read more</a>
+                                    <br><a href="news/swachh-survekshan-gramin-2016{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">Over 8,000 yoga professionals register with QCI in one year</span>
-                                    <br><a href="news/over-8%2c000-yoga-professionals-register-with-qci-in-one-year.html">Read more</a>
+                                    <br><a href="news/over-8%2c000-yoga-professionals-register-with-qci-in-one-year{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">Online Portal for EIA Consultant Organisations</span>
-                                    <br><a href="news/online-portal-for-eia-consultant-organisations.html">Read more</a>
+                                    <br><a href="news/online-portal-for-eia-consultant-organisations{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">First Mango Farm to Get Certified under INDGAP Scheme</span>
-                                    <br><a href="news/first-mango-farm-to-get-certified-under-indgap-scheme.html">Read more</a>
+                                    <br><a href="news/first-mango-farm-to-get-certified-under-indgap-scheme{{ route('frontend.history') }}">Read more</a>
                                 </li>
                                 <li class=""><span class="title">Adil Zainulbhai on Uber&#039;s global advisory panel</span>
-                                    <br><a href="news/adil-zainulbhai-on-uber%27s-global-advisory-panel.html">Read more</a>
+                                    <br><a href="news/adil-zainulbhai-on-uber%27s-global-advisory-panel{{ route('frontend.history') }}">Read more</a>
                                 </li>
                             </ul>
                         </div>
@@ -341,14 +341,14 @@
                     <div class="panel-body">
                         <div class="box2">
                             <ul class=" liststyle">
-                                <li class=""><span class="title">Quality Month Competition Winners - 2020 </span> <br>November 2020<br><a href="qci-events/quality-month-competition-winners---2020.html">Read more</a></li>
-                                <li class=""><span class="title">UDYOG MANTHAN </span> <br>4th January, 2021 - 2nd March, 2021 <br><a href="qci-events/udyog-manthan.html">Read more</a></li>
-                                <li class=""><span class="title">Training : AS 9100 Rev D - Aerospace and Defence QMS Internal Auditor prog </span> <br>14-15 January 2021<br><a href="qci-events/training-_-as-9100-rev-d---aerospace-and-defence-qms-internal-auditor-prog.html">Read more</a></li>
-                                <li class=""><span class="title">Poka-yoke: Improving Processes through Error Prevention </span> <br>20th January 2021 | 10.30 AM to 4.30 PM<br><a href="qci-events/poka-yoke_-improving-processes-through-error-prevention.html">Read more</a></li>
-                                <li class=""><span class="title">4th Virtual Quality Conclave </span> <br>29th January&#039; 21 | 10AM-4PM<br><a href="qci-events/4th-virtual-quality-conclave-.html">Read more</a></li>
-                                <li class=""><span class="title">03 DAYS AWARENESS WORKSHOP ON ACCREDITATION STANDARD FOR QUALITY SCHOOL GOVERNANCE- CHENNAI </span> <br>26th March-28th March-2020<br><a href="qci-events/03-days-awareness-workshop-on-accreditation-standard-for-quality-school-governance--chennai-26th-march-28th-march-2020-.html">Read more</a></li>
-                                <li class=""><span class="title">12th Webinar: FINANCING OPTION FOR MSMEs AND ECONOMIC REVIVAL DURING COVID-19 CRISIS </span> <br>8th June 2020<br><a href="qci-events/12th-webinar-date_-8th-june-2020.html">Read more</a></li>
-                                <li class=""><span class="title">13thRegional Quality Conclave </span> <br><br><a href="qci-events/conclave.html">Read more</a></li>
+                                <li class=""><span class="title">Quality Month Competition Winners - 2020 </span> <br>November 2020<br><a href="qci-events/quality-month-competition-winners---2020{{ route('frontend.history') }}">Read more</a></li>
+                                <li class=""><span class="title">UDYOG MANTHAN </span> <br>4th January, 2021 - 2nd March, 2021 <br><a href="qci-events/udyog-manthan{{ route('frontend.history') }}">Read more</a></li>
+                                <li class=""><span class="title">Training : AS 9100 Rev D - Aerospace and Defence QMS Internal Auditor prog </span> <br>14-15 January 2021<br><a href="qci-events/training-_-as-9100-rev-d---aerospace-and-defence-qms-internal-auditor-prog{{ route('frontend.history') }}">Read more</a></li>
+                                <li class=""><span class="title">Poka-yoke: Improving Processes through Error Prevention </span> <br>20th January 2021 | 10.30 AM to 4.30 PM<br><a href="qci-events/poka-yoke_-improving-processes-through-error-prevention{{ route('frontend.history') }}">Read more</a></li>
+                                <li class=""><span class="title">4th Virtual Quality Conclave </span> <br>29th January&#039; 21 | 10AM-4PM<br><a href="qci-events/4th-virtual-quality-conclave-{{ route('frontend.history') }}">Read more</a></li>
+                                <li class=""><span class="title">03 DAYS AWARENESS WORKSHOP ON ACCREDITATION STANDARD FOR QUALITY SCHOOL GOVERNANCE- CHENNAI </span> <br>26th March-28th March-2020<br><a href="qci-events/03-days-awareness-workshop-on-accreditation-standard-for-quality-school-governance--chennai-26th-march-28th-march-2020-{{ route('frontend.history') }}">Read more</a></li>
+                                <li class=""><span class="title">12th Webinar: FINANCING OPTION FOR MSMEs AND ECONOMIC REVIVAL DURING COVID-19 CRISIS </span> <br>8th June 2020<br><a href="qci-events/12th-webinar-date_-8th-june-2020{{ route('frontend.history') }}">Read more</a></li>
+                                <li class=""><span class="title">13thRegional Quality Conclave </span> <br><br><a href="qci-events/conclave{{ route('frontend.history') }}">Read more</a></li>
                             </ul>
                         </div>
                     </div>
@@ -399,7 +399,7 @@
                         <hr />
                         <h5>6th Edition</h5>
                         <p style="text-align:justify;">Quality Best Practices is a compendium of selected QCI-D.L. Shah Quality Award Winning Case Studies” of different sectors ranging from manufacturing, services to healthcare and education. This publication is brought out every year and has been acknowledged as an important resource for quality professionals and quality managers in any industry.</p>
-                        <p style="text-align:justify;"><a href="quality-best-practices.html">Read more...</a> Price : INR 600/-</p>
+                        <p style="text-align:justify;"><a href="quality-best-practices{{ route('frontend.history') }}">Read more...</a> Price : INR 600/-</p>
                     </div>
                 </div>
             </div>
