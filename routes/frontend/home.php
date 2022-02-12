@@ -16,6 +16,7 @@ Route::get('/', [HomeController::class, 'index'])->name('index');
 
 Route::get('about', [FrontendController::class, 'about'])->name('about');
 Route::get('history', [FrontendController::class, 'history'])->name('history');
+Route::get('rules-regulation', [FrontendController::class, 'rules'])->name('rules-regulation');
 Route::get('mission', [FrontendController::class, 'mission'])->name('mission');
 Route::get('vision', [FrontendController::class, 'vision'])->name('vision');
 Route::get('moa', [FrontendController::class, 'moa'])->name('moa');

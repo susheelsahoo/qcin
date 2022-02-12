@@ -20,6 +20,10 @@ class FrontendController extends Controller
     {
         return view('frontend.history');
     }
+    public function rules()
+    {
+        return view('frontend.rules');
+    }
     public function mission()
     {
         return view('frontend.mission');
