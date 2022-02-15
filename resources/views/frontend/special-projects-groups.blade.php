@@ -91,10 +91,10 @@
                 <div class="descripton mb-30">
                     <p>Special Projects Groups link below</p>
                     <ul>
-                        <li><a href="{{ route('frontend.project-planning-and-implementation-division') }}">Project Planning and Implementation Division (PPID)</a></li>
-                        <li><a href="{{ route('frontend.project-analysis-and-documentation-division') }}">Project Analysis and Documentation Division (PADD)</a></li>
-                        <li><a href="{{ route('frontend.zed') }}">Zero Effect Zero Defect (ZED)</a></li>
-                        <li><a href="{{ route('frontend.training-and-capacity-building') }}" target="_blank" rel="noreferrer noopener">Training and Capacity Building (TCB)</a></li>
+                        <li><a href="#">Project Planning and Implementation Division (PPID)</a></li>
+                        <li><a href="#">Project Analysis and Documentation Division (PADD)</a></li>
+                        <li><a href="#">Zero Effect Zero Defect (ZED)</a></li>
+                        <li><a href="#" target="_blank" rel="noreferrer noopener">Training and Capacity Building (TCB)</a></li>
                     </ul>
                     <p> </p>
                     <div class="left_"></div>

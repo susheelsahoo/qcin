@@ -54,7 +54,7 @@
                                             </font>
                                         </font>
                                     </span></span></span></span></p>
-                    <p style="margin-top:0.49cm;margin-bottom:0.49cm;text-align:justify;"><img alt="" class="chairmen-images" src="public/uploads/ck-images/1579591002.Adil_Zainulbhai.jpg" style="width:400px;height:300px;border-width:0px;border-style:solid;margin:5px;float:left;" /></p>
+                    <p style="margin-top:0.49cm;margin-bottom:0.49cm;text-align:justify;"><img alt="" class="chairmen-images" src="{{ url('/img/frontend/homeimages/1579591002.Adil_Zainulbhai.jpg') }}" style="width:400px;height:300px;border-width:0px;border-style:solid;margin:5px;float:left;" /></p>
                     <p><span style="background:#ffffff;"><span style="line-height:0.61cm;"><span><span>
                                         <font face="Times New Roman, serif">
                                             <font size="3">

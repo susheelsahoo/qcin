@@ -120,7 +120,7 @@
                 <div class="descripton mb-30">
                     <p style="text-align:justify;">To lead nationwide quality movement in India by involving all stakeholders for emphasis on adherence to quality standards in all spheres of activities primarily for promoting and protecting interests of the nation and its citizens.</p>
 
-                    <p style="text-align:justify;"><img alt="" src="https://qcin.org/public/uploads/ck-images/1580463515.apjkalam.jpg" /></p>
+                    <p style="text-align:justify;"><img alt="" src="{{ url('/img/frontend/homeimages/vision_1.jpg') }}" /></p>
                     <div class="left_"></div>
                     <div class="descripton1 mb-30"></div>
                     <div class="descripton2 mb-30"></div>
