@@ -3,6 +3,7 @@
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\FrontendController;
+use App\Http\Controllers\Frontend\Auth\RegisterController;
 use App\Http\Controllers\Frontend\User\AccountController;
 use App\Http\Controllers\Frontend\User\DashboardController;
 use App\Http\Controllers\Frontend\User\ProfileController;
@@ -16,6 +17,7 @@ Route::get('/', [HomeController::class, 'index'])->name('index');
 
 Route::get('about', [FrontendController::class, 'about'])->name('about');
 Route::get('history', [FrontendController::class, 'history'])->name('history');
+Route::get('rules-regulation', [FrontendController::class, 'rules'])->name('rules-regulation');
 Route::get('mission', [FrontendController::class, 'mission'])->name('mission');
 Route::get('vision', [FrontendController::class, 'vision'])->name('vision');
 Route::get('moa', [FrontendController::class, 'moa'])->name('moa');
@@ -35,7 +37,7 @@ Route::get('finance-committee', [FrontendController::class, 'financeCommittee'])
 Route::get('qci-secretariat', [FrontendController::class, 'qciSecretariat'])->name('qci-secretariat');
 Route::get('special-projects-groups', [FrontendController::class, 'specialProjectsGroups'])->name('special-projects-groups');
 Route::get('hr-administration', [FrontendController::class, 'hrAdministration'])->name('hr-administration');
-Route::get('boards', [FrontendController::class, 'boards'])->name('boards');
+Route::get('boards',[FrontendController::class,'boards'])->name('boards');
 Route::get('office-orders-internal-circulars', [FrontendController::class, 'officeOrdersInternalCirculars'])->name('office-orders-internal-circulars');
 Route::get('annual-reports', [FrontendController::class, 'annualReports'])->name('annual-reports');
 Route::get('finance-and-accounts', [FrontendController::class, 'financeAndAccounts'])->name('finance-and-accounts');
@@ -85,6 +87,7 @@ Route::get('faq', [FrontendController::class, 'faq'])->name('faq');
 Route::get('monographs', [FrontendController::class, 'monographs'])->name('monographs');
 Route::get('update-alerts', [FrontendController::class, 'update-alerts'])->name('update-alerts');
 Route::get('careers', [FrontendController::class, 'careers'])->name('careers');
+Route::get('mail', [RegisterController::class, 'mail'])->name('mail');
 
 Route::get('monographs', [FrontendController::class, 'monographs'])->name('monographs');
 Route::get('contact', [ContactController::class, 'index'])->name('contact');

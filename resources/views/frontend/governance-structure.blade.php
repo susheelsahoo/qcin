@@ -79,7 +79,7 @@
                         <li>Finance Committee (FC)</li>
                         <li>Accreditation Boards (ABs) and Quality Promotion Board</li>
                     </ul>
-                    <p><img alt="" src="public/uploads/ck-images/1578902130.Governance%20Structure-1.png" style="margin:5px;float:left;" /></p>
+                    <p><img alt="" src="{{ url('/img/frontend/homeimages/1578902130.GovernanceStructure-1.png')}}" style="margin:5px;float:left;" /></p>
                     <div class="left_"></div>
                     <div class="descripton1 mb-30"></div>
                     <div class="descripton2 mb-30"></div>
