@@ -65,7 +65,7 @@
                         Description: Quality Council of India (QCI) jointly with FICCI organized the Regional Quality Conclave (RQC) on Leveraging Quality for Manufacturing Competitiveness on 23rd January 2020, Hotel Taj Gateway, Kochi. The primary objective of the Conclave was to discuss quality systems and practices to achieve the competitiveness in Manufacturing.<br />
                         Link: : <a href="#">http://rqc2019.qci.org.in/12th/home.php</a>
                     </p>
-                    <p><img alt="" src="public/uploads/ck-images/1591612567.12%20rqc.png" style="width:400px;height:400px;" /></p>
+                    <p><img alt="" src="{{url('/img/frontend/homeimages/1591612567.12 rqc.png') }}" style="width:400px;height:400px;"/></p>
                     <ul>
                         <li><strong>11th Regional Quality Conclave</strong></li>
                     </ul>
@@ -76,7 +76,7 @@
                         Description: Quality Council of India (QCI) jointly with PHD Chambers organized the Regional Quality Conclave (RQC) on Advance Manufacturing with Quality, Innovations &amp; Technology Interventions on 20th December 2019 at Hotel Radisson Blu, Rudrapur. The primary objective of the Conclave was to create awareness about significance of quality culture in businesses, deliberate on how organizations could continuously improve and innovate and share the technological advancement like Industry 4.0 and predictive maintenance.<br />
                         Link: : <a href="#">http://rqc2019.qci.org.in/11th/home.php</a>
                     </p>
-                    <p><img alt="" src="public/uploads/ck-images/1591612551.11%20rqc.png" style="width:400px;height:400px;" /></p>
+                    <p><img alt="" src="{{url('/img/frontend/homeimages/1591612551.11 rqc.png')}}" style="width:400px;height:400px;" /></p>
                     <ul>
                         <li><strong>10th Regional Quality Conclave</strong></li>
                     </ul>
@@ -86,7 +86,7 @@
                     <p><u>Partners</u>: Federation of Small &amp; Medium Industries (FOSMI)</p>
                     <p>Description: Quality Council of India (QCI) jointly with FOSMI organized the Regional Quality Conclave (RQC) on Quality &amp; Manufacturing Excellence for Sustainable Growth on 29th November 2019, Hotel The Park, Kolkata. The primary objective of the Conclave was to highlight the importance of best practices of quality &amp; manufacturing in manufacturing industries as critical change agents for sustainable growth. Quality &amp; Manufacturing being two cardinal areas in a manufacturing industry developing a culture of continuous improvements in both these functions is fundamental to increased customer satisfaction and potential business growth.</p>
                     <p>Link: <a href="#">http://rqc2019.qci.org.in/10thRQC/home.php</a><br />
-                        <img alt="" src="public/uploads/ck-images/1591612530.10%20rqc.png" style="width:400px;height:400px;" />
+                        <img alt="" src="{{url('/img/frontend/homeimages/1591612530.10 rqc.png')}}" style="width:400px;height:400px;" />
                     </p>
                     <ul>
                         <li><strong>9th Regional Quality Conclave</strong></li>
@@ -98,7 +98,7 @@
                         Description: Quality Council of India (QCI) jointly with FICCI organized the Regional Quality Conclave (RQC) on Quality Enablers for Manufacturing Competitiveness &amp; Trade on 8th November 2019, Hotel Crowne Plaza, Ahmedabad. The primary objective of the Conclave was to discuss enablers of competitiveness and excellence in Manufacturing sector and enabling policy framework.<br />
                         Link: <a href="#">http://rqc2019.qci.org.in/9th/home.php</a>
                     </p>
-                    <p align="justify" style="margin-bottom:0.28cm;text-align:left;"><img alt="" src="public/uploads/ck-images/1591612512.9%20rqc.png" style="width:400px;height:400px;" /></p>
+                    <p align="justify" style="margin-bottom:0.28cm;text-align:left;"><img alt="" src="{{url('/img/frontend/homeimages/1591612512.9 rqc.png')}}" style="width:400px;height:400px;" /></p>
                     <ul>
                         <li><strong>8th Regional Quality Conclave</strong></li>
                     </ul>
@@ -109,7 +109,7 @@
                         Description: Quality Council of India (QCI) jointly with American Society for Quality (ASQ) organized the Regional Quality Conclave (RQC) on Leading Change with Quality, Innovation and Technology on 18th October 2019 at Hotel Taj, Yeshwantpur, Bengaluru. The primary objective of the Conclave was to showcase the next generation developments in innovation and technology leadership and quality levels zeroing in to near perfection in the manufacturing sector, with special reference to the role start-ups play in bringing agility in manufacturing.<br />
                         Link: : <a href="#">http://rqc2019.qci.org.in/8th/home.php</a>
                     </p>
-                    <p align="justify" style="margin-bottom:0.28cm;text-align:left;"><img alt="" src="public/uploads/ck-images/1591612331.8%20rqc.png" style="width:400px;height:400px;" /></p>
+                    <p align="justify" style="margin-bottom:0.28cm;text-align:left;"><img alt="" src="{{url('/img/frontend/homeimages/1591612331.8 rqc.png')}}" style="width:400px;height:400px;" /></p>
                     <ul>
                         <li><span style="line-height:107%;"><b>7</b><sup><b>th</b></sup><b> Regional Quality Conclave</b></span></li>
                     </ul>
@@ -133,7 +133,7 @@
                     <p align="justify" style="margin-bottom:0cm;text-align:left;"><span style="line-height:100%;">Link: - <a href="#" style="color:#0563c1;" target="_blank" rel="noreferrer noopener">http://rqc2019.qci.org.in/6th/rqc2019.php</a></span></p>
                     <p align="justify" style="margin-bottom:0cm;text-align:left;"> </p>
                     <p align="justify" style="margin-bottom:0cm;text-align:left;"> </p>
-                    <p align="justify" style="margin-bottom:0cm;text-align:left;"><span style="line-height:100%;"><img align="bottom" alt="1586513265.quality.jpg" src="public/uploads/ck-images/1586513265.quality.jpg" style="width:400px;height:400px;" /></span></p>
+                    <p align="justify" style="margin-bottom:0cm;text-align:left;"><span style="line-height:100%;"><img align="bottom" alt="1586513265.quality.jpg" src="{{url('/img/frontend/homeimages/1586513265.quality.jpg')}}" style="width:400px;height:400px;" /></span></p>
                     <p style="margin-bottom:0.28cm;text-align:left;"> </p>
                     <ul>
                         <li style="margin-bottom:0.28cm;text-align:left;">
@@ -148,7 +148,7 @@
                     <p style="margin-bottom:0.28cm;text-align:left;"><span style="line-height:107%;">Link: - <a href="#" style="color:#0563c1;" target="_blank" rel="noreferrer noopener">http://rqc2019.qci.org.in/5th/rqc2019.php</a></span></p>
                     <p style="margin-bottom:0.28cm;text-align:left;"> </p>
                     <p style="margin-bottom:0.28cm;text-align:left;"> </p>
-                    <p style="margin-bottom:0.28cm;text-align:left;"><span style="line-height:107%;"><img align="bottom" alt="1586513298.excellent.jpg" src="public/uploads/ck-images/1586513298.excellent.jpg" style="width:500px;height:500px;" /></span></p>
+                    <p style="margin-bottom:0.28cm;text-align:left;"><span style="line-height:107%;"><img align="bottom" alt="1586513298.excellent.jpg" src="{{url('/img/frontend/homeimages/1586513298.excellent.jpg')}}" style="width:500px;height:500px;" /></span></p>
                     <p style="margin-bottom:0.28cm;text-align:left;"><br />
 
                     </p>
@@ -165,7 +165,7 @@
                     <p style="margin-bottom:0.28cm;text-align:left;"><span style="line-height:107%;">Link: - <a href="#" style="color:#0563c1;" target="_blank" rel="noreferrer noopener">http://rqc2019.qci.org.in/4th/rqc2019.php</a></span></p>
                     <p style="margin-bottom:0.28cm;text-align:left;"> </p>
                     <p style="margin-bottom:0.28cm;text-align:left;"> </p>
-                    <p style="margin-bottom:0.28cm;text-align:left;"><span style="line-height:107%;"><img align="bottom" alt="1586513438.26th.jpg" src="public/uploads/ck-images/1586513438.26th.jpg" style="width:500px;height:510px;" /></span></p>
+                    <p style="margin-bottom:0.28cm;text-align:left;"><span style="line-height:107%;"><img align="bottom" alt="1586513438.26th.jpg" src="{{url('/img/frontend/homeimages/1586513438.26th.jpg')}}" style="width:500px;height:510px;"/></span></p>
                     <p style="margin-bottom:0.28cm;text-align:left;"> </p>
                     <ul>
                         <li>

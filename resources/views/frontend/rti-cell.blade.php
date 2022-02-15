@@ -265,7 +265,7 @@
                     <h3> </h3>
                     <h3>RTI Information</h3>
                     <ul>
-                        <li><a href="{{ route('frontend.mandatory-disclosure-under-section-4-of-rti-act') }}">Mandatory Disclosure under Section 4 (1) of RTI Act, 2005:</a></li>
+                        <li><a href="#">Mandatory Disclosure under Section 4 (1) of RTI Act, 2005:</a></li>
                         <li><a href="#">Record Retention Policy of RTI Cell</a></li>
                     </ul>
                     <h3>RTI Quarterly Return Information System</h3>

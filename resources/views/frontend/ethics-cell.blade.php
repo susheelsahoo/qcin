@@ -32,7 +32,7 @@
                                         <li class="submenu-xcb "><a href="#">Weeding out Policy</a></li>
                                         <li class="submenu-xcb "><a href="#">Retention policy</a></li>
                                         <li class="submenu-xcb "><a href="#">Categories of documents</a></li>
-                                        <li class="submenu-xcb "><a href="{{ route('frontend.hoffice-orders-internal-circulars') }}">Office Orders/Internal Circulars</a></li>
+                                        <li class="submenu-xcb "><a href="#">Office Orders/Internal Circulars</a></li>
                                         <li class="submenu-xcb "><a href="#">HR &amp; Admin KRA</a></li>
                                         <li class="submenu-xcb "><a href="#">Annual Reports</a></li>
                                     </ul>

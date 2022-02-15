@@ -36,7 +36,7 @@ Route::get('finance-committee', [FrontendController::class, 'financeCommittee'])
 Route::get('qci-secretariat', [FrontendController::class, 'qciSecretariat'])->name('qci-secretariat');
 Route::get('special-projects-groups', [FrontendController::class, 'specialProjectsGroups'])->name('special-projects-groups');
 Route::get('hr-administration', [FrontendController::class, 'hrAdministration'])->name('hr-administration');
-Route::get('boards', [FrontendController::class, 'boards'])->name('boards');
+Route::get('boards',[FrontendController::class,'boards'])->name('boards');
 Route::get('office-orders-internal-circulars', [FrontendController::class, 'officeOrdersInternalCirculars'])->name('office-orders-internal-circulars');
 Route::get('annual-reports', [FrontendController::class, 'annualReports'])->name('annual-reports');
 Route::get('finance-and-accounts', [FrontendController::class, 'financeAndAccounts'])->name('finance-and-accounts');

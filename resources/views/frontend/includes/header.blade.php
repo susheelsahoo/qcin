@@ -52,242 +52,165 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg nv-main px-0" data-spy="affix" data-offset-top="197">
                 <a class="navbar-brand" href="{{ route('frontend.index') }}">
-                    <img src="{{ url('/img/QCI-Logo.png') }}" alt="QCI-Logo" />
+                    <!--<img src="{{ url('/img/QCI-Logo.png') }}" alt="QCI-Logo" />-->
+                   <h3 style="text-shadow: 2px 2px green;"> Foundation for <br>Quality Promotion</h3>
                 </a>
                 <div class="menu-toggle"><i class="fa fa-bars"></i></div>
                 <div class="navbar-collapse justify-content-end" id="navbarNav">
                     <div class="main-menu">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown ">
-                                <a class="toggle-lnk " href="#">Who We Are</a>
+                                <a class="toggle-lnk " href="#">FQP</a>
+                                <ul class="sub-menu 2nd">
+                                    <li class="">
+                                    <a class="toggle-lnk " href="{{ route('frontend.about') }}" class="">About us</a>
+                                    </li>
+									<li class="">
+                                    <a class="toggle-lnk " href="#" class="">Mission & Vision</a>
+                                    </li>
+									<li class="">
+                                    <a class="toggle-lnk " href="#" class="">Accreditation committee</a>
+                                    </li>
+									<li class="">
+                                    <a class="toggle-lnk " href="#" class="">Advisory Members</a>
+                                    </li>
+									<li class="">
+                                    <a class="toggle-lnk " href="#" class="">Board/ Divisions</a>
+                                    </li>
+									<li class="">
+                                    <a class="toggle-lnk " href="#" class="">FQP Secretariat</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="toggle-lnk " href="#">Accreditation</a>
+                                <ul class="sub-menu 2nd">
+                                <li class="dropdown ">
+                                        <a class="toggle-lnk " href="#" class="">Academic Course- Institute, College</a>
+                                        <ul class="sub-menu 3rd">
+                                            <li class=""><a class="" href="#">Department of Accreditation</a></li>
+                                        </ul>
+                                </li>
+                                <li class="">
+                                    <a class="" href="#" class="">Non-Academic</a>
+                                </li>
+                                <li class="">
+                                    <a class="" href="#" class="">Professional Course</a>
+                                </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="toggle-lnk " href="#">QMS</a>
                                 <ul class="sub-menu 2nd">
                                     <li class="dropdown ">
-                                        <a class="toggle-lnk " href="{{ route('frontend.about') }}" class="">About QCI</a>
+                                        <a class="toggle-lnk " href="#" class="">QMS</a>
                                         <ul class="sub-menu 3rd">
-                                            <li class=""><a class="" href="{{ route('frontend.history') }}">History</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.mission') }}">Mission</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.vision') }}">Vision</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.moa') }}">MOA</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.moa') }}">Rules And Regulations</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.key-objectives') }}">Key Objectives</a>
-                                            <li>
+                                            <li class=""><a class="" href="#">Institute of Management System & Certification</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown ">
-                                        <a class="toggle-lnk " href="#" class="">Our People</a>
+                                    <li class="">
+                                        <a class="" href="#" class="">ISMS</a>
+                                    <li>
+                                    <li class="">
+                                        <a class="" href="#" class="">FSMS</a>
+                                    <li>
+                                    <li class="">
+                                        <a class="" href="#" class="">Others</a>
+                                    <li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="toggle-lnk " href="#">CRRPM</a>
+                                <ul class="sub-menu 2nd">
+                                <li class="dropdown ">
+                                        <a class="toggle-lnk " href="#" class="">Phd, Dr, Health Practictioner </a>
                                         <ul class="sub-menu 3rd">
-                                            <li class="dropdown ">
-                                                <a class="toggle-lnk " href="{{ route('frontend.our-leadership') }}" class="">Our Leadership</a>
-                                                <ul class="sub-menu 4th">
-                                                    <li class=""><a class="" href="{{ route('frontend.chairperson') }}">Chairperson</a> </li>
-                                                    <li class=""><a class="" href="{{ route('frontend.sg') }}">Secretary General</a> </li>
-                                                    <li class=""><a class="" href="{{ route('frontend.ceos-and-hods') }}">Leadership - Boards/Divisions</a> </li>
-                                                </ul>
-                                            </li>
-                                            <li class=""><a class="" href="{{ route('frontend.members') }}">Members</a>
-                                            <li>
+                                            <li class=""><a class="" href="#">Institute of Membership</a></li>
+                                        </ul>
+                                    </li>
+                                   <li class="">
+                                        <a class="" href="#" class="">Professionals</a>
+                                   </li>
+                                   <li class="">
+                                        <a class="" href="#" class="">Digital Marketing</a>
+                                   </li>
+                                   <li class="">
+                                        <a class="" href="#" class="">Entrepreneur’s</a>
+                                   </li>
+                                   <li class="">
+                                        <a class="" href="#" class="">Food Professionals</a>
+                                   </li>
+                                   <li class="">
+                                        <a class="" href="#" class="">Chef</a>
+                                   </li>
+                                   <li class="">
+                                        <a class="" href="#" class="">Artist- Youtuber, Instagram</a>
+                                   </li>
+                                   <li class="">
+                                        <a class="" href="#" class="">Kids – Special activities</a>
+                                   </li>
+
+                                    
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="toggle-lnk " href="#">QCC</a>
+                                <ul class="sub-menu 2nd">
+                                <li class="dropdown ">
+                                        <a class="toggle-lnk " href="#" class="">Business- Food </a>
+                                        <ul class="sub-menu 3rd">
+                                            <li class=""><a class="" href="#">Institute of Quality Conformance</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="">
+                                        <a class="" href="#" class="">Business- Non-food</a>
+                                   </li>
+                                <li class="">
+                                    <a class="" href="#" class="">Use of Logo</a>
+                               </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="toggle-lnk " href="#">T&SE</a>
+                                <ul class="sub-menu">
+                                <li class="dropdown ">
+                                        <a class="toggle-lnk " href="#" class="">FOSTAC </a>
+                                        <ul class="sub-menu 3rd">
+                                            <li class=""><a class="" href="#">Institute of Skill & Professional Training</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="">
+                                        <a class="" href="#" class="">HACCP</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="" href="#" class="">Legal Metrology</a>
+                                   </li>
+                                    <li class="">
+                                        <a class="" href="#" class="">POSH</a>
+                                   </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="toggle-lnk " href="#">Partner FQP</a>
+                                <ul class="sub-menu">
+                                <li class="dropdown ">
+                                        <a class="toggle-lnk " href="#" class="">Authorized Channel Partner for promotion of QCC </a>
+                                        <ul class="sub-menu 3rd">
+                                            <li class=""><a class="" href="#">Institute of Quality Conformance</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown ">
-                                <a class="toggle-lnk " href="{{ route('frontend.index') }}">The Organisation</a>
-                                <ul class="sub-menu 2nd">
+                                <a class="toggle-lnk " href="#">Authentication</a>
+                                <ul class="sub-menu">
                                     <li class="">
-                                        <a class="" href="{{ route('frontend.governance-structure') }}" class="">Governance Structure</a>
-                                    <li>
-                                    <li class="">
-                                        <a class="" href="{{ route('frontend.administrative-structure') }}" class="">Administrative Structure</a>
-                                    <li>
-                                    <li class="dropdown ">
-                                        <a class="toggle-lnk " href="{{ route('frontend.bodies-of-qci') }}" class="">Bodies of QCI</a>
-                                        <ul class="sub-menu 3rd">
-                                            <li class=""><a class="" href="{{ route('frontend.the-governing-council') }}">The Governing Council</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.the-governing-body') }}">The Governing Body</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.finance-committee') }}">Finance Committee</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.boards') }}">Boards</a>
-                                            <li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown ">
-                                        <a class="toggle-lnk " href="{{ route('frontend.qci-secretariat') }}" class="">QCI Secretariat</a>
-                                        <ul class="sub-menu 3rd">
-                                            <li class=""><a class="" href="{{ route('frontend.special-projects-groups') }}">Special Projects Groups</a>
-                                            <li>
-                                            <li class="dropdown ">
-                                                <a class="toggle-lnk " href="{{ route('frontend.hr-administration') }}" class="">HR &amp; Administration</a>
-                                                <ul class="sub-menu 4th">
-                                                    <li class=""><a class="" href="#">Service and Finance Manual</a> </li>
-                                                    <li class=""><a class="" href="#">Manual on Ethical Practices</a> </li>
-                                                    <li class=""><a class="" href="#">Weeding out Policy</a> </li>
-                                                    <li class=""><a class="" href="#">Retention policy</a> </li>
-                                                    <li class=""><a class="" href="#">Categories of documents</a> </li>
-                                                    <li class=""><a class="" href="{{ route('frontend.office-orders-internal-circulars') }}">Office Orders/Internal Circulars</a> </li>
-                                                    <li class=""><a class="" href="">HR &amp; Admin KRA</a> </li>
-                                                    <li class=""><a class="" href="{{ route('frontend.annual-reports') }}">Annual Reports</a> </li>
-                                                </ul>
-                                            </li>
-                                            <li class=""><a class="" href="{{ route('frontend.finance-and-accounts') }}">Finance and Accounts</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.rti-cell') }}">RTI Cell</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.ethics-cell') }}">Ethics Cell</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.icc-for-sexual-harassment') }}">ICC for Sexual Harassment</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.minutes-of-gb') }}">Minutes of GB</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.minutes-of-gc') }}">Minutes of GC</a>
-                                            <li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown ">
-                                <a class="toggle-lnk " href="#">What We Do</a>
-                                <ul class="sub-menu 2nd">
-                                    <li class="">
-                                        <a class="" href="https://udyogmanthan.qcin.org/" class="">Udyog Manthan</a>
-                                    <li>
-                                    <li class="dropdown ">
-                                        <a class="toggle-lnk " href="{{ route('frontend.schemes') }}" class="">Schemes</a>
-                                        <ul class="sub-menu 3rd">
-                                            <li class=""><a class="" href="{{ route('frontend.padd-schemes') }}">PADD Schemes</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.workplace-assessment-for-safety-and-hygiene') }}">WASH Scheme</a>
-                                            <li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown ">
-                                        <a class="toggle-lnk " href="{{ route('frontend.projects') }}" class="">Projects</a>
-                                        <ul class="sub-menu 3rd">
-                                            <li class=""><a class="" href="{{ route('frontend.ppid-projects') }}">PPID Projects</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.padd-projects') }}">PADD Projects</a>
-                                            <li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown ">
-                                        <a class="toggle-lnk " href="{{ route('frontend.events') }}" class="">Events</a>
-                                        <ul class="sub-menu 3rd">
-                                            <li class="dropdown ">
-                                                <a class="toggle-lnk " href="{{ route('frontend.conclaves') }}" class="">Conclaves</a>
-                                                <ul class="sub-menu 4th">
-                                                    <li class=""><a class="" href="{{ route('frontend.national-quality-conclave') }}">National Conclaves</a> </li>
-                                                    <li class=""><a class="" href="{{ route('frontend.regional-quality-conclave') }}">Regional Conclaves</a> </li>
-                                                    <li class=""><a class="" href="{{ route('frontend.virtual-quality-conclave') }}">Virtual Conclaves</a> </li>
-                                                </ul>
-                                            </li>
-                                            <li class=""><a class="" href="{{ route('frontend.workshops') }}">Workshops</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.webinars') }}">Webinars</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.training') }}">Trainings</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.icsts') }}">ICSTS</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.other-events') }}">Other Events</a>
-                                            <li>
-                                        </ul>
-                                    </li>
-                                    <li class="">
-                                        <a class="" href="{{ route('frontend.looking-for-accreditation') }}" class="">Accreditations</a>
-                                    <li>
-                                    <li class="">
-                                        <a class="" href="{{ route('frontend.membership') }}" class="">Membership</a>
-                                    <li>
-                                    <li class="">
-                                        <a class="" href="{{ route('frontend.certifications') }}" class="">Certifications</a>
-                                    <li>
-                                    <li class="">
-                                        <a class="" href="{{ route('frontend.learning') }}" class="">Learning</a>
-                                    <li>
-                                    <li class="">
-                                        <a class="" href="{{ route('frontend.awards') }}" class="">Awards</a>
-                                    <li>
-                                    <li class="">
-                                        <a class="" href="#" class="">CPGRAMS</a>
-                                    <li>
-                                    <li class="">
-                                        <a class="" href="#" class="">India PSS Platform</a>
+                                        <a class="" href="#" class="">Certificate validation</a>
                                     <li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown ">
-                                <a class="toggle-lnk " href="#">Media</a>
-                                <ul class="sub-menu 2nd">
-                                    <li class="">
-                                        <a class="" href="{{ route('frontend.annual-reports') }}" class="">Annual Reports</a>
-                                    <li>
-                                    <li class="dropdown ">
-                                        <a class="toggle-lnk " href="#" class="">Publications</a>
-                                        <ul class="sub-menu 3rd">
-                                            <li class=""><a class="" href="{{ route('frontend.qci-in-news') }}">QCI in news</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.qci-magazines') }}">QCI Magazines</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.quality-best-practices') }}">Quality Best Practices</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.editorial') }}">Editorials</a>
-                                            <li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown ">
-                                        <a class="toggle-lnk " href="#" class="">Gallery</a>
-                                        <ul class="sub-menu 3rd">
-                                            <li class=""><a class="" href="{{ route('frontend.gallery') }}">Image Gallery</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.video-gallery') }}">Video Gallery</a>
-                                            <li>
-                                        </ul>
-                                    </li>
-                                    <li class="">
-                                        <a class="" href="{{ route('frontend.important-notices') }}" class="">Important Notices/Circulars</a>
-                                    <li>
-                                    <li class="">
-                                        <a class="" href="{{ route('frontend.achievements') }}" class="">Achievements</a>
-                                    <li>
-                                    <li class="">
-                                        <a class="" href="{{ route('frontend.updates-alerts') }}" class="">Updates &amp; Alerts</a>
-                                    <li>
-                                    <li class="">
-                                        <a class="" href="{{ route('frontend.media-communications') }}" class="">Media Communications</a>
-                                    <li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown ">
-                                <a class="toggle-lnk " href="#">Connect With Us</a>
-                                <ul class="sub-menu 2nd">
-                                    <li class="dropdown workwith">
-                                        <a class="toggle-lnk worrmenu" href="{{ route('frontend.work-with-us') }}" class="">Work With Us</a>
-                                        <ul class="sub-menu 3rd">
-                                            <li class=""><a class="" href="{{ route('frontend.careers') }}">Careers</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.tenders') }}">Tenders</a>
-                                            <li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown ">
-                                        <a class="toggle-lnk " href="{{ route('frontend.reach-us') }}" class="">Reach Us</a>
-                                        <ul class="sub-menu 3rd">
-                                            <li class=""><a class="" href="{{ route('frontend.important-contacts') }}">Important Contacts</a>
-                                            <li>
-                                            <li class=""><a class="" href="{{ route('frontend.faq') }}">FAQs</a>
-                                            <li>
-                                        </ul>
-                                    </li>
-                                    <li class="">
-                                        <a class="" href="#" class="">Grievances - CPGRAMS</a>
-                                    <li>
-                                </ul>
+                            <li class="nav-item ">
+                                <a class="toggle-lnk " href="#">Contact Us</a>
                             </li>
                             <li>
                                 <a class="btn btn-primary btn-header loginbtn" href="{{ route('frontend.auth.login') }}"><i class="fa fa-sign-in"></i>Login</a>

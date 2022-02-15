@@ -61,7 +61,7 @@
                 <h1>Vision</h1>
                 <div class="descripton mb-30">
                     <h3 style="text-align:center;">Creating an eco-system for Quality</h3>
-                    <h3 style="text-align:center;"><img alt="" src="public/uploads/ck-images/1580463667.49161282_2203830733198286_5221697985800306688_n.jpg" /></h3>
+                    <h3 style="text-align:center;"><img alt="" src="{{ url('/img/frontend/homeimages/vision_1.jpg') }}" /></h3>
                     <p> </p>
                     <p style="text-align:justify;"><strong>Excerpts from the speech of Dr. A.P.J. Abdul Kalam, Honorable President of India inaugurating the 2nd National Quality Conclave on February 9, 2007 at New Delhi</strong></p>
                     <p style="text-align:justify;">"My definition of nation prosperity index is equal to GDP including quality of life for all coupled with value system. It is essential to ensure that all the citizens are empowered with good quality of life encompassing nutritious foods, good habitat, clean environment, affordable health care, quality education with value system and productive employment leading to the comprehensive qualitative development of the nation.</p>
