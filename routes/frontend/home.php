@@ -3,6 +3,7 @@
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\FrontendController;
+use App\Http\Controllers\Frontend\Auth\RegisterController;
 use App\Http\Controllers\Frontend\User\AccountController;
 use App\Http\Controllers\Frontend\User\DashboardController;
 use App\Http\Controllers\Frontend\User\ProfileController;
@@ -86,6 +87,7 @@ Route::get('faq', [FrontendController::class, 'faq'])->name('faq');
 Route::get('monographs', [FrontendController::class, 'monographs'])->name('monographs');
 Route::get('update-alerts', [FrontendController::class, 'update-alerts'])->name('update-alerts');
 Route::get('careers', [FrontendController::class, 'careers'])->name('careers');
+Route::get('mail', [RegisterController::class, 'mail'])->name('mail');
 
 Route::get('monographs', [FrontendController::class, 'monographs'])->name('monographs');
 Route::get('contact', [ContactController::class, 'index'])->name('contact');
