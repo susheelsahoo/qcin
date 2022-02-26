@@ -3,6 +3,7 @@
 @section('title', app_name() . ' | ' . __('labels.frontend.auth.register_box_title'))
 
 @section('content')
+
 <section class="basic-inner-page">
     <div class="container">
         <div class="inner-grp clearfix">
