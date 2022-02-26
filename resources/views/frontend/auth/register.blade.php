@@ -72,13 +72,8 @@
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group">
-                                            {{ html()->label(__('validation.attributes.frontend.mobile'))->for('mobile') }}
-
-                                            {{ html()->text('mobile')
-                                        ->class('form-control')
-                                        ->placeholder(__('validation.attributes.frontend.mobile'))
-                                        ->attribute('maxlength', 10)
-                                        ->required() }}
+                                            <label for="email">Mobile Number</label>
+                                            <input class="form-control" type="text" name="mobile" placeholder="Your Mobile Number" maxlength="10" required="">
                                         </div>
                                         <!--form-group-->
                                     </div>

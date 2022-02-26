@@ -3,6 +3,8 @@
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\FrontendController;
+use App\Http\Controllers\Frontend\PaymentController;
+use App\Http\Controllers\Frontend\MembersController;
 use App\Http\Controllers\Frontend\Auth\RegisterController;
 use App\Http\Controllers\Frontend\User\AccountController;
 use App\Http\Controllers\Frontend\User\DashboardController;
@@ -37,7 +39,7 @@ Route::get('finance-committee', [FrontendController::class, 'financeCommittee'])
 Route::get('qci-secretariat', [FrontendController::class, 'qciSecretariat'])->name('qci-secretariat');
 Route::get('special-projects-groups', [FrontendController::class, 'specialProjectsGroups'])->name('special-projects-groups');
 Route::get('hr-administration', [FrontendController::class, 'hrAdministration'])->name('hr-administration');
-Route::get('boards',[FrontendController::class,'boards'])->name('boards');
+Route::get('boards', [FrontendController::class, 'boards'])->name('boards');
 Route::get('office-orders-internal-circulars', [FrontendController::class, 'officeOrdersInternalCirculars'])->name('office-orders-internal-circulars');
 Route::get('annual-reports', [FrontendController::class, 'annualReports'])->name('annual-reports');
 Route::get('finance-and-accounts', [FrontendController::class, 'financeAndAccounts'])->name('finance-and-accounts');
@@ -108,5 +110,8 @@ Route::group(['middleware' => ['auth', 'password_expires']], function () {
 
         // User Profile Specific
         Route::patch('profile/update', [ProfileController::class, 'update'])->name('profile.update');
+
+        Route::get('payment', [PaymentController::class, 'index'])->name('payment');
+        Route::get('membership', [MembersController::class, 'index'])->name('membership');
     });
 });

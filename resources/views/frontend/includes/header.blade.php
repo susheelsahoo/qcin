@@ -50,10 +50,11 @@
     <div class="clearfix"></div>
     <div class="bg-header">
         <div class="container">
+
             <nav class="navbar navbar-expand-lg nv-main px-0" data-spy="affix" data-offset-top="197">
                 <a class="navbar-brand" href="{{ route('frontend.index') }}">
                     <!--<img src="{{ url('/img/QCI-Logo.png') }}" alt="QCI-Logo" />-->
-                   <h3 style="text-shadow: 2px 2px green;"> Foundation for <br>Quality Promotion</h3>
+                    <h3 style="text-shadow: 2px 2px green;"> Foundation for <br>Quality Promotion</h3>
                 </a>
                 <div class="menu-toggle"><i class="fa fa-bars"></i></div>
                 <div class="navbar-collapse justify-content-end" id="navbarNav">
@@ -63,40 +64,40 @@
                                 <a class="toggle-lnk " href="#">FQP</a>
                                 <ul class="sub-menu 2nd">
                                     <li class="">
-                                    <a class="toggle-lnk " href="{{ route('frontend.about') }}" class="">About us</a>
+                                        <a class="toggle-lnk " href="{{ route('frontend.about') }}" class="">About us</a>
                                     </li>
-									<li class="">
-                                    <a class="toggle-lnk " href="#" class="">Mission & Vision</a>
+                                    <li class="">
+                                        <a class="toggle-lnk " href="#" class="">Mission & Vision</a>
                                     </li>
-									<li class="">
-                                    <a class="toggle-lnk " href="#" class="">Accreditation committee</a>
+                                    <li class="">
+                                        <a class="toggle-lnk " href="#" class="">Accreditation committee</a>
                                     </li>
-									<li class="">
-                                    <a class="toggle-lnk " href="#" class="">Advisory Members</a>
+                                    <li class="">
+                                        <a class="toggle-lnk " href="#" class="">Advisory Members</a>
                                     </li>
-									<li class="">
-                                    <a class="toggle-lnk " href="#" class="">Board/ Divisions</a>
+                                    <li class="">
+                                        <a class="toggle-lnk " href="#" class="">Board/ Divisions</a>
                                     </li>
-									<li class="">
-                                    <a class="toggle-lnk " href="#" class="">FQP Secretariat</a>
+                                    <li class="">
+                                        <a class="toggle-lnk " href="#" class="">FQP Secretariat</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown ">
                                 <a class="toggle-lnk " href="#">Accreditation</a>
                                 <ul class="sub-menu 2nd">
-                                <li class="dropdown ">
+                                    <li class="dropdown ">
                                         <a class="toggle-lnk " href="#" class="">Academic Course- Institute, College</a>
                                         <ul class="sub-menu 3rd">
                                             <li class=""><a class="" href="#">Department of Accreditation</a></li>
                                         </ul>
-                                </li>
-                                <li class="">
-                                    <a class="" href="#" class="">Non-Academic</a>
-                                </li>
-                                <li class="">
-                                    <a class="" href="#" class="">Professional Course</a>
-                                </li>
+                                    </li>
+                                    <li class="">
+                                        <a class="" href="#" class="">Non-Academic</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="" href="#" class="">Professional Course</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown ">
@@ -122,41 +123,41 @@
                             <li class="nav-item dropdown ">
                                 <a class="toggle-lnk " href="#">CRRPM</a>
                                 <ul class="sub-menu 2nd">
-                                <li class="dropdown ">
+                                    <li class="dropdown ">
                                         <a class="toggle-lnk " href="#" class="">Phd, Dr, Health Practictioner </a>
                                         <ul class="sub-menu 3rd">
                                             <li class=""><a class="" href="#">Institute of Membership</a></li>
                                         </ul>
                                     </li>
-                                   <li class="">
+                                    <li class="">
                                         <a class="" href="#" class="">Professionals</a>
-                                   </li>
-                                   <li class="">
+                                    </li>
+                                    <li class="">
                                         <a class="" href="#" class="">Digital Marketing</a>
-                                   </li>
-                                   <li class="">
+                                    </li>
+                                    <li class="">
                                         <a class="" href="#" class="">Entrepreneur’s</a>
-                                   </li>
-                                   <li class="">
+                                    </li>
+                                    <li class="">
                                         <a class="" href="#" class="">Food Professionals</a>
-                                   </li>
-                                   <li class="">
+                                    </li>
+                                    <li class="">
                                         <a class="" href="#" class="">Chef</a>
-                                   </li>
-                                   <li class="">
+                                    </li>
+                                    <li class="">
                                         <a class="" href="#" class="">Artist- Youtuber, Instagram</a>
-                                   </li>
-                                   <li class="">
+                                    </li>
+                                    <li class="">
                                         <a class="" href="#" class="">Kids – Special activities</a>
-                                   </li>
+                                    </li>
 
-                                    
+
                                 </ul>
                             </li>
                             <li class="nav-item dropdown ">
                                 <a class="toggle-lnk " href="#">QCC</a>
                                 <ul class="sub-menu 2nd">
-                                <li class="dropdown ">
+                                    <li class="dropdown ">
                                         <a class="toggle-lnk " href="#" class="">Business- Food </a>
                                         <ul class="sub-menu 3rd">
                                             <li class=""><a class="" href="#">Institute of Quality Conformance</a></li>
@@ -164,16 +165,16 @@
                                     </li>
                                     <li class="">
                                         <a class="" href="#" class="">Business- Non-food</a>
-                                   </li>
-                                <li class="">
-                                    <a class="" href="#" class="">Use of Logo</a>
-                               </li>
+                                    </li>
+                                    <li class="">
+                                        <a class="" href="#" class="">Use of Logo</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown ">
                                 <a class="toggle-lnk " href="#">T&SE</a>
                                 <ul class="sub-menu">
-                                <li class="dropdown ">
+                                    <li class="dropdown ">
                                         <a class="toggle-lnk " href="#" class="">FOSTAC </a>
                                         <ul class="sub-menu 3rd">
                                             <li class=""><a class="" href="#">Institute of Skill & Professional Training</a></li>
@@ -184,16 +185,16 @@
                                     </li>
                                     <li class="">
                                         <a class="" href="#" class="">Legal Metrology</a>
-                                   </li>
+                                    </li>
                                     <li class="">
                                         <a class="" href="#" class="">POSH</a>
-                                   </li>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown ">
                                 <a class="toggle-lnk " href="#">Partner FQP</a>
                                 <ul class="sub-menu">
-                                <li class="dropdown ">
+                                    <li class="dropdown ">
                                         <a class="toggle-lnk " href="#" class="">Authorized Channel Partner for promotion of QCC </a>
                                         <ul class="sub-menu 3rd">
                                             <li class=""><a class="" href="#">Institute of Quality Conformance</a></li>
@@ -213,13 +214,36 @@
                                 <a class="toggle-lnk " href="#">Contact Us</a>
                             </li>
                             <li>
+
                                 <a class="btn btn-primary btn-header loginbtn" href="{{ route('frontend.auth.login') }}"><i class="fa fa-sign-in"></i>Login</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+
+            @auth
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a href="{{route('frontend.user.dashboard')}}" class="nav-link {{ active_class(Route::is('frontend.user.dashboard')) }}">@lang('navs.frontend.dashboard')</a></li>
+                        <li class="nav-item"><a href="{{route('frontend.user.membership')}}" class="nav-link {{ active_class(Route::is('frontend.user.membership')) }}">Membership</a></li>
+                        <li class="nav-item"><a href="{{route('frontend.user.payment')}}" class="nav-link {{ active_class(Route::is('frontend.user.payment')) }}">Make Payment</a></li>
+                        <li class="nav-item"><a href="{{ route('frontend.auth.logout') }}" class="nav-link">@lang('navs.general.logout')</a></li>
+
+                    </ul>
+                    <div class="form-inline my-2 my-lg-0">
+                        Welcome: <a href="{{ route('frontend.user.account') }}" class="nav-link">{{ $logged_in_user->name }}</a>
+                    </div>
+                </div>
+            </nav>
+            @endauth
         </div>
+        @guest
         <div>
             <marquee behavior="scroll" direction="left">
                 <ul id="marquee_new" style="margin-bottom: 0;">
@@ -238,5 +262,6 @@
                 </ul>
             </marquee>
         </div>
+        @endguest
     </div>
 </header>
