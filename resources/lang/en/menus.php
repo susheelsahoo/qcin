@@ -112,6 +112,16 @@ return [
                 'main' => 'Blog Email Templates',
                 'view' => 'View Email Template',
             ],
+            'memberships' => [
+                'all' => 'All Memberships',
+                'active' => 'Active Memberships',
+                'create' => 'Create Memberships',
+                'deactivated' => 'Deactivated Memberships',
+                'deleted' => 'Deleted Memberships',
+                'edit' => 'Edit Blog',
+                'main' => 'Memberships',
+                'view' => 'View Blog',
+            ],
         ],
 
         'log-viewer' => [
@@ -126,6 +136,7 @@ return [
             'history' => 'History',
             'system' => 'System',
             'blogs' => 'Blog Management',
+            'memberships' => 'Memberships',
             'pages' => 'Pages Management',
             'faqs' => 'Faq Management',
             'email-templates' => 'Email Templates',
