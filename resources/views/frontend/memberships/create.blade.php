@@ -27,7 +27,7 @@
                                                     <section id="main-content">
                                                         <div id="page-main">
 
-                                                            <form role="form" action="https://nbqpmembership.qci.org.in/ngo_membership/insert" method="post" id="Ngo" enctype="multipart/form-data" novalidate="novalidate">
+                                                            <form role="form" action="https://nbqpmembership.fqp.org.in/ngo_membership/insert" method="post" id="Ngo" enctype="multipart/form-data" novalidate="novalidate">
                                                                 <input type="hidden" id="add_more_count" value="0">
                                                                 <section class="">
                                                                     <h2>Basic Details</h2>
@@ -246,7 +246,7 @@
                                                                                 <textarea style="height: 170px;" class="form-control" name="Affiliations_Supports" placeholder="Affiliations And Supports">ASSOCIATION OF REGULATORY AFFAIRS PROFESSIONALS
                                                                                     H.No.-313/87, S/F, Street No.-3, Tulsi Nagar, Inderlok, New Delhi-110035
                                                                                     Email id: info@arap.co.in, Mob: 9910988764
-                                                                                    Quality Council of India (QCI) Membership No.-CORP/AT/5036</textarea>
+                                                                                    Quality Council of India (FQP) Membership No.-CORP/AT/5036</textarea>
                                                                             </div>
                                                                         </div>
                                                                         <div class="row">
@@ -512,8 +512,8 @@
                                                                                 <input type="text" class="form-control numeric" placeholder="Number of Employees" name="Permanent_Full_Time_Employees" value="10" onkeypress="limitcount(this,5,event)">
                                                                             </div>
                                                                             <div class="form-group col-md-3">
-                                                                                <label>QCI Accreditation or Affiliations<span></span></label>
-                                                                                <input type="text" class="form-control" placeholder="QCI Memberships Number" name="Membership_Bodes_Affiliation" value="CORP/NGO/5257/2017 ">
+                                                                                <label>FQP Accreditation or Affiliations<span></span></label>
+                                                                                <input type="text" class="form-control" placeholder="FQP Memberships Number" name="Membership_Bodes_Affiliation" value="CORP/NGO/5257/2017 ">
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -525,13 +525,13 @@
                                                                         <div class="row">
 
                                                                             <div class="col-md-4 col-sm-4 form-group">
-                                                                                <label>Upload Your QCI Document<span style="color:#F00;"><br>(File size should not exceed 2 MB)</span><span style="color:#F00;"><br>(Upload only pdf,doc,docx file)</span></label>
+                                                                                <label>Upload Your FQP Document<span style="color:#F00;"><br>(File size should not exceed 2 MB)</span><span style="color:#F00;"><br>(Upload only pdf,doc,docx file)</span></label>
                                                                                 <div class="input-group">
-                                                                                    <input type="file" name="qci_ID" class="form-control" id="qci_ID">
+                                                                                    <input type="file" name="fqp_ID" class="form-control" id="fqp_ID">
                                                                                 </div>
-                                                                                <label id="qci_ID-error" class="error" for="qci_ID"></label>
+                                                                                <label id="fqp_ID-error" class="error" for="fqp_ID"></label>
 
-                                                                                <input type="hidden" name="New_qci_ID" id="New_qci_ID" value="">
+                                                                                <input type="hidden" name="New_fqp_ID" id="New_fqp_ID" value="">
                                                                             </div>
                                                                             <input type="hidden" name="sub_category" value="15">
                                                                         </div>
@@ -572,15 +572,15 @@
 
                                                                 </section>
                                                                 <h2>Code of Ethics.</h2>
-                                                                <p style="text-align: justify;">QCI membership is a testimony for a quality professional's/organisation's involvement in quality related activities in his/her/their work domain. Professional membership scheme does not imply membership to the QCI board. The certificate is only to ensure the appropriate use of QCI membership for individual/ organisational growth as well as Quality promotion activities. There shall be no misinterpretation of facts to demean QCI, or inappropriate promotion for concerned interest.</p>
+                                                                <p style="text-align: justify;">FQP membership is a testimony for a quality professional's/organisation's involvement in quality related activities in his/her/their work domain. Professional membership scheme does not imply membership to the FQP board. The certificate is only to ensure the appropriate use of FQP membership for individual/ organisational growth as well as Quality promotion activities. There shall be no misinterpretation of facts to demean FQP, or inappropriate promotion for concerned interest.</p>
                                                                 <p>
                                                                 </p>
-                                                                <p><strong>QCI members are expected to promote the dignity of the profession and solemnly
+                                                                <p><strong>FQP members are expected to promote the dignity of the profession and solemnly
                                                                         affirm to abide by the following Do and Don’t;</strong></p>
 
                                                                 <h3>Do</h3>
                                                                 <ul>
-                                                                    <li>Use only valid QCI membership status and number for promotional purpose.
+                                                                    <li>Use only valid FQP membership status and number for promotional purpose.
                                                                     </li>
                                                                     <li>Send only valid documents to support the membership application.
                                                                     </li>
@@ -595,16 +595,16 @@
                                                                 </ul>
                                                                 <h3>Don’ts</h3>
                                                                 <ul>
-                                                                    <li>Use QCI/NBQP logo through any means.</li>
+                                                                    <li>Use FQP/NBQP logo through any means.</li>
                                                                     <li>Do not use any phrase other than that quoted in bold in the certificate issued while quoting the membership category in any document or media.
                                                                     </li>
-                                                                    <li>Send any Project report/ data to QCI unless asked for
+                                                                    <li>Send any Project report/ data to FQP unless asked for
                                                                     </li>
                                                                     <li>Involve in fraudulent, illegal criminal activities or unethical conduct as it may call for debarring of membership/ cancellation of membership.
                                                                     </li>
                                                                     <li>Criticize or use hate languages/ speech while interacting with other members.
                                                                     </li>
-                                                                    <li>Engage in unethical, unprofessional practices or political dialogues with other QCI registered members.
+                                                                    <li>Engage in unethical, unprofessional practices or political dialogues with other FQP registered members.
                                                                     </li>
                                                                 </ul>
                                                                 <br>
@@ -614,8 +614,8 @@
                                                                 1. The information given above by me is true to the best of my knowledge.<br>
                                                                 2. I agree to abide by the code of ethics as above.<br>
                                                                 3. The information submitted in the form above is true to the best of my/our knowledge.<br>
-                                                                4. I/we have read and understood the ‘Terms &amp; Conditions’ of the QCI Professional Membership Scheme.<br>
-                                                                5. I/We agree to abide by the ‘code of ethics’ of the QCI Professional Membership Scheme and understand that my/our membership shall be suspended/cancelled if there is a breach of 'Code of Ethics’ at any given point of time.<br>
+                                                                4. I/we have read and understood the ‘Terms &amp; Conditions’ of the FQP Professional Membership Scheme.<br>
+                                                                5. I/We agree to abide by the ‘code of ethics’ of the FQP Professional Membership Scheme and understand that my/our membership shall be suspended/cancelled if there is a breach of 'Code of Ethics’ at any given point of time.<br>
                                                                 6. I/We agree to submit the ‘Undertaking’ in the prescribed format once the membership number is issued (for Educational Institutions/NGOs) <a href="../uploads/Undertaking_Affidavit_NBQP.docx">(format enclosed)</a>
                                                                 <br><br>
                                                                 <a href="../uploads/2.pdf">

@@ -82,19 +82,19 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <p><a class="blue-btn" href="https://qcin.org/qci-secretariat">Back</a></p> -->
+                    <!-- <p><a class="blue-btn" href="https://fqpn.org/fqp-secretariat">Back</a></p> -->
                     <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
                 </ul>
             </div>
             <div class="right-side">
                 <h1>RTI Cell</h1>
                 <div class="descripton mb-30">
-                    <p><strong>As per the provisions of RTI Act, QCI has constituted RTI Cell mandated with the following activities:</strong></p>
+                    <p><strong>As per the provisions of RTI Act, FQP has constituted RTI Cell mandated with the following activities:</strong></p>
                     <ul>
-                        <li>Coordinate all the work relating to implementation of RTI Act in QCI.</li>
-                        <li>Serve as the nodal point for receiving applications and appeals physically as well as online and forward it to the concerned Board / Division / Department / Appellate Authority within QCI.</li>
+                        <li>Coordinate all the work relating to implementation of RTI Act in FQP.</li>
+                        <li>Serve as the nodal point for receiving applications and appeals physically as well as online and forward it to the concerned Board / Division / Department / Appellate Authority within FQP.</li>
                         <li>Serve as the nodal point for responding the application(s) / appeal(s) after receiving the required information from concerned Board / Division / Department.</li>
-                        <li>Coordinate matters relating to Central Information Commission (CIC) in terms of hearing, orders and other matters related to QCI.</li>
+                        <li>Coordinate matters relating to Central Information Commission (CIC) in terms of hearing, orders and other matters related to FQP.</li>
                         <li>Any other work related to the RTI Act.</li>
                     </ul>
                     <p><strong>The composition of the cell is as under</strong></p>
@@ -129,7 +129,7 @@
                                     <p class="western" style="margin-top:0cm;margin-bottom:0.18cm;text-align:left;"><span style="font-size:12pt;"><span style="line-height:100%;"><span><span>
                                                         <font face="Calibri, serif">
                                                             <font size="2">
-                                                                <font style="font-size:11pt;">faaqci@qcin.org</font>
+                                                                <font style="font-size:11pt;">faafqp@fqpn.org</font>
                                                             </font>
                                                         </font>
                                                     </span></span></span></span></p>
@@ -150,7 +150,7 @@
                                     <p class="western" style="margin-top:0cm;margin-bottom:0.18cm;text-align:left;"><span style="font-size:12pt;"><span style="line-height:100%;"><span><span>
                                                         <font face="Calibri, serif">
                                                             <font size="2">
-                                                                <font style="font-size:11pt;">Dr. Hari Prakash, Director, PPID-QCI</font>
+                                                                <font style="font-size:11pt;">Dr. Hari Prakash, Director, PPID-FQP</font>
                                                             </font>
                                                         </font>
                                                     </span></span></span></span></p>
@@ -166,7 +166,7 @@
                                     <p class="western" style="margin-top:0cm;margin-bottom:0.18cm;text-align:left;"><span style="font-size:12pt;"><span style="line-height:100%;"><span><span>
                                                         <font face="Calibri, serif">
                                                             <font size="2">
-                                                                <font style="font-size:11pt;">hari@qcin.org</font>
+                                                                <font style="font-size:11pt;">hari@fqpn.org</font>
                                                             </font>
                                                         </font>
                                                     </span></span></span></span></p>
@@ -205,7 +205,7 @@
                                     <p class="western" style="margin-top:0cm;margin-bottom:0.18cm;text-align:left;"><span style="font-size:12pt;"><span style="line-height:100%;"><span><span>
                                                         <font face="Calibri, serif">
                                                             <font size="2">
-                                                                <font style="font-size:11pt;">jagminder.nabet@qcin.org</font>
+                                                                <font style="font-size:11pt;">jagminder.nabet@fqpn.org</font>
                                                             </font>
                                                         </font>
                                                     </span></span></span></span></p>
@@ -226,7 +226,7 @@
                                     <p class="western" style="margin-top:0cm;margin-bottom:0.18cm;text-align:left;"><span style="font-size:12pt;"><span style="line-height:100%;"><span><span>
                                                         <font face="Calibri, serif">
                                                             <font size="2">
-                                                                <font style="font-size:11pt;">Ms. Shilpa Khanna, AO, NABET-QCI</font>
+                                                                <font style="font-size:11pt;">Ms. Shilpa Khanna, AO, NABET-FQP</font>
                                                             </font>
                                                         </font>
                                                     </span></span></span></span></p>
@@ -244,7 +244,7 @@
                                     <p class="western" style="margin-top:0cm;margin-bottom:0.18cm;text-align:left;"><span style="font-size:12pt;"><span style="line-height:100%;"><span><span>
                                                         <font face="Calibri, serif">
                                                             <font size="2">
-                                                                <font style="font-size:11pt;">shilpa.nabet@qcin.org</font>
+                                                                <font style="font-size:11pt;">shilpa.nabet@fqpn.org</font>
                                                             </font>
                                                         </font>
                                                     </span></span></span></span></p>

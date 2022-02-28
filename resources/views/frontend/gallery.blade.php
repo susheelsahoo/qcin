@@ -20,9 +20,9 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-sm-6 gal">
-                        <a href="{{ route('frontend.gallery/qci-signs-mou-for-zed-cell-at-maruti') }}">
-                            <img class="img-thumbnail" src="public/uploads/galleryimages/1609854141.IMG_0021.jpg" alt="QCI signs MoU for ZED cell at Maruti">
-                            <div class="cap">QCI signs MoU for ZED cell at Maruti</div>
+                        <a href="{{ route('frontend.gallery/fqp-signs-mou-for-zed-cell-at-maruti') }}">
+                            <img class="img-thumbnail" src="public/uploads/galleryimages/1609854141.IMG_0021.jpg" alt="FQP signs MoU for ZED cell at Maruti">
+                            <div class="cap">FQP signs MoU for ZED cell at Maruti</div>
                         </a>
                     </div>
                     <div class="col-md-3 col-sm-6 gal">

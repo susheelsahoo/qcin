@@ -11,14 +11,14 @@
                             <li>
                                 Language
                                 <ul class="lang-dropdown">
-                                    <li><a href="https://hindi.qcin.org/">हिंदी</a></li>
+                                    <li><a href="https://hindi.fqpn.org/">हिंदी</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div> 
                     <div class="searcharea text-white pull-right">
                         <div class="search_bar">
-                            <form method="get" action="https://qcin.org/search">
+                            <form method="get" action="https://fqpn.org/search">
                                 <input type="search" placeholder="search" class="form-control ml-auto" value="" name="searchterm">
                                 <input type="hidden" name="_token" value="yXOKRbiPNqAKg7FiPQMFliB3DJIDcrQO3TDbyaLJ">
                                 <span class="search">
@@ -33,7 +33,7 @@
                             <li><a href="https://www.facebook.com/QualityCouncilofIndia" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="https://twitter.com/qualitycouncil" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="https://www.youtube.com/channel/UCnweuDB5aFL3HkP7wg-_8rA" target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube-play"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/quality-council-of-india-qci-/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/quality-council-of-india-fqp-/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
                             <li><a href="https://instagram.com/qualitycouncilofindia?igshid=g8fy7zpychy0" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a></li>
                             <li class="koo-link-header">
                                 <a href="https://www.kooapp.com/profile/QualityCouncilofIndia" target="_blank" rel="noopener noreferrer">
@@ -53,7 +53,7 @@
 
             <nav class="navbar navbar-expand-lg nv-main px-0" data-spy="affix" data-offset-top="197">
                 <a class="navbar-brand" href="{{ route('frontend.index') }}">
-                    <!--<img src="{{ url('/img/QCI-Logo.png') }}" alt="QCI-Logo" />-->
+                    <!--<img src="{{ url('/img/FQP-Logo.png') }}" alt="FQP-Logo" />-->
                     <h3 style="text-shadow: 2px 2px green;"> Foundation for <br>Quality Promotion</h3>
                 </a>
                 <div class="menu-toggle"><i class="fa fa-bars"></i></div>
@@ -210,9 +210,7 @@
                                     <li>
                                 </ul>
                             </li>
-                            <li class="nav-item ">
-                                <a class="toggle-lnk " href="#">Contact Us</a>
-                            </li>
+
                             <li>
 
                                 <a class="btn btn-primary btn-header loginbtn" href="{{ route('frontend.auth.login') }}"><i class="fa fa-sign-in"></i>Login</a>
@@ -248,7 +246,7 @@
             <marquee behavior="scroll" direction="left">
                 <ul id="marquee_new" style="margin-bottom: 0;">
                     <li>
-                        <a href="{{ route('frontend.monographs') }}">QCI Silver Jubilee Celebration Event Page</a>
+                        <a href="{{ route('frontend.monographs') }}">FQP Silver Jubilee Celebration Event Page</a>
                     </li>
                     <li>
                         <a href="{{ route('frontend.update-alerts') }}">Submission of the Monographs has been extended till 31st January 2022.</a>
@@ -257,7 +255,7 @@
                         <a href="{{ route('frontend.update-alerts') }}">Call for Monographs</a>
                     </li>
                     <li>
-                        <a href="{{ route('frontend.careers') }}">Advertisment For Recruitment (Dec. 2021)- <b>Last date to submit the online application against the Advt. No. QCI/1/2021 dated 12.12.2021 is 20.1.2022, 5:30 pm. In case of any issue /difficulty in submission of application, the applicant is advised to inform the same immediately at email <a href="mailto:hr@qcin.org">hr@qcin.org</a> or <a href="mailto:support@7techies.com">support@7techies.com</a> for its resolution in timely manner.</b></a>
+                        <a href="{{ route('frontend.careers') }}">Advertisment For Recruitment (Dec. 2021)- <b>Last date to submit the online application against the Advt. No. FQP/1/2021 dated 12.12.2021 is 20.1.2022, 5:30 pm. In case of any issue /difficulty in submission of application, the applicant is advised to inform the same immediately at email <a href="mailto:hr@fqpn.org">hr@fqpn.org</a> or <a href="mailto:support@7techies.com">support@7techies.com</a> for its resolution in timely manner.</b></a>
                     </li>
                 </ul>
             </marquee>

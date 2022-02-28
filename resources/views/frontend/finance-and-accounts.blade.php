@@ -82,16 +82,16 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <p><a class="blue-btn" href="https://qcin.org/qci-secretariat">Back</a></p> -->
+                    <!-- <p><a class="blue-btn" href="https://fqpn.org/fqp-secretariat">Back</a></p> -->
                     <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
                 </ul>
             </div>
             <div class="right-side">
                 <h1>Finance and Accounts</h1>
                 <div class="descripton mb-30">
-                    <p>It Administers the work related to Finance and Accounts of QCI including its Boards</p>
+                    <p>It Administers the work related to Finance and Accounts of FQP including its Boards</p>
                     <ul>
-                        <li><a href="#" target="_blank" rel="noreferrer noopener">QCI Financial Statements (FY 2019-2020)</a></li>
+                        <li><a href="#" target="_blank" rel="noreferrer noopener">FQP Financial Statements (FY 2019-2020)</a></li>
                         <li>Independent Auditor's Report</li>
                     </ul>
                     <div class="left_"></div>

@@ -27,8 +27,8 @@
                             <div id="collapseone-3" class="collapse" aria-labelledby="headingone" data-parent="#accordionExample">
                                 <div class="card-body">
                                     <ul class="avvv" style="padding-left:20px;">
-                                        <li class="submenu-xcb "><a href="{{ route('frontend.qci-in-news') }}">QCI in news</a></li>
-                                        <li class="submenu-xcb "><a href="{{ route('frontend.history') }}">QCI Magazines</a></li>
+                                        <li class="submenu-xcb "><a href="{{ route('frontend.fqp-in-news') }}">FQP in news</a></li>
+                                        <li class="submenu-xcb "><a href="{{ route('frontend.history') }}">FQP Magazines</a></li>
                                         <li class="submenu-xcb "><a href="{{ route('frontend.quality-best-practices') }}">Quality Best Practices</a></li>
                                         <li class="submenu-xcb "><a href="{{ route('frontend.editorial') }}">Editorials</a></li>
                                     </ul>
@@ -88,12 +88,12 @@
                 <div class="descripton mb-30"></div>
                 <div class="row">
                     <div class="col-md-6">
-                        <p><strong>For Media Communications contact on email: media@qcin.org</strong></p>
+                        <p><strong>For Media Communications contact on email: media@fqpn.org</strong></p>
                     </div>
                     <div class="col-md-6">
                         <p class="text-danger"><strong></strong></p>
                         <p class="text-success"></p>
-                        <form method="post" action="https://qcin.org/qcin-mediaenquiry">
+                        <form method="post" action="https://fqpn.org/fqpn-mediaenquiry">
                             <input type="hidden" name="_token" value="yXOKRbiPNqAKg7FiPQMFliB3DJIDcrQO3TDbyaLJ">
                             <input class="form-control" type="text" name="name" placeholder="Name" value="" autocomplete="disabled" />
                             <input class="form-control" type="tel" name="mobile" placeholder="Mobile" value="" autocomplete="disabled">

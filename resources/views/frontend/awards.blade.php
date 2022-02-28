@@ -127,14 +127,14 @@
                 <h1>Awards</h1>
                 <div class="descripton mb-30">
                     <h2>PROJECT BASED AWARD</h2>
-                    <h3><a href="#" target="_blank" rel="noreferrer noopener">QCI-D.L Shah Quality Award</a></h3>
-                    <p>The QCI-DL Shah Quality Award was launched in 2007 and are positioned PAN-India as the recognition for successful projects of an organisation that have resulted in continuous improvement of processes, products and/or services, better/effective.</p>
+                    <h3><a href="#" target="_blank" rel="noreferrer noopener">FQP-D.L Shah Quality Award</a></h3>
+                    <p>The FQP-DL Shah Quality Award was launched in 2007 and are positioned PAN-India as the recognition for successful projects of an organisation that have resulted in continuous improvement of processes, products and/or services, better/effective.</p>
                     <p><a href="#" target="_blank" rel="noreferrer noopener">Read More &gt;&gt;</a></p>
                     <hr />
                     <h1> </h1>
                     <h2>INDIVIDUAL LEVEL AWARD</h2>
-                    <h3><a href="#">QCI - Quality Champion Award</a></h3>
-                    <p>QCI -Quality Champion Award aims to honour outstanding individuals who have demonstrated significant contribution in the field of quality (for example outstanding promotional activities, innovation in approach, promotion, effective application of quality tools etc.) in any sector.</p>
+                    <h3><a href="#">FQP - Quality Champion Award</a></h3>
+                    <p>FQP -Quality Champion Award aims to honour outstanding individuals who have demonstrated significant contribution in the field of quality (for example outstanding promotional activities, innovation in approach, promotion, effective application of quality tools etc.) in any sector.</p>
                     <p><a href="#" target="_blank" rel="noreferrer noopener">Read More &gt;&gt;</a></p>
                     <div class="left_"></div>
                     <div class="descripton1 mb-30"></div>

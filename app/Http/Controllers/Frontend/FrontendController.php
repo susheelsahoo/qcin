@@ -74,7 +74,7 @@ class FrontendController extends Controller
     }
     public function bodiesOfQci()
     {
-        return view('frontend.bodies-of-qci');
+        return view('frontend.bodies-of-fqp');
     }
     public function theGoverningCouncil()
     {
@@ -88,9 +88,9 @@ class FrontendController extends Controller
     {
         return view('frontend.finance-committee');
     }
-    public function qciSecretariat()
+    public function fqpSecretariat()
     {
-        return view('frontend.qci-secretariat');
+        return view('frontend.fqp-secretariat');
     }
     public function specialProjectsGroups()
     {
@@ -220,13 +220,13 @@ class FrontendController extends Controller
     {
         return view('frontend.awards ');
     }
-    public function qciInNews()
+    public function fqpInNews()
     {
-        return view('frontend.qci-in-news');
+        return view('frontend.fqp-in-news');
     }
-    public function qciMagazines()
+    public function fqpMagazines()
     {
-        return view('frontend.qci-magazines');
+        return view('frontend.fqp-magazines');
     }
     public function qualityBestPractices()
     {

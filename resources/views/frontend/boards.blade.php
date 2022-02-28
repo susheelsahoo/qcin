@@ -46,7 +46,7 @@
             <div class="right-side">
                 <h1>Boards</h1>
                 <div class="descripton mb-30">
-                    <p style="text-align:justify;">As depicted in the Governance structure above, QCI coordinates its activities through five constituent Boards briefed below</p>
+                    <p style="text-align:justify;">As depicted in the Governance structure above, FQP coordinates its activities through five constituent Boards briefed below</p>
                     <h3 style="text-align:justify;">NABCB</h3>
                     <p style="text-align:justify;">The National Accreditation Board for Certification Bodies provides accreditation to Certification and Inspection Bodies based on assessment of their competence as per the Board's criteria and in accordance with International Standards and Guidelines. NABCB is internationally recognized and represents the interests of the Indian industry at international forums through membership and active participation.....<a href="#">Read more</a></p>
                     <h3 style="text-align:justify;">NABET</h3>

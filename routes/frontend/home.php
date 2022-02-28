@@ -32,11 +32,11 @@ Route::get('ceos-and-hods', [FrontendController::class, 'ceosAndHods'])->name('c
 Route::get('members', [FrontendController::class, 'members'])->name('members');
 Route::get('governance-structure', [FrontendController::class, 'governanceStructure'])->name('governance-structure');
 Route::get('administrative-structure', [FrontendController::class, 'administrativeStructure'])->name('administrative-structure');
-Route::get('bodies-of-qci', [FrontendController::class, 'bodiesOfQci'])->name('bodies-of-qci');
+Route::get('bodies-of-fqp', [FrontendController::class, 'bodiesOfQci'])->name('bodies-of-fqp');
 Route::get('the-governing-council', [FrontendController::class, 'theGoverningCouncil'])->name('the-governing-council');
 Route::get('the-governing-body', [FrontendController::class, 'theGoverningBody'])->name('the-governing-body');
 Route::get('finance-committee', [FrontendController::class, 'financeCommittee'])->name('finance-committee');
-Route::get('qci-secretariat', [FrontendController::class, 'qciSecretariat'])->name('qci-secretariat');
+Route::get('fqp-secretariat', [FrontendController::class, 'fqpSecretariat'])->name('fqp-secretariat');
 Route::get('special-projects-groups', [FrontendController::class, 'specialProjectsGroups'])->name('special-projects-groups');
 Route::get('hr-administration', [FrontendController::class, 'hrAdministration'])->name('hr-administration');
 Route::get('boards', [FrontendController::class, 'boards'])->name('boards');
@@ -70,8 +70,8 @@ Route::get('certifications', [FrontendController::class, 'certifications'])->nam
 Route::get('learning', [FrontendController::class, 'learning'])->name('learning');
 Route::get('awards', [FrontendController::class, 'awards'])->name('awards');
 Route::get('annual-reports', [FrontendController::class, 'annualReports'])->name('annual-reports');
-Route::get('qci-in-news', [FrontendController::class, 'qciInNews'])->name('qci-in-news');
-Route::get('qci-magazines', [FrontendController::class, 'qciMagazines'])->name('qci-magazines');
+Route::get('fqp-in-news', [FrontendController::class, 'fqpInNews'])->name('fqp-in-news');
+Route::get('fqp-magazines', [FrontendController::class, 'fqpMagazines'])->name('fqp-magazines');
 Route::get('quality-best-practices', [FrontendController::class, 'qualityBestPractices'])->name('quality-best-practices');
 Route::get('editorial', [FrontendController::class, 'editorial'])->name('editorial');
 Route::get('gallery', [FrontendController::class, 'gallery'])->name('gallery');

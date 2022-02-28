@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <p><a class="blue-btn" href="https://qcin.org/events">Back</a></p> -->
+                    <!-- <p><a class="blue-btn" href="https://fqpn.org/events">Back</a></p> -->
                     <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
                 </ul>
             </div>
@@ -100,7 +100,7 @@
                                     <ul>
                                         <li>When: 1st Oct 2019</li>
                                         <li>Where: Online</li>
-                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.fqp.org.in/workshop-event.php</a></li>
                                     </ul>
                                     <p> </p>
                                 </td>
@@ -111,7 +111,7 @@
                                     <ul>
                                         <li>When: To be announced</li>
                                         <li>Where: New Delhi</li>
-                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.fqp.org.in/workshop-event.php</a></li>
                                     </ul>
                                     <p> </p>
                                 </td>
@@ -122,7 +122,7 @@
                                     <ul>
                                         <li>When: 23<sup>rd</sup> Nov 2019 (planned)</li>
                                         <li>Where: Delhi/NCR</li>
-                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.fqp.org.in/workshop-event.php</a></li>
                                     </ul>
                                     <p> </p>
                                 </td>
@@ -133,7 +133,7 @@
                                     <ul>
                                         <li>When: 30<sup>th</sup> Nov 2019 (planned)</li>
                                         <li>Where: Delhi/NCR</li>
-                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.fqp.org.in/workshop-event.php</a></li>
                                     </ul>
                                     <p> </p>
                                 </td>
@@ -144,7 +144,7 @@
                                     <ul>
                                         <li>When: December 2019 (planned)</li>
                                         <li>Where: To be announced</li>
-                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.fqp.org.in/workshop-event.php</a></li>
                                     </ul>
                                     <p> </p>
                                 </td>
@@ -155,7 +155,7 @@
                                     <ul>
                                         <li>When: January 2020 (planned)</li>
                                         <li>Where: Gurugram</li>
-                                        <li>Details: <a href="#">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                        <li>Details: <a href="#">http://nbqp.fqp.org.in/workshop-event.php</a></li>
                                     </ul>
                                     <p> </p>
                                 </td>
@@ -166,7 +166,7 @@
                                     <ul>
                                         <li>When: February 2020 (planned)</li>
                                         <li>Where: Gurugram</li>
-                                        <li>Details: <a href="#">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                        <li>Details: <a href="#">http://nbqp.fqp.org.in/workshop-event.php</a></li>
                                     </ul>
                                     <p> </p>
                                 </td>
@@ -177,7 +177,7 @@
                                     <ul>
                                         <li>When: March 2020 (planned)</li>
                                         <li>Where: Pune</li>
-                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.qci.org.in/workshop-event.php</a></li>
+                                        <li>Details: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.fqp.org.in/workshop-event.php</a></li>
                                     </ul>
                                     <p> </p>
                                 </td>

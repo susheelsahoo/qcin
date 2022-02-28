@@ -67,7 +67,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <p><a class="blue-btn" href="https://qcin.org/hr-administration">Back</a></p> -->
+                    <!-- <p><a class="blue-btn" href="https://fqpn.org/hr-administration">Back</a></p> -->
                     <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
                 </ul>
             </div>
@@ -76,22 +76,22 @@
                 <div class="descripton mb-30">
                     <ul>
                         <li>
-                            <h2><a href="#" target="_blank" rel="noreferrer noopener">Annual Report QCI 2019-20</a></h2>
+                            <h2><a href="#" target="_blank" rel="noreferrer noopener">Annual Report FQP 2019-20</a></h2>
                         </li>
                         <li>
-                            <h2><a href="#">Annual Report QCI 2018-19</a></h2>
+                            <h2><a href="#">Annual Report FQP 2018-19</a></h2>
                         </li>
                         <li>
-                            <h2><a href="#">Annual Report QCI 2017-18</a></h2>
+                            <h2><a href="#">Annual Report FQP 2017-18</a></h2>
                         </li>
                         <li>
-                            <h2><a href="#">Annual Report QCI 2016-17</a></h2>
+                            <h2><a href="#">Annual Report FQP 2016-17</a></h2>
                         </li>
                         <li>
-                            <h2><a href="#">Annual Report QCI 2015-16 </a></h2>
+                            <h2><a href="#">Annual Report FQP 2015-16 </a></h2>
                         </li>
                         <li>
-                            <h2><a href="#">Annual Report QCI 2014-15 </a></h2>
+                            <h2><a href="#">Annual Report FQP 2014-15 </a></h2>
                         </li>
                     </ul>
                     <div class="left_"></div>

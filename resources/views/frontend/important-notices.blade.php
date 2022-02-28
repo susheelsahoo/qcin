@@ -27,8 +27,8 @@
                             <div id="collapseone-3" class="collapse" aria-labelledby="headingone" data-parent="#accordionExample">
                                 <div class="card-body">
                                     <ul class="avvv" style="padding-left:20px;">
-                                        <li class="submenu-xcb "><a href="#">QCI in news</a></li>
-                                        <li class="submenu-xcb "><a href="{{ route('frontend.qci-magazines') }}">QCI Magazines</a></li>
+                                        <li class="submenu-xcb "><a href="#">FQP in news</a></li>
+                                        <li class="submenu-xcb "><a href="{{ route('frontend.fqp-magazines') }}">FQP Magazines</a></li>
                                         <li class="submenu-xcb "><a href="{{ route('frontend.quality-best-practices') }}">Quality Best Practices</a></li>
                                         <li class="submenu-xcb "><a href="{{ route('frontend.editorial') }}">Editorials</a></li>
                                     </ul>
@@ -88,9 +88,9 @@
                 <h1>Important Notices / Circulars</h1>
                 <div class="descripton mb-30">
                     <ul>
-                        <li style="text-align:justify;"><a href="#">Public notice for QCI</a></li>
+                        <li style="text-align:justify;"><a href="#">Public notice for FQP</a></li>
                         <li style="text-align:justify;"><a href="#">An Illustrative Guide on COVID Appropriate Behaviours</a></li>
-                        <li style="text-align:justify;">In view of the fire incidence in QCI Office in Engineers Bhawan, 2nd Floor, 2 Bahadur Shah Zafar Marg, New Delhi – 110002, the office of the (Secretary General, HR &amp; Admn. dept., Finance dept. &amp; NABCB) have been shifted to Indian Council for Child Welfare (ICCW) Building , 2nd Floor, 4-Deen Dayal Upadhyaya Marg New Delhi - 110002, till further orders and the phone lines/EPBX numbers are currently not working.</li>
+                        <li style="text-align:justify;">In view of the fire incidence in FQP Office in Engineers Bhawan, 2nd Floor, 2 Bahadur Shah Zafar Marg, New Delhi – 110002, the office of the (Secretary General, HR &amp; Admn. dept., Finance dept. &amp; NABCB) have been shifted to Indian Council for Child Welfare (ICCW) Building , 2nd Floor, 4-Deen Dayal Upadhyaya Marg New Delhi - 110002, till further orders and the phone lines/EPBX numbers are currently not working.</li>
                         <li style="text-align:justify;"><a href="#" target="_blank" rel="noreferrer noopener">List of hospitals that are AB PMJAY Quality Certified</a></li>
                         <li style="text-align:justify;"><a href="#" target="_blank" rel="noreferrer noopener">List of NABET Accredited Ground Water Consultant Organizations</a></li>
                         <li>
@@ -101,7 +101,7 @@
                                 <li style="text-align:justify;"><a href="{{ route('frontend.name-of-the-winners-of-slogan-competition') }}" target="_blank" rel="noreferrer noopener">Result of Slogan Competition</a></li>
                             </ul>
                         </li>
-                        <li style="text-align:justify;">Dr. Ravi Prakash Singh has rejoined at the post of Secretary General, QCI w.e.f. 29.9.2020 (forenoon)</li>
+                        <li style="text-align:justify;">Dr. Ravi Prakash Singh has rejoined at the post of Secretary General, FQP w.e.f. 29.9.2020 (forenoon)</li>
                         <li style="text-align:justify;"><a href="#">List of Assessed Organisations (Government and Private) under WASH Scheme </a></li>
                         <li style="text-align:justify;"><a href="#" target="_blank" rel="noreferrer noopener">Education Survey: Blended and Online Learning- Future of Education: Insights on School &amp; Household Survey on Education in Times of COVID_19.</a></li>
                         <li style="text-align:justify;"><a href="#" target="_blank" rel="noreferrer noopener">MoC Gazette Notification Mineral Concession (Amendment) Rule 2020 </a></li>

@@ -27,8 +27,8 @@
                             <div id="collapseone-3" class="collapse" aria-labelledby="headingone" data-parent="#accordionExample">
                                 <div class="card-body">
                                     <ul class="avvv" style="padding-left:20px;">
-                                        <li class="submenu-xcb "><a href="{{ route('frontend.qci-in-news') }}">QCI in news</a></li>
-                                        <li class="submenu-xcb "><a href="s{{ route('frontend.qci-magazine') }}">QCI Magazines</a></li>
+                                        <li class="submenu-xcb "><a href="{{ route('frontend.fqp-in-news') }}">FQP in news</a></li>
+                                        <li class="submenu-xcb "><a href="s{{ route('frontend.fqp-magazine') }}">FQP Magazines</a></li>
                                         <li class="submenu-xcb "><a href="{{ route('frontend.quality-best-practices') }}">Quality Best Practices</a></li>
                                         <li class="submenu-xcb "><a href="{{ route('frontend.editorial') }}">Editorials</a></li>
                                     </ul>
@@ -92,8 +92,8 @@
                         <li><a href="#">Call for Monographs</a></li>
                         <li><a href="#" target="_blank" rel="noreferrer noopener">Guidelines for how to achieve the AB PMJAY Bronze Quality Certification</a></li>
                         <li><a href="#" target="_blank" rel="noreferrer noopener">Standards for AB PMJAY Bronze Quality Certification </a></li>
-                        <li><a href="#" target="_blank" rel="noreferrer noopener">QCI- Leaders of Tomorrow ETNOW</a> | 19 April 2016</li>
-                        <li><a href="#" target="_blank" rel="noreferrer noopener">QCI is the knowledge partner in the upcoming DefExpo’16 at Goa</a></li>
+                        <li><a href="#" target="_blank" rel="noreferrer noopener">FQP- Leaders of Tomorrow ETNOW</a> | 19 April 2016</li>
+                        <li><a href="#" target="_blank" rel="noreferrer noopener">FQP is the knowledge partner in the upcoming DefExpo’16 at Goa</a></li>
                         <li><a href="#" target="_blank" rel="noreferrer noopener">Proceedings of the EIA workshop at Vigyan Bhavan on April 25, 2015</a></li>
                     </ul>
                     <div class="left_"></div>

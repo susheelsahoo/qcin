@@ -25,7 +25,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <p><a class="blue-btn" href="https://qcin.org/schemes">Back</a></p> -->
+                    <!-- <p><a class="blue-btn" href="https://fqpn.org/schemes">Back</a></p> -->
                     <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
                 </ul>
             </div>
@@ -40,7 +40,7 @@
                         <li style="text-align:justify;">Complying with all new COVID-19 related requirements from regulatory/health authorities and/or other Government bodies.</li>
                         <li style="text-align:justify;">Ensuring business continuity in operations to serve customers and protect businesses.</li>
                     </ul>
-                    <p style="text-align:justify;">For the benefit of citizens and industry, QCI, along with industry stakeholders, has developed a harmonized standard “Workplace Assessment for Safety and Hygiene” (WASH)” to help the organizations assess their preparedness to restart and run their operations safely.</p>
+                    <p style="text-align:justify;">For the benefit of citizens and industry, FQP, along with industry stakeholders, has developed a harmonized standard “Workplace Assessment for Safety and Hygiene” (WASH)” to help the organizations assess their preparedness to restart and run their operations safely.</p>
                     <p style="text-align:justify;">This standard is applicable for assessment at any workplace which has been allowed to operate.</p>
                     <p style="text-align:justify;">The assessment can be done as an on-site assessment or remotely through a virtual system of assessment by trained assessors. The assessment report generated will provide the applicant with an objective assessment of the safety and hygiene measures undertaken by them to mitigate the risk of COVID-19 infection.</p>
                     <p style="text-align:justify;">DOCUMENTS RELATED TO WASH SCHEME<br />
@@ -61,13 +61,13 @@
                         List of Registered Assessment Agencies <a href="#" target="_blank" rel="noreferrer noopener"> Click Here</a>
                     </p>
                     <p style="text-align:justify;">For prospective Assessment Agencies<br />
-                        NABCB accredited CBs/IBs interested to apply for the registration under this scheme as an Assessment Agency may send the filled application form to wash@qcin.org
+                        NABCB accredited CBs/IBs interested to apply for the registration under this scheme as an Assessment Agency may send the filled application form to wash@fqpn.org
                     </p>
                     <ul>
                         <li style="text-align:justify;">Application Form for Registration of Assessment Agencies <a href="#" target="_blank" rel="noreferrer noopener">Click Here</a></li>
                         <li style="text-align:justify;">Assessor Competence Criteria <a href="#" target="_blank" rel="noreferrer noopener">Click Here</a></li>
                     </ul>
-                    <p>For more information please write to <a href="#">wash@qcin.org</a></p>
+                    <p>For more information please write to <a href="#">wash@fqpn.org</a></p>
                     <div class="left_"></div>
                     <div class="descripton1 mb-30"></div>
                     <div class="descripton2 mb-30"></div>
