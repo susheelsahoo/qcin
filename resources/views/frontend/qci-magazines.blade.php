@@ -13,14 +13,14 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-2" style="width:100%">
-                                    <a href="{{ route('frontend.qci-in-news') }}">QCI in news</a>
+                                    <a href="{{ route('frontend.fqp-in-news') }}">FQP in news</a>
                                 </li>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link active collapsed" data-toggle="collapse" data-target="#collapseone-3" style="width:100%">
-                                    <a href="{{ route('frontend.qci-magazines') }}">QCI Magazines</a>
+                                    <a href="{{ route('frontend.fqp-magazines') }}">FQP Magazines</a>
                                 </li>
                             </div>
                         </div>
@@ -44,36 +44,36 @@
                 </ul>
             </div>
             <div class="right-side">
-                <h1>QCI Magazines</h1>
+                <h1>FQP Magazines</h1>
                 <div class="descripton mb-30">
-                    <h5><a href="#">QCI MAGAZINE | Jul - Sep 2021</a></h5>
-                    <h5><a href="#">QCI MAGAZINE | Apr - Jun 2021</a></h5>
-                    <h5><a href="#">QCI MAGAZINE | JAN-MAR 20</a><a href="#">21 </a></h5>
-                    <h5><a href="#">QCI MAGAZINE | OCT-DEC 2020</a></h5>
-                    <p><a href="#">QCI MAGAZINE | JUL-SEP 2020</a></p>
-                    <p><a href="#">QCI MAGAZINE | JAN-JUNE 2020</a></p>
-                    <p><a href="#">QCI MAGAZINE | OCT-DEC 2019</a></p>
-                    <p><a href="#">QCI MAGAZINE | JUL-SEP-2019</a></p>
-                    <p><a href="#">QCI MAGAZINE | APRIL- JUNE 2019</a></p>
-                    <p><a href="#">QCI MAGAZINE | JAN-MAR-2019</a></p>
-                    <p><a href="#">QCI MAGAZINE | OCT-DEC 2018</a></p>
-                    <p><a href="#">QCI MAGAZINE | JUL-SEP-2018</a></p>
-                    <h5><a href="#">QCI MAGAZINE | APRIL-JUNE 2018</a><br />
+                    <h5><a href="#">FQP MAGAZINE | Jul - Sep 2021</a></h5>
+                    <h5><a href="#">FQP MAGAZINE | Apr - Jun 2021</a></h5>
+                    <h5><a href="#">FQP MAGAZINE | JAN-MAR 20</a><a href="#">21 </a></h5>
+                    <h5><a href="#">FQP MAGAZINE | OCT-DEC 2020</a></h5>
+                    <p><a href="#">FQP MAGAZINE | JUL-SEP 2020</a></p>
+                    <p><a href="#">FQP MAGAZINE | JAN-JUNE 2020</a></p>
+                    <p><a href="#">FQP MAGAZINE | OCT-DEC 2019</a></p>
+                    <p><a href="#">FQP MAGAZINE | JUL-SEP-2019</a></p>
+                    <p><a href="#">FQP MAGAZINE | APRIL- JUNE 2019</a></p>
+                    <p><a href="#">FQP MAGAZINE | JAN-MAR-2019</a></p>
+                    <p><a href="#">FQP MAGAZINE | OCT-DEC 2018</a></p>
+                    <p><a href="#">FQP MAGAZINE | JUL-SEP-2018</a></p>
+                    <h5><a href="#">FQP MAGAZINE | APRIL-JUNE 2018</a><br />
                         <br />
-                        <a href="#">QCI MAGAZINE | JAN-MAR-2018</a>
+                        <a href="#">FQP MAGAZINE | JAN-MAR-2018</a>
                     </h5>
-                    <p><a href="#">QCI MAGAZINE | OCT-DEC 2017</a></p>
-                    <p><a href="#">QCI MAGAZINE | JUL-SEP-2017</a></p>
-                    <p><a href="#">QCI MAGAZINE | JAN-MAR-2017</a></p>
-                    <p><a href="#">QCI MAGAZINE | FEB-APRIL 2016</a></p>
-                    <p><a href="#">QCI MAGAZINE | SEP-OCT 2015</a></p>
-                    <h5><a href="#">QCI MAGAZINE | July-Aug 2015</a><br />
+                    <p><a href="#">FQP MAGAZINE | OCT-DEC 2017</a></p>
+                    <p><a href="#">FQP MAGAZINE | JUL-SEP-2017</a></p>
+                    <p><a href="#">FQP MAGAZINE | JAN-MAR-2017</a></p>
+                    <p><a href="#">FQP MAGAZINE | FEB-APRIL 2016</a></p>
+                    <p><a href="#">FQP MAGAZINE | SEP-OCT 2015</a></p>
+                    <h5><a href="#">FQP MAGAZINE | July-Aug 2015</a><br />
                         <br />
-                        <a href="#">QCI MAGAZINE | FEB-APRIL 2015</a>
+                        <a href="#">FQP MAGAZINE | FEB-APRIL 2015</a>
                     </h5>
-                    <h5><a href="#">QCI MAGAZINE | NOV 2014-JAN 2015</a></h5>
-                    <p><a href="#">QCI MAGAZINE | JULY-SEP 2014</a></p>
-                    <p><a href="#">QCI MAGAZINE | APR-JUNE 2014</a></p>
+                    <h5><a href="#">FQP MAGAZINE | NOV 2014-JAN 2015</a></h5>
+                    <p><a href="#">FQP MAGAZINE | JULY-SEP 2014</a></p>
+                    <p><a href="#">FQP MAGAZINE | APR-JUNE 2014</a></p>
                     <p> </p>
                     <div class="left_"></div>
                     <div class="descripton1 mb-30"></div>

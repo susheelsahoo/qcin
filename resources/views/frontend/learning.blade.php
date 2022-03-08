@@ -128,7 +128,7 @@
                 <h1>Learning</h1>
                 <div class="descripton mb-30">
                     <h3>EQUEST</h3>
-                    <p>eQuest is an Online learning portal by QCI (Quality Council of India). eQuest is designed to help Indian professionals to strengthen their skills sets and knowledge thereby enhancing their career prospects.</p>
+                    <p>eQuest is an Online learning portal by FQP (Quality Council of India). eQuest is designed to help Indian professionals to strengthen their skills sets and knowledge thereby enhancing their career prospects.</p>
                     <p><strong><a href="#">Go to website</a></strong></p>
                     <p> </p>
                     <h3>QUALITY e-LIBRARY</h3>

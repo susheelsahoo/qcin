@@ -32,7 +32,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <p><a class="blue-btn" href="https://qcin.org/our-leadership">Back</a></p> -->
+                    <!-- <p><a class="blue-btn" href="https://fqpn.org/our-leadership">Back</a></p> -->
                     <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
                 </ul>
             </div>
@@ -62,7 +62,7 @@
                                                     <font color="#000000">
                                                         <font face="Calibri, serif">
                                                             <font size="2">
-                                                                <font style="font-size:11pt;">As Chairman of QCI, Mr. Zainulbhai works closely with senior government leaders to drive process transformation and enhance efficiency of government programmes and initiatives. He has worked with over 23 ministries and has been closely involved in key projects of the Government of India such as ‘Make in India’, ’Start-up India’, ‘Swachh Bharat’, and ‘Government e Marketplace’.</font>
+                                                                <font style="font-size:11pt;">As Chairman of FQP, Mr. Zainulbhai works closely with senior government leaders to drive process transformation and enhance efficiency of government programmes and initiatives. He has worked with over 23 ministries and has been closely involved in key projects of the Government of India such as ‘Make in India’, ’Start-up India’, ‘Swachh Bharat’, and ‘Government e Marketplace’.</font>
                                                             </font>
                                                         </font>
                                                     </font>
@@ -77,7 +77,7 @@
                                                     <font color="#000000">
                                                         <font face="Calibri, serif">
                                                             <font size="2">
-                                                                <font style="font-size:11pt;">Mr. Zainulbhai has been principally responsible for nurturing a culture of professionalism, entrepreneurship and agility in QCI. Under his leadership, QCI has witnessed a new phase of growth and expansion.</font>
+                                                                <font style="font-size:11pt;">Mr. Zainulbhai has been principally responsible for nurturing a culture of professionalism, entrepreneurship and agility in FQP. Under his leadership, FQP has witnessed a new phase of growth and expansion.</font>
                                                             </font>
                                                         </font>
                                                     </font>

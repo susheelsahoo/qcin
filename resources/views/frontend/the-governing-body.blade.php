@@ -47,10 +47,10 @@
                 <h1>The Governing Body</h1>
                 <div class="descripton mb-30">
                     <ul>
-                        <li style="text-align:justify;">The affairs of QCI are administered, directed and controlled (as stated in the “Rules and Regulations”) by the Governing Body.</li>
+                        <li style="text-align:justify;">The affairs of FQP are administered, directed and controlled (as stated in the “Rules and Regulations”) by the Governing Body.</li>
                         <li style="text-align:justify;">The Governing Body has 21 members from various stakeholders. It has representations from organizations working in quality domain, industry and the government.</li>
-                        <li style="text-align:justify;">The Governing Body manages all the affairs and funds of QCI and has the authority to exercise all the powers, nevertheless, in respect of expenditure, to such limitation as the Government of India may from time to time impose.</li>
-                        <li style="text-align:justify;">The Governing Body has the power to frame, amend or repeal bye-laws not inconsistent with the rules of the administration and management of the affairs of QCI as per the provisions contained in Rules &amp; Regulations</li>
+                        <li style="text-align:justify;">The Governing Body manages all the affairs and funds of FQP and has the authority to exercise all the powers, nevertheless, in respect of expenditure, to such limitation as the Government of India may from time to time impose.</li>
+                        <li style="text-align:justify;">The Governing Body has the power to frame, amend or repeal bye-laws not inconsistent with the rules of the administration and management of the affairs of FQP as per the provisions contained in Rules &amp; Regulations</li>
                     </ul>
                     <div class="left_"></div>
                     <div class="descripton1 mb-30"></div>

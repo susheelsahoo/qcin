@@ -27,7 +27,7 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-4" style="width:100%">
-                                    <a href="{{ route('frontend.bodies-of-qci') }}">Bodies of QCI</a>
+                                    <a href="{{ route('frontend.bodies-of-fqp') }}">Bodies of FQP</a>
                                     <i class="fa fa-plus plus"></i>
                                 </li>
                             </div>
@@ -45,7 +45,7 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-5" style="width:100%">
-                                    <a href="{{ route('frontend.qci-secretariat') }}">QCI Secretariat</a>
+                                    <a href="{{ route('frontend.fqp-secretariat') }}">FQP Secretariat</a>
                                     <i class="fa fa-plus plus"></i>
                                 </li>
                             </div>
@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <p><a class="blue-btn" href="https://qcin.org/#">Back</a></p> -->
+                    <!-- <p><a class="blue-btn" href="https://fqpn.org/#">Back</a></p> -->
                     <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
                 </ul>
             </div>

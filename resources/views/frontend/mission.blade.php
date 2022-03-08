@@ -26,7 +26,7 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-2" style="width:100%">
-                                    <a href="https://qcin.org/history">History</a>
+                                    <a href="https://fqpn.org/history">History</a>
 
 
                                 </li>
@@ -40,7 +40,7 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link active collapsed" data-toggle="collapse" data-target="#collapseone-3" style="width:100%">
-                                    <a href="https://qcin.org/mission">Mission</a>
+                                    <a href="https://fqpn.org/mission">Mission</a>
 
 
                                 </li>
@@ -54,7 +54,7 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-4" style="width:100%">
-                                    <a href="https://qcin.org/vision">Vision</a>
+                                    <a href="https://fqpn.org/vision">Vision</a>
 
 
                                 </li>
@@ -68,7 +68,7 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-5" style="width:100%">
-                                    <a href="https://qcin.org/moa">MOA</a>
+                                    <a href="https://fqpn.org/moa">MOA</a>
 
 
                                 </li>
@@ -82,7 +82,7 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-6" style="width:100%">
-                                    <a href="https://qcin.org/rules-regulation">Rules And Regulations</a>
+                                    <a href="https://fqpn.org/rules-regulation">Rules And Regulations</a>
 
 
                                 </li>
@@ -96,7 +96,7 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-7" style="width:100%">
-                                    <a href="https://qcin.org/key-objectives">Key Objectives</a>
+                                    <a href="https://fqpn.org/key-objectives">Key Objectives</a>
 
 
                                 </li>
@@ -106,8 +106,8 @@
 
                         </div>
                     </div>
-                    <!-- <p><a class="blue-btn" href="https://qcin.org/about-us">Back</a></p> -->
-                    <p><a class="blue-btn" href="https://qcin.org/rules-regulation">Back</a></p>
+                    <!-- <p><a class="blue-btn" href="https://fqpn.org/about-us">Back</a></p> -->
+                    <p><a class="blue-btn" href="https://fqpn.org/rules-regulation">Back</a></p>
                 </ul>
 
             </div>

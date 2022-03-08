@@ -13,14 +13,14 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-2" style="width:100%">
-                                    <a href="{{ route('frontend.qci-in-news') }}">QCI in news</a>
+                                    <a href="{{ route('frontend.fqp-in-news') }}">FQP in news</a>
                                 </li>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-3" style="width:100%">
-                                    <a href="{{ route('frontend.qci-magazines') }}">QCI Magazines</a>
+                                    <a href="{{ route('frontend.fqp-magazines') }}">FQP Magazines</a>
                                 </li>
                             </div>
                         </div>
@@ -46,9 +46,9 @@
             <div class="right-side">
                 <h1>Quality Best Practices</h1>
                 <div class="descripton mb-30">
-                    <p>Quality Best Practices is a compendium of selected QCI-D.L. Shah Quality Award Winning Case Studies” of different sectors ranging from manufacturing, services to healthcare and education. This publication is brought out every year and has been acknowledged as an important resource for quality professionals and quality managers in any industry.</p>
+                    <p>Quality Best Practices is a compendium of selected FQP-D.L. Shah Quality Award Winning Case Studies” of different sectors ranging from manufacturing, services to healthcare and education. This publication is brought out every year and has been acknowledged as an important resource for quality professionals and quality managers in any industry.</p>
                     <p>Some sample case studies may be visited at: <a href="#" target="_blank" rel="noreferrer noopener">Here</a><br />
-                        To get a printed hard copy (Price : INR 600/-) of the above, contact: <a href="#">shruti.nbqp@qcin.org</a> | 8800891834
+                        To get a printed hard copy (Price : INR 600/-) of the above, contact: <a href="#">shruti.nbqp@fqpn.org</a> | 8800891834
                     </p>
                     <p> <strong> </strong></p>
                     <table border="1" cellpadding="1" cellspacing="1" style="width:600px;">

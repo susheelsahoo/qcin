@@ -13,14 +13,14 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-2" style="width:100%">
-                                    <a href="{{ route('frontend.qci-in-news') }}">QCI in news</a>
+                                    <a href="{{ route('frontend.fqp-in-news') }}">FQP in news</a>
                                 </li>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-3" style="width:100%">
-                                    <a href="{{ route('frontend.qci-magazines') }}">QCI Magazines</a>
+                                    <a href="{{ route('frontend.fqp-magazines') }}">FQP Magazines</a>
                                 </li>
                             </div>
                         </div>

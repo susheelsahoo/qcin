@@ -127,8 +127,8 @@
                 <h1>Membership</h1>
                 <div class="descripton mb-30">
                     <h3>Professional Membership Scheme</h3>
-                    <p>QCI operates “Professional Membership Scheme” for providing a platform to all those who have a passion to become a part of the National Quality Movement. The scheme is open for Individuals, Organisations, Educational Institutions, Healthcare, Laboratories, NGOs and PSUs. QCI also invites students to become a member of the scheme and be part of the movement.<br />
-                        For registration &amp; further information please visit: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.qci.org.in/membership/about-scheme</a>
+                    <p>FQP operates “Professional Membership Scheme” for providing a platform to all those who have a passion to become a part of the National Quality Movement. The scheme is open for Individuals, Organisations, Educational Institutions, Healthcare, Laboratories, NGOs and PSUs. FQP also invites students to become a member of the scheme and be part of the movement.<br />
+                        For registration &amp; further information please visit: <a href="#" target="_blank" rel="noreferrer noopener">http://nbqp.fqp.org.in/membership/about-scheme</a>
                     </p>
                     <p><a href="#" target="_blank" rel="noreferrer noopener"><img alt="" src="{{ url('/img/frontend/homeimages/1591613575.Membership.png')}}" style="width:800px;height:286px;" /></a></p>
                     <p> </p>

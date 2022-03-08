@@ -53,7 +53,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <p><a class="blue-btn" href="https://qcin.org/about-us">Back</a></p> -->
+                    <!-- <p><a class="blue-btn" href="https://fqpn.org/about-us">Back</a></p> -->
                     <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
                 </ul>
             </div>
@@ -65,7 +65,7 @@
                         <li><a href="#" target="_blank" rel="noreferrer noopener">MOA-1997</a></li>
                         <li><a href="#" target="_blank" rel="noreferrer noopener">MOA-2009</a></li>
                         <li><a href="#" target="_blank" rel="noreferrer noopener">Ammended MoA - 2014</a></li>
-                        <li><a href="#" target="_blank" rel="noreferrer noopener">After the amalgamation of NABL QCI sign another MOA 2017.</a></li>
+                        <li><a href="#" target="_blank" rel="noreferrer noopener">After the amalgamation of NABL FQP sign another MOA 2017.</a></li>
                     </ul>
                     <div class="left_"></div>
                     <div class="descripton1 mb-30"></div>

@@ -32,7 +32,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <p><a class="blue-btn" href="https://qcin.org/conclaves">Back</a></p> -->
+                    <!-- <p><a class="blue-btn" href="https://fqpn.org/conclaves">Back</a></p> -->
                     <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
                 </ul>
             </div>
@@ -193,7 +193,7 @@
                     <p align="justify" style="margin-bottom:0.28cm;text-align:left;"><span style="line-height:107%;">What: Vision 2020 for Quality India</span></p>
                     <p align="justify" style="margin-bottom:0.28cm;text-align:left;"><span style="line-height:107%;">Where: New Delhi</span></p>
                     <p align="justify" style="margin-bottom:0.28cm;text-align:left;"><span style="line-height:107%;">When: 09<sup>th</sup> – 10<sup>th</sup> February 2007</span></p>
-                    <p style="margin-bottom:0.28cm;text-align:left;"><span style="line-height:107%;">Description: The objectives of this conclave were to make Indian industry aware of its responsibilities to meet the highest international standards and compete in the world market. The Chief Guest, <b>Shri</b> <b>A P J Abdul Kalam, President of India</b> said "QCI must become an organization serving the one billion people of the country. My best wishes to all for success in the mission of promoting prosperity through quality"</span></p>
+                    <p style="margin-bottom:0.28cm;text-align:left;"><span style="line-height:107%;">Description: The objectives of this conclave were to make Indian industry aware of its responsibilities to meet the highest international standards and compete in the world market. The Chief Guest, <b>Shri</b> <b>A P J Abdul Kalam, President of India</b> said "FQP must become an organization serving the one billion people of the country. My best wishes to all for success in the mission of promoting prosperity through quality"</span></p>
                     <p style="margin-bottom:0.28cm;text-align:left;"> </p>
                     <ul>
                         <li>

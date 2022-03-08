@@ -67,7 +67,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <p><a class="blue-btn" href="https://qcin.org/hr-administration">Back</a></p> -->
+                    <!-- <p><a class="blue-btn" href="https://fqpn.org/hr-administration">Back</a></p> -->
                     <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
                 </ul>
             </div>

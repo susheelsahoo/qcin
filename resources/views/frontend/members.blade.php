@@ -42,7 +42,7 @@
             <div class="right-side">
                 <h1>Members</h1>
                 <div class="descripton mb-30">
-                    <p>QCI is governed by a Council comprising of 38 members including the Chairperson and Secretary General. The Council has an equal representation of Government, Industry and other Stakeholders. The composition of the Council is :-</p>
+                    <p>FQP is governed by a Council comprising of 38 members including the Chairperson and Secretary General. The Council has an equal representation of Government, Industry and other Stakeholders. The composition of the Council is :-</p>
                     <ol>
                         <li>Chairperson (Nominated by Prime Minister of India)</li>
                         <li>Secretary, Department of Industrial Policy &amp; Promotion (DIPP), Ministry of Commerce &amp; Industry</li>

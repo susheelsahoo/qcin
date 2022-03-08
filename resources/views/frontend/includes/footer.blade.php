@@ -4,7 +4,7 @@
             <div class="col-md-3 footer-link">
                 <h4>IMPORTANT LINKS</h4>
                 <ul>
-                    <li><a href="about-us{{ route('frontend.history') }}">About QCI</a></li>
+                    <li><a href="about-us{{ route('frontend.history') }}">About FQP</a></li>
                     <li><a href="hr-administration{{ route('frontend.history') }}">HR &amp; Administration</a></li>
                     <li><a href="important-notices{{ route('frontend.history') }}">Important Notices / Circulars</a></li>
                     <li><a href="careers{{ route('frontend.history') }}">Careers</a></li>
@@ -16,7 +16,7 @@
                     <li><a href="website-declaration{{ route('frontend.history') }}">Website Declaration </a></li>
                     <li><a href="disclaimer{{ route('frontend.history') }}" target="_blank" rel="noreferrer noopener">Disclaimer</a></li>
                     <li><a href="sitemap{{ route('frontend.history') }}">Site Map</a></li>
-                    <li><a href="public/uploads/ck-docs/1609915854.Empanelment%20List.pdf" target="_blank" rel="noreferrer noopener">List of QCI’s Empaneled Service Providers</a></li>
+                    <li><a href="public/uploads/ck-docs/1609915854.Empanelment%20List.pdf" target="_blank" rel="noreferrer noopener">List of FQP’s Empaneled Service Providers</a></li>
                     <li><a href="https://pgportal.gov.in/">CPGRAMS</a></li>
                 </ul>
                 <p> </p>
@@ -44,8 +44,8 @@
                     <li><span class="bold text-white py-5px">Address: </span> Institution of Engineers Building, IIndFloor, 2 - Bahadur Shah Zafar Marg, New Delhi - 110002, India.</li>
                     <li><span class="bold text-white py-5px">Tel: </span>+91-11- 2337 9321, 2337 8056, 2337 8217, 2337 8057, 2337 9260, 2337 0079, 2337 0567, 2337 8837, 2337 8838,2337 9621</li>
                     <li><span class="bold text-white py-5px">Fax: </span>91-11-2337 8678</li>
-                    <li><span class="bold text-white py-5px">Email: </span>info@qcin.org</li>
-                    <li>For Media Communications Contact on email: <a href="{{ route('frontend.index') }}">media@qcin.org</a></li>
+                    <li><span class="bold text-white py-5px">Email: </span>info@fqpn.org</li>
+                    <li>For Media Communications Contact on email: <a href="{{ route('frontend.index') }}">media@fqpn.org</a></li>
                 </ul>
                 <div class="responsive-map-container">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0782999290145!2d77.23959916445651!3d28.627415291064757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfcd56c06e639%3A0x6c9552d81aaa5df6!2sQuality%20Council%20of%20India!5e0!3m2!1sen!2sus!4v1569389119380!5m2!1sen!2sus" width="600" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -55,7 +55,7 @@
                         <li><a href="https://www.facebook.com/QualityCouncilofIndia" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://twitter.com/qualitycouncil" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://www.youtube.com/channel/UCnweuDB5aFL3HkP7wg-_8rA" target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube-play"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/quality-council-of-india-qci-/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/quality-council-of-india-fqp-/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="https://instagram.com/qualitycouncilofindia?igshid=g8fy7zpychy0" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a></li>
                         <li class="koo-link"><a href="https://www.kooapp.com/profile/QualityCouncilofIndia" target="_blank" rel="noopener noreferrer">
                                 <img src="{{ asset('/img/Koo_Logo.png') }}" alt="koo icon" class="koo" style="height: 22px;">
@@ -68,5 +68,5 @@
     </div>
     </div>
 </footer>
-<div class="copyfooter"> QCI © 2022 All Rights Reserved.<br>
+<div class="copyfooter"> FQP © 2022 All Rights Reserved.<br>
     Design By : <a href="#" target="_blank">iPulse Web Solutions</a></strong></div>

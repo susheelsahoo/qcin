@@ -13,14 +13,14 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link active collapsed" data-toggle="collapse" data-target="#collapseone-2" style="width:100%">
-                                    <a href="{{ route('frontend.qci-in-news') }}">QCI in news</a>
+                                    <a href="{{ route('frontend.fqp-in-news') }}">FQP in news</a>
                                 </li>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link  collapsed" data-toggle="collapse" data-target="#collapseone-3" style="width:100%">
-                                    <a href="{{ route('frontend.qci-magazines') }}">QCI Magazines</a>
+                                    <a href="{{ route('frontend.fqp-magazines') }}">FQP Magazines</a>
                                 </li>
                             </div>
                         </div>
@@ -43,25 +43,25 @@
                 </ul>
             </div>
             <div class="right-side">
-                <h1>QCI in News</h1>
+                <h1>FQP in News</h1>
                 <div class="descripton mb-30"></div>
                 <div class="row new-secc">
                     <ul>
                         <li>
                             <div class="news-box">
-                                <h3> QCI has announced Prof. S.K. Joshi Laboratory Excellence Award</h3>
+                                <h3> FQP has announced Prof. S.K. Joshi Laboratory Excellence Award</h3>
                                 <a class="news-a" href="{{ route('frontend.news/prof') }}">Read more</a>
                             </div>
                         </li>
                         <li>
                             <div class="news-box">
-                                <h3> QCI has announced the 3rd edition of QCI Quality Champion Award</h3>
+                                <h3> FQP has announced the 3rd edition of FQP Quality Champion Award</h3>
                                 <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
                             </div>
                         </li>
                         <li>
                             <div class="news-box">
-                                <h3> QCI has announced the 14th QCI-D.L. Shah Quality Award.</h3>
+                                <h3> FQP has announced the 14th FQP-D.L. Shah Quality Award.</h3>
                                 <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
                             </div>
                         </li>
@@ -79,7 +79,7 @@
                         </li>
                         <li>
                             <div class="news-box">
-                                <h3> QCI has been awarded Grade A (93%) by Central Information Commission for the year 2019-20</h3>
+                                <h3> FQP has been awarded Grade A (93%) by Central Information Commission for the year 2019-20</h3>
                                 <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
                             </div>
                         </li>
@@ -127,7 +127,7 @@
                         </li>
                         <li>
                             <div class="news-box">
-                                <h3> Over 8,000 yoga professionals register with QCI in one year</h3>
+                                <h3> Over 8,000 yoga professionals register with FQP in one year</h3>
                                 <a class="news-a" href="{{ route('frontend.history') }}">Read more</a>
                             </div>
                         </li>

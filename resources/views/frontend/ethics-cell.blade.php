@@ -82,14 +82,14 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <p><a class="blue-btn" href="https://qcin.org/qci-secretariat">Back</a></p> -->
+                    <!-- <p><a class="blue-btn" href="https://fqpn.org/fqp-secretariat">Back</a></p> -->
                     <p><a class="blue-btn" href="{{ route('frontend.index') }}">Back</a></p>
                 </ul>
             </div>
             <div class="right-side">
                 <h1>Ethics Cell</h1>
                 <div class="descripton mb-30">
-                    <p>The cell functions as independent entity and reports to SG, QCI. The composition of the cell is as under: </p>
+                    <p>The cell functions as independent entity and reports to SG, FQP. The composition of the cell is as under: </p>
                     <table style="width:750px;border:1px solid #00000a;">
                         <tbody>
                             <tr>
@@ -115,7 +115,7 @@
                         </tbody>
                     </table>
                     <p> </p>
-                    <p>For any query, drop a mail to: <a href="#">ethicscell@qcin.org </a></p>
+                    <p>For any query, drop a mail to: <a href="#">ethicscell@fqpn.org </a></p>
                     <div class="left_"></div>
                     <div class="descripton1 mb-30"></div>
                     <div class="descripton2 mb-30"></div>

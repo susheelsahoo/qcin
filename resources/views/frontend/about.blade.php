@@ -14,7 +14,7 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo" style="padding:0px;">
                                 <li class="menu-xcb btn btn-link active collapsed" data-toggle="collapse" data-target="#collapseone-2" style="width:100%">
-                                    <a href="{{ route('frontend.about') }}">About QCI</a>
+                                    <a href="{{ route('frontend.about') }}">About FQP</a>
                                     <i class="fa fa-plus plus"></i>
                                 </li>
                             </div>
@@ -51,11 +51,11 @@
                 </ul>
             </div>
             <div class="right-side">
-                <h1>About QCI</h1>
+                <h1>About FQP</h1>
                 <div class="descripton mb-30">
-                    <p style="text-align:justify;">Quality Council of India (QCI) was established as a National body for Accreditation on recommendations of Expert Mission of EU after consultations in Inter-ministerial Task Force, Committee of Secretaries and Group of Ministers through a Cabinet decision in 1996. Accordingly, QCI was set up through a PPP model as an independent autonomous organization with the support of Government of India and the Indian Industry represented by the three premier industry associations, (i) Associated Chambers of Commerce and Industry of India (ASSOCHAM), (ii) Confederation of Indian Industry (CII) and (iii) Federation of Indian Chambers of Commerce and Industry (FICCI). </p>
-                    <p style="text-align:justify;">QCI is a non-profit organization registered under the Societies Registration Act XXI of 1860. The Department of Industrial Policy and Promotion, Ministry of Commerce and Industry was designated as the nodal point for all matters connected with quality and QCI to structure and help implementation of the Cabinet decision. </p>
-                    <p style="text-align:justify;">QCI has been established to create a mechanism for independent third party assessment of products, services and processes. It plays a pivotal role at the national level in propagating, adoption and adherence to quality standards in all important spheres of activities including education, healthcare, environment protection, governance, social sectors, infrastructure sector and such other areas of organized activities that have significant bearing in improving the quality of life and wellbeing of the citizens of India.</p>
+                    <p style="text-align:justify;">Quality Council of India (FQP) was established as a National body for Accreditation on recommendations of Expert Mission of EU after consultations in Inter-ministerial Task Force, Committee of Secretaries and Group of Ministers through a Cabinet decision in 1996. Accordingly, FQP was set up through a PPP model as an independent autonomous organization with the support of Government of India and the Indian Industry represented by the three premier industry associations, (i) Associated Chambers of Commerce and Industry of India (ASSOCHAM), (ii) Confederation of Indian Industry (CII) and (iii) Federation of Indian Chambers of Commerce and Industry (FICCI). </p>
+                    <p style="text-align:justify;">FQP is a non-profit organization registered under the Societies Registration Act XXI of 1860. The Department of Industrial Policy and Promotion, Ministry of Commerce and Industry was designated as the nodal point for all matters connected with quality and FQP to structure and help implementation of the Cabinet decision. </p>
+                    <p style="text-align:justify;">FQP has been established to create a mechanism for independent third party assessment of products, services and processes. It plays a pivotal role at the national level in propagating, adoption and adherence to quality standards in all important spheres of activities including education, healthcare, environment protection, governance, social sectors, infrastructure sector and such other areas of organized activities that have significant bearing in improving the quality of life and wellbeing of the citizens of India.</p>
                     <div class="left_"></div>
                     <div class="descripton1 mb-30"></div>
                     <div class="descripton2 mb-30"></div>

@@ -14,10 +14,6 @@ class PaymentController extends Controller
      */
     public function index()
     {
-        return view('frontend.index');
-    }
-    public function about()
-    {
-        return view('frontend.index');
+        return view('frontend.payments.index');
     }
 }

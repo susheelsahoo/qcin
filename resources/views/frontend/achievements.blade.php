@@ -27,8 +27,8 @@
                             <div id="collapseone-3" class="collapse" aria-labelledby="headingone" data-parent="#accordionExample">
                                 <div class="card-body">
                                     <ul class="avvv" style="padding-left:20px;">
-                                        <li class="submenu-xcb "><a href="{{ route('frontend.qci-in-news') }}">QCI in news</a></li>
-                                        <li class="submenu-xcb "><a href="{{ route('frontend.qci-magazines') }}">QCI Magazines</a></li>
+                                        <li class="submenu-xcb "><a href="{{ route('frontend.fqp-in-news') }}">FQP in news</a></li>
+                                        <li class="submenu-xcb "><a href="{{ route('frontend.fqp-magazines') }}">FQP Magazines</a></li>
                                         <li class="submenu-xcb "><a href="{{ route('frontend.quality-best-practices') }}">Quality Best Practices</a></li>
                                         <li class="submenu-xcb "><a href="{{ route('frontend.editorial') }}">Editorials</a></li>
                                     </ul>
@@ -87,10 +87,10 @@
             <div class="right-side">
                 <h1>Achievements</h1>
                 <div class="descripton mb-30">
-                    <p style="text-align:justify;"><strong>QCI’s Initiatives during COVID-19</strong></p>
+                    <p style="text-align:justify;"><strong>FQP’s Initiatives during COVID-19</strong></p>
                     <ul>
                         <li style="text-align:justify;"> PPE requirements of about 600 hospitals was consolidated and shared with CII for swift delivery through e-marketplace</li>
-                        <li style="text-align:justify;">QCI team at DARPG has helped in fast tracking redressal of COVID-19 related grievances. More than 7000 grievances across various ministries have been cleared at an average disposal time of 1.57 days</li>
+                        <li style="text-align:justify;">FQP team at DARPG has helped in fast tracking redressal of COVID-19 related grievances. More than 7000 grievances across various ministries have been cleared at an average disposal time of 1.57 days</li>
                     </ul>
                     <p style="text-align:justify;"><strong>Laboratories</strong></p>
                     <ul>
@@ -113,13 +113,13 @@
                         <li style="text-align:justify;">Assessment &amp; Evaluated of Teaching practices of teachers against pertinent domains of Teaching Learning Process – Indian Schools in Oman </li>
                         <li style="text-align:justify;">Collaborations with Ministry of Education (MOE), National Commission for Protection of Child Rights (NCPCR), Municipal Corporation of Greater Mumbai(MCGM )and various State Education Departments towards Quality Intervention in the field of school education</li>
                         <li style="text-align:justify;">Carried teacher – learning process assessment of 2500 schools in states of Rajasthan, Delhi, and Maharashtra</li>
-                        <li style="text-align:justify;">Launched QCI’s eLearning platform [eQuest: E-Quality Platform for Employability through Skill and Training]</li>
+                        <li style="text-align:justify;">Launched FQP’s eLearning platform [eQuest: E-Quality Platform for Employability through Skill and Training]</li>
                         <li style="text-align:justify;">Conducted evaluation for Technical Education Quality Improvement Program by performing assessment covering 174 technical education institutes and 12 Affiliating Technical Universities across the nation against pre-defined indicators.</li>
                         <li style="text-align:justify;">Evaluation of 5475 schools administered, aided and regulated by Government of NCT of Delhi and its allied agencies</li>
                     </ul>
                     <p style="text-align:justify;"><strong>Environment &amp; Sustainability</strong></p>
                     <ul>
-                        <li style="text-align:justify;">To ensure the accessibility of clean and functional toilets to all its citizens and to make the country Open Defecation Free, QCI certified 4204 ULBs as ODF, 1306 ULBs as ODF+, and 489 ULBs as ODF++.</li>
+                        <li style="text-align:justify;">To ensure the accessibility of clean and functional toilets to all its citizens and to make the country Open Defecation Free, FQP certified 4204 ULBs as ODF, 1306 ULBs as ODF+, and 489 ULBs as ODF++.</li>
                         <li style="text-align:justify;">Assessed sites such as Statue of Unity and Gujarat Yatradhams on cleanliness and solid waste management to bring major changes in terms of sanitation.</li>
                         <li style="text-align:justify;">54 AAI Airports assessed on cleanliness, sanitation and single-use plastic ban parameters</li>
                     </ul>
@@ -145,7 +145,7 @@
                     </ul>
                     <p style="text-align:justify;"><strong>Agriculture/Farmers</strong></p>
                     <ul>
-                        <li style="text-align:justify;">Food and Agriculture Organization (FAO), UN awarded QCI a 2-year project for “Development of Standards and Scheme for Good Agriculture Practice (GAP) Implementation and Certification in countries of SAARC</li>
+                        <li style="text-align:justify;">Food and Agriculture Organization (FAO), UN awarded FQP a 2-year project for “Development of Standards and Scheme for Good Agriculture Practice (GAP) Implementation and Certification in countries of SAARC</li>
                     </ul>
                     <p style="text-align:justify;"><strong>Poor and Vulnerable</strong></p>
                     <ul>

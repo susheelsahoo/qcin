@@ -113,7 +113,7 @@ return [
                 'role_name' => 'Using Access Helper with Role Name',
             ],
 
-            'view_console_it_works' => 'View console, you should see \'it works!\' which is coming from FrontendController@index',
+            'view_console_it_works' => 'View console, you should see \'it works!\' which is coming from GuestController@index',
             'you_can_see_because' => 'أنت ترى هذا لأن لديك دور \':role\'!',
             'you_can_see_because_permission' => 'أنت ترى هذا لإن لديك صلاحية \':permission\'!',
         ],
