@@ -57,6 +57,7 @@
                     <h3 style="text-shadow: 2px 2px green;"> Foundation for <br>Quality Promotion</h3>
                 </a>
                 <div class="menu-toggle"><i class="fa fa-bars"></i></div>
+                @guest
                 <div class="navbar-collapse justify-content-end" id="navbarNav">
                     <div class="main-menu">
                         <ul class="navbar-nav">
@@ -218,28 +219,29 @@
                         </ul>
                     </div>
                 </div>
-            </nav>
+                @else
+                <div class="navbar-collapse justify-content-end" id="navbarNav">
+                    <div class="main-menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="{{route('frontend.user.dashboard')}}" class="nav-link {{ active_class(Route::is('frontend.user.dashboard')) }}">@lang('navs.frontend.dashboard')</a></li>
+                            <li class="nav-item"><a href="{{route('frontend.user.membership')}}" class="nav-link {{ active_class(Route::is('frontend.user.membership')) }}">Membership</a></li>
+                            <li class="nav-item"><a href="{{route('frontend.user.payment')}}" class="nav-link {{ active_class(Route::is('frontend.user.payment')) }}">Make Payment</a></li>
+                            <li class="nav-item"><a href="{{route('frontend.user.certificate')}}" class="nav-link {{ active_class(Route::is('frontend.user.certificate')) }}">Certificate</a></li>
+                            <li class="nav-item"><a href="{{ route('frontend.user.account') }}" class="nav-link {{ active_class(Route::is('frontend.user.account')) }}">
+                                    <!--Welcome: {{ $logged_in_user->name }}-->My Account
+                                </a></li>
+                            <li class="nav-item"><a href="{{ route('frontend.auth.logout') }}" class="nav-link">@lang('navs.general.logout')</a></li>
 
-            @auth
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a href="{{route('frontend.user.dashboard')}}" class="nav-link {{ active_class(Route::is('frontend.user.dashboard')) }}">@lang('navs.frontend.dashboard')</a></li>
-                        <li class="nav-item"><a href="{{route('frontend.user.membership')}}" class="nav-link {{ active_class(Route::is('frontend.user.membership')) }}">Membership</a></li>
-                        <li class="nav-item"><a href="{{route('frontend.user.payment')}}" class="nav-link {{ active_class(Route::is('frontend.user.payment')) }}">Make Payment</a></li>
-                        <li class="nav-item"><a href="{{ route('frontend.auth.logout') }}" class="nav-link">@lang('navs.general.logout')</a></li>
-
-                    </ul>
-                    <div class="form-inline my-2 my-lg-0">
-                        Welcome: <a href="{{ route('frontend.user.account') }}" class="nav-link">{{ $logged_in_user->name }}</a>
+                        </ul>
+                        <div class="form-inline my-2 my-lg-0">
+                            <a href="" class="nav-link"></a>
+                        </div>
                     </div>
                 </div>
+                @endguest
             </nav>
-            @endauth
+
         </div>
         @guest
         <div>

@@ -5,9 +5,9 @@ namespace App\Http\Controllers\Frontend;
 use App\Http\Controllers\Controller;
 
 /**
- * Class FrontendController.
+ * Class GuestController.
  */
-class FrontendController extends Controller
+class GuestController extends Controller
 {
     /**
      * @return \Illuminate\View\View
