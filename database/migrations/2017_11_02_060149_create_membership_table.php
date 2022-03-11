@@ -38,11 +38,11 @@ class CreateMembershipTable extends Migration
             $table->text('fqp_id', 65535)->nullable();
             $table->text('new_fqp_id', 65535)->nullable();
             $table->integer('user_id')->unsigned();
-            // $table->string('member_name', 191);
-            // $table->string('member_mobile', 191);
-            // $table->string('member_email', 191);
-            // $table->string('member_designation', 191);
-            // $table->string('member_organization', 191);
+            $table->string('member_name', 191);
+            $table->string('member_mobile', 191);
+            $table->string('member_email', 191);
+            $table->string('member_designation', 191);
+            $table->string('member_organization', 191);
             $table->boolean('codeofethics')->default(0);
             $table->boolean('status')->default(0);
             $table->timestamps();

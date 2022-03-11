@@ -19,8 +19,14 @@ class MembersController extends Controller
     public function index()
     {
         $user_id  = Auth::user()->id;
-        //dd($user_id);
-        return view('frontend.memberships.create');
+        // $user_id = '';
+        $member = MembersModel::where('user_id', $user_id)->first();
+
+        if (is_null($member)) {
+            return view('frontend.memberships.create');
+        } else {
+            return view('frontend.memberships.edit', compact('member'));
+        }
     }
     public function store(Request $request)
     {
