@@ -113,6 +113,8 @@ Route::group(['middleware' => ['auth', 'password_expires']], function () {
         Route::patch('profile/update', [ProfileController::class, 'update'])->name('profile.update');
 
         Route::get('membership', [MembersController::class, 'index'])->name('membership');
+        Route::post('membership/store', [MembersController::class, 'store'])->name('membership.store');
+        Route::post('membership/update', [MembersController::class, 'update'])->name('membership.update');
         Route::get('payment', [PaymentController::class, 'index'])->name('payment');
         Route::get('certificate', [CertificateController::class, 'index'])->name('certificate');
     });

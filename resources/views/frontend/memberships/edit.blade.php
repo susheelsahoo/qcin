@@ -4,7 +4,6 @@
 
 @section('content')
 
-
 <section class="basic-inner-page">
     <div class="container">
         <div class="inner-grp clearfix">
@@ -23,136 +22,143 @@
                                 <section id="main-content">
                                     <div id="page-main">
                                         <!-- <form role="form" action="#" method="post" id="Ngo" enctype="multipart/form-data" novalidate="novalidate"> -->
-                                        {{ Form::open(['route' => 'frontend.user.membership.store', 'class' => 'form-horizontal', 'role' => 'form', 'method' => 'post', 'id' => 'create-permission', 'files' => true]) }}
+                                        {{ Form::open(['route' => 'frontend.user.membership.update', 'class' => 'form-horizontal', 'role' => 'form', 'method' => 'post', 'id' => 'create-permission', 'files' => true]) }}
 
                                         <input type="hidden" id="add_more_count" value="0">
                                         <section class="">
                                             <div class="row">
                                                 <div class="form-group col-md-4">
                                                     <label>Name<span>*</span></label>
-                                                    <input type="text" class="form-control" placeholder="Organization Name" name="name">
+                                                    <input type="text" class="form-control" placeholder="Organization Name" value="{{$member['name']}}" value="{{$member['name']}}" name="name">
                                                     <!-- onkeypress="return Alphabets(event,this);" -->
                                                 </div>
                                                 <div class="form-group col-md-4">
                                                     <label>Category<span>*</span></label>
-                                                    <input type="text" class="form-control" placeholder="Category" name="category">
+                                                    <input type="text" class="form-control" placeholder="Category" value="{{$member['category']}}" name="category">
                                                 </div>
                                                 <div class="form-group col-md-4">
                                                     <label> Information about your services<span>*</span></label>
-                                                    <textarea style="height: 50px;" class="form-control" name="sector_engaged" placeholder="Provide brief information about your services"></textarea>
+                                                    <textarea style="height: 50px;" class="form-control" name="sector_engaged" placeholder="Provide brief information about your services">{{$member['sector_engaged']}}</textarea>
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="form-group col-md-4">
                                                     <label>Contact Person Name<span>*</span></label>
-                                                    <input type="text" class="form-control" placeholder="Contact Person Name" name="name_applicant" onkeypress="return onlyAlphabets(event,this);">
+                                                    <input type="text" class="form-control" placeholder="Contact Person Name" value="{{$member['name_applicant']}}" name="name_applicant" onkeypress="return onlyAlphabets(event,this);">
                                                 </div>
                                                 <div class="form-group col-md-4">
                                                     <label>Contact Person Number<span>*</span></label>
-                                                    <input type="text" class="form-control numeric" placeholder="Contact Person Number" name="number_applicant" onkeypress="return limitcount2(this,10,event)">
+                                                    <input type="text" class="form-control numeric" placeholder="Contact Person Number" value="{{$member['number_applicant']}}" name="number_applicant" onkeypress="return limitcount2(this,10,event)">
                                                 </div>
                                                 <div class="form-group col-md-4">
                                                     <label>Mobile No.<span>*</span></label>
-                                                    <input type="text" class="form-control numeric" placeholder="Mobile No." name="mobile" onkeypress="return limitcount2(this,10,event)">
+                                                    <input type="text" class="form-control numeric" placeholder="Mobile No." value="{{$member['mobile']}}" name="mobile" onkeypress="return limitcount2(this,10,event)">
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="form-group col-md-4">
                                                     <label>Region<span></span></label>
+                                                    @php
+                                                    $zone = $member['zone'];
+                                                    @endphp
                                                     <select class="form-control" name="zone" id="Zone">
-                                                        <option value="">Region</option>
-                                                        <option value="East Region">East Region</option>
-                                                        <option value="West Region">West Region</option>
-                                                        <option value="North Region">North Region</option>
-                                                        <option value="South Region">South Region</option>
-                                                        <option value="Central Region">Central Region</option>
-                                                        <option value="North East Region">North East Region</option>
+
+                                                        <option {{ $zone == 'East' ? 'selected' : '' }} value="">Region</option>
+                                                        <option {{ $zone == 'East Region' ? 'selected' : '' }} value="East Region">East Region</option>
+                                                        <option {{ $zone == 'West Region' ? 'selected' : '' }} value="West Region">West Region</option>
+                                                        <option {{ $zone == 'North Region' ? 'selected' : '' }} value="North Region">North Region</option>
+                                                        <option {{ $zone == 'South Region' ? 'selected' : '' }} value="South Region">South Region</option>
+                                                        <option {{ $zone == 'Central Region' ? 'selected' : '' }} value="Central Region">Central Region</option>
+                                                        <option {{ $zone == 'North East Region' ? 'selected' : '' }} value="North East Region">North East Region</option>
                                                     </select>
                                                 </div>
                                                 <div class="form-group col-md-4">
                                                     <label>State<span>*</span></label>
+                                                    @php
+                                                    $state = $member['state'];
+                                                    @endphp
                                                     <select name="state" id="state" class="form-control">
-                                                        <option value="">State</option>
-                                                        <option value="Andhra Pradesh">Andhra Pradesh</option>
-                                                        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-                                                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                                                        <option value="Assam">Assam</option>
-                                                        <option value="Bihar">Bihar</option>
-                                                        <option value="Chandigarh">Chandigarh</option>
-                                                        <option value="Chhattisgarh">Chhattisgarh</option>
-                                                        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
-                                                        <option value="Daman and Diu">Daman and Diu</option>
-                                                        <option value="Delhi">Delhi</option>
-                                                        <option value="Lakshadweep">Lakshadweep</option>
-                                                        <option value="Puducherry">Puducherry</option>
-                                                        <option value="Goa">Goa</option>
-                                                        <option value="Gujarat">Gujarat</option>
-                                                        <option value="Haryana">Haryana</option>
-                                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
-                                                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
-                                                        <option value="Jharkhand">Jharkhand</option>
-                                                        <option value="Karnataka">Karnataka</option>
-                                                        <option value="Kerala">Kerala</option>
-                                                        <option value="Madhya Pradesh">Madhya Pradesh</option>
-                                                        <option value="Maharashtra">Maharashtra</option>
-                                                        <option value="Manipur">Manipur</option>
-                                                        <option value="Meghalaya">Meghalaya</option>
-                                                        <option value="Mizoram">Mizoram</option>
-                                                        <option value="Nagaland">Nagaland</option>
-                                                        <option value="Odisha">Odisha</option>
-                                                        <option value="Punjab">Punjab</option>
-                                                        <option value="Rajasthan">Rajasthan</option>
-                                                        <option value="Sikkim">Sikkim</option>
-                                                        <option value="Tamil Nadu">Tamil Nadu</option>
-                                                        <option value="Telangana">Telangana</option>
-                                                        <option value="Tripura">Tripura</option>
-                                                        <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                                        <option value="Uttarakhand">Uttarakhand</option>
-                                                        <option value="West Bengal">West Bengal</option>
+                                                        <option {{ $state == '' ? 'selected' : '' }} value="">State</option>
+                                                        <option {{ $state == 'Andhra Pradesh' ? 'selected' : '' }} value="Andhra Pradesh">Andhra Pradesh</option>
+                                                        <option {{ $state == 'Andaman and Nicobar Islands' ? 'selected' : '' }} value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                                        <option {{ $state == 'Arunachal Pradesh' ? 'selected' : '' }} value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                                        <option {{ $state == 'Assam' ? 'selected' : '' }} value="Assam">Assam</option>
+                                                        <option {{ $state == 'Bihar' ? 'selected' : '' }} value="Bihar">Bihar</option>
+                                                        <option {{ $state == 'Chandigarh' ? 'selected' : '' }} value="Chandigarh">Chandigarh</option>
+                                                        <option {{ $state == 'Chhattisgarh' ? 'selected' : '' }} value="Chhattisgarh">Chhattisgarh</option>
+                                                        <option {{ $state == 'Dadar and Nagar Haveli' ? 'selected' : '' }} value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                                        <option {{ $state == 'Daman and Diu' ? 'selected' : '' }} value="Daman and Diu">Daman and Diu</option>
+                                                        <option {{ $state == 'Delhi' ? 'selected' : '' }} value="Delhi">Delhi</option>
+                                                        <option {{ $state == 'Lakshadweep' ? 'selected' : '' }} value="Lakshadweep">Lakshadweep</option>
+                                                        <option {{ $state == 'Puducherry' ? 'selected' : '' }} value="Puducherry">Puducherry</option>
+                                                        <option {{ $state == 'Goa' ? 'selected' : '' }} value="Goa">Goa</option>
+                                                        <option {{ $state == 'Gujarat' ? 'selected' : '' }} value="Gujarat">Gujarat</option>
+                                                        <option {{ $state == 'Haryana' ? 'selected' : '' }} value="Haryana">Haryana</option>
+                                                        <option {{ $state == 'Himachal Pradesh' ? 'selected' : '' }} value="Himachal Pradesh">Himachal Pradesh</option>
+                                                        <option {{ $state == 'Jammu and Kashmir' ? 'selected' : '' }} value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                                        <option {{ $state == 'Jharkhand' ? 'selected' : '' }} value="Jharkhand">Jharkhand</option>
+                                                        <option {{ $state == 'Karnataka' ? 'selected' : '' }} value="Karnataka">Karnataka</option>
+                                                        <option {{ $state == 'Kerala' ? 'selected' : '' }} value="Kerala">Kerala</option>
+                                                        <option {{ $state == 'Madhya Pradesh' ? 'selected' : '' }} value="Madhya Pradesh">Madhya Pradesh</option>
+                                                        <option {{ $state == 'Maharashtra' ? 'selected' : '' }} value="Maharashtra">Maharashtra</option>
+                                                        <option {{ $state == 'Manipur' ? 'selected' : '' }} value="Manipur">Manipur</option>
+                                                        <option {{ $state == 'Meghalaya' ? 'selected' : '' }} value="Meghalaya">Meghalaya</option>
+                                                        <option {{ $state == 'Meghalaya' ? 'selected' : '' }} value="Mizoram">Mizoram</option>
+                                                        <option {{ $state == 'Nagaland' ? 'selected' : '' }} value="Nagaland">Nagaland</option>
+                                                        <option {{ $state == 'Odisha' ? 'selected' : '' }} value="Odisha">Odisha</option>
+                                                        <option {{ $state == 'Punjab' ? 'selected' : '' }} value="Punjab">Punjab</option>
+                                                        <option {{ $state == 'Rajasthan' ? 'selected' : '' }} value="Rajasthan">Rajasthan</option>
+                                                        <option {{ $state == 'Sikkim' ? 'selected' : '' }} value="Sikkim">Sikkim</option>
+                                                        <option {{ $state == 'Tamil Nadu' ? 'selected' : '' }} value="Tamil Nadu">Tamil Nadu</option>
+                                                        <option {{ $state == 'Telangana' ? 'selected' : '' }} value="Telangana">Telangana</option>
+                                                        <option {{ $state == 'Tripura' ? 'selected' : '' }} value="Tripura">Tripura</option>
+                                                        <option {{ $state == 'Uttar Pradesh' ? 'selected' : '' }} value="Uttar Pradesh">Uttar Pradesh</option>
+                                                        <option {{ $state == 'Uttarakhand' ? 'selected' : '' }} value="Uttarakhand">Uttarakhand</option>
+                                                        <option {{ $state == 'West Bengal' ? 'selected' : '' }} value="West Bengal">West Bengal</option>
                                                     </select>
                                                 </div>
                                                 <div class="form-group col-md-4">
                                                     <label>City<span>*</span></label>
-                                                    <input type="text" class="form-control numeric" placeholder="District" name="district" id="District">
+                                                    <input type="text" class="form-control numeric" placeholder="District" value="{{$member['district']}}" name="district" id="District">
                                                 </div>
 
                                             </div>
                                             <div class="row">
                                                 <div class="form-group col-md-4">
                                                     <label>Pincode<span>*</span></label>
-                                                    <input type="text" class="form-control numeric" placeholder="Pincode" name="pincode" onkeypress="limitcount(this,6,event)">
+                                                    <input type="text" class="form-control numeric" placeholder="Pincode" value="{{$member['pincode']}}" name="pincode" onkeypress="limitcount(this,6,event)">
                                                 </div>
                                                 <div class="form-group col-md-4">
                                                     <div class="row">
                                                         <div class="col-md-4">
                                                             <label>STD Code</label>
-                                                            <input type="text" class="form-control numeric" placeholder="Std Code" name="stdCode" onkeypress="limitcount(this,4,event)">
+                                                            <input type="text" class="form-control numeric" placeholder="Std Code" value="{{$member['stdCode']}}" name="stdCode" onkeypress="limitcount(this,4,event)">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <label>Telephone No.</label>
-                                                            <input type="text" class="form-control numeric " placeholder="Telephone" name="telephone" onkeypress="limitcount(this,8,event)">
+                                                            <input type="text" class="form-control numeric " placeholder="Telephone" value="{{$member['telephone']}}" name="telephone" onkeypress="limitcount(this,8,event)">
                                                         </div>
                                                     </div>
                                                 </div>
 
                                                 <div class="form-group col-md-6">
                                                     <label>E-mail ID<span>*</span></label>
-                                                    <input type="email" class="form-control" placeholder="Email ID" name="email">
+                                                    <input type="email" class="form-control" placeholder="Email ID" value="{{$member['email']}}" name="email">
                                                 </div>
                                                 <div class="form-group col-md-6">
                                                     <label>GST No/ PAN No</label>
-                                                    <input type="text" name="gst_no" class="form-control" placeholder="GST No/ PAN No" value="">
+                                                    <input type="text" value="{{$member['gst_no']}}" name="gst_no" class="form-control" placeholder="GST No/ PAN No">
                                                 </div>
 
                                             </div>
                                             <div class="row">
                                                 <div class="form-group col-md-6">
                                                     <label>Registered Address<span>*</span></label>
-                                                    <textarea class="form-control" placeholder="Address" name="office_address"></textarea>
+                                                    <textarea class="form-control" placeholder="Address" name="office_address">{{$member['office_address']}}</textarea>
                                                 </div>
                                                 <div class="form-group col-md-6">
                                                     <label>Address for Correspondence<span>*</span></label>
-                                                    <textarea class="form-control" placeholder="Address" name="correspondence_office_address">  </textarea>
+                                                    <textarea class="form-control" placeholder="Address" name="correspondence_office_address"> {{$member['correspondence_office_address']}} </textarea>
                                                 </div>
 
                                             </div>
@@ -161,18 +167,18 @@
                                                 <div class="row">
                                                     <div class="form-group col-md-6">
                                                         <label>Location Of Company where you are providing your servicess</label>
-                                                        <textarea name="business_location" class="form-control" placeholder="Location Of Company"></textarea>
+                                                        <textarea name="business_location" class="form-control" placeholder="Location Of Company"> {{$member['business_location']}}</textarea>
                                                     </div>
                                                     <div class="form-group col-md-6">
                                                         <label>Affiliations And Supports<span>*</span></label>
-                                                        <textarea class="form-control" name="affiliations_supports" placeholder="Affiliations And Supports"></textarea>
+                                                        <textarea class="form-control" name="affiliations_supports" placeholder="Affiliations And Supports">{{$member['affiliations_supports']}}</textarea>
                                                     </div>
                                                 </div>
                                                 <div class="row">
 
                                                     <div class="form-group col-md-3">
                                                         <label>Name of Directors / Partners <span>*</span></label>
-                                                        <input type="text" class="form-control " placeholder="Name of Directors / Partners" name="name_directors">
+                                                        <input type="text" class="form-control " placeholder="Name of Directors / Partners" value="{{$member['name_directors']}}" name="name_directors">
                                                     </div>
                                                     <div class="form-group col-md-3">
                                                         <label>Year of Registration<span>*</span></label>
@@ -181,17 +187,17 @@
                                                             {{ $last= 1901 }}
                                                             {{ $now = date('Y') }}
                                                             @for ($i = $now; $i >= $last; $i--)
-                                                            <option value="{{ $i }}">{{ $i }}</option>
+                                                            <option {{ $member["year_incorporation"] == $i ? 'selected' : '' }} value="{{ $i }}">{{ $i }}</option>
                                                             @endfor
                                                         </select>
                                                     </div>
                                                     <div class="form-group col-md-3">
                                                         <label>Number of Employees </label>
-                                                        <input type="text" class="form-control numeric" placeholder="Number of Employees" name="permanent_full_Time_Employees" onkeypress="limitcount(this,5,event)">
+                                                        <input type="text" class="form-control numeric" placeholder="Number of Employees" value="{{$member['permanent_full_Time_Employees']}}" name="permanent_full_Time_Employees" onkeypress="limitcount(this,5,event)">
                                                     </div>
                                                     <div class="form-group col-md-3">
                                                         <label>FQP Affiliations<span></span></label>
-                                                        <input type="text" class="form-control" placeholder="FQP Memberships Number" name="membership_affiliation">
+                                                        <input type="text" class="form-control" placeholder="FQP Memberships Number" value="{{$member['membership_affiliation']}}" name="membership_affiliation">
                                                     </div>
                                                 </div>
                                             </div>
@@ -208,7 +214,7 @@
                                                         </div>
                                                         <label id="fqp_id-error" class="error" for="fqp_id"></label>
 
-                                                        <input type="hidden" name="new_fqp_id" id="new_fqp_id" value="">
+                                                        <input type="hidden" name="new_fqp_id" id="new_fqp_id">
                                                     </div>
                                                     <input type="hidden" name="sub_category" value="15">
                                                 </div>
@@ -223,26 +229,26 @@
                                                 <div class="row">
                                                     <div class="col-md-4 form-group">
                                                         <label>Member Name</label>
-                                                        <input type="text" name="member_name" class="form-control" placeholder="Member Name">
+                                                        <input type="text" value="{{$member['member_name']}}" name="member_name" class="form-control" placeholder="Member Name">
                                                     </div>
                                                     <div class="col-md-4 form-group">
                                                         <label>Member Mobile No.</label>
-                                                        <input type="text" name="member_mobile" class="form-control numeric" placeholder="Member Mobile No.">
+                                                        <input type="text" value="{{$member['member_mobile']}}" name="member_mobile" class="form-control numeric" placeholder="Member Mobile No.">
                                                     </div>
                                                     <div class="col-md-4 form-group">
                                                         <label>Member Email ID</label>
-                                                        <input type="email" name="member_email" class="form-control" placeholder="Member Email ID">
+                                                        <input type="email" value="{{$member['member_email']}}" name="member_email" class="form-control" placeholder="Member Email ID">
                                                     </div>
                                                 </div>
 
                                                 <div class="row">
                                                     <div class="col-md-4 form-group">
                                                         <label>Member Designation</label>
-                                                        <input type="text" name="member_designation" class="form-control" placeholder="Member Designation">
+                                                        <input type="text" value="{{$member['member_designation']}}" name="member_designation" class="form-control" placeholder="Member Designation">
                                                     </div>
                                                     <div class="col-md-4 form-group">
                                                         <label>Member Organization </label>
-                                                        <input type="text" name="member_organization" class="form-control" placeholder="Member Organization">
+                                                        <input type="text" value="{{$member['member_organization']}}" name="member_organization" class="form-control" placeholder="Member Organization">
                                                     </div>
                                                 </div>
                                             </div>
@@ -286,7 +292,7 @@
                                         </ul>
                                         <br>
 
-                                        <input type="checkbox" value="1" name="codeofethics" required="" aria-required="true">
+                                        <input type="checkbox" value="1" name="codeofethics" required="" {{$member['codeofethics'] == 1 ? 'checked' : ''}}>
                                         <bold>I/we Accept.</bold><br>
                                         1. The information given above by me is true to the best of my knowledge.<br>
                                         2. I agree to abide by the code of ethics as above.<br>
