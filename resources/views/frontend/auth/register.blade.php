@@ -3,7 +3,6 @@
 @section('title', app_name() . ' | ' . __('labels.frontend.auth.register_box_title'))
 
 @section('content')
-
 <section class="basic-inner-page">
     <div class="container">
         <div class="inner-grp clearfix">
@@ -85,7 +84,7 @@
                                         <div class="form-group">
                                             <label for="email">Membership Type</label>
                                             <select class="form-control valid" name="Membership_Type" id="Membership_Type" style="color: black;" aria-required="true" aria-invalid="false">
-                                                <option value="">Membership Type</option>
+                                                <option value="0">Membership Type</option>
                                                 <option value="1">Individual Membership</option>
                                                 <option value="2">Corporate Membership</option>
                                                 <option value="3">Healthcare Membership</option>
@@ -103,14 +102,65 @@
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group">
-                                            <label for="email">User Type</label>
-
-                                            <select class="form-control" name="SubCategory" id="subcategory" style="color: black;">
+                                            <label for="category_drop">Category</label>
+                                             <select class="form-control" name="category" id="category_0" style="color:black;">
                                                 <option value="">Category</option>
-                                                <option value="17">Maharatna</option>
-                                                <option value="18">Navratna</option>
+                                                <option value="1">Member</option>
+                                                <option value="2">Life Member (10 Years)</option>
+                                                <option value="3">Student</option>
+                                                <option value="4">International Membership</option>
+                                            </select>
+                                            <select class="form-control" name="category" id="category_2" style="color: black;display:none;">
+                                                <option value="">Category</option>
+                                                <option value="5">Micro/Small</option>
+                                                <option value="6">Medium</option>
+                                                <option value="7">Large</option>
+                                                <option value="8">Corporate International</option>
+                                            </select>
+											 <select class="form-control" name="category" id="category_3" style="color: black;display:none;">
+                                                <option value="">Category</option>
+                                                <option value="9">Healthcare (<50 Beds)</option>
+                                                <option value="10">Healthcare (>50 Beds)</option>
+                                                <option value="11">Big Hospital(Above 200 Beds)</option>
+                                                <option value="12">Clonic & DayCare</option>
+                                            </select>
+											 <select class="form-control" name="category" id="category_4" style="color: black;display:none;">
+                                                <option value="">Category</option>
+                                                <option value="13">School</option>
+                                                <option value="14">College</option>
+                                                <option value="15">University / Professional Institutions</option>
+                                            </select>
+											 <select class="form-control" name="category" id="category_5" style="color: black;display:none;">
+                                                <option value="">Category</option>
+                                                <option value="16">All</option>
+                                            </select>
+											 <select class="form-control" name="category" id="category_6" style="color: black;display:none;">
+                                                <option value="">Category</option>
+                                                <option value="17">All</option>
+                                            </select>
+											 <select class="form-control" name="category" id="category_7" style="color: black;display:none;">
+                                                <option value="">Category</option>
+                                                <option value="18">Miniratna</option>
+                                                <option value="19">Navratna</option>
                                                 <option value="20">Miniratna-1</option>
                                                 <option value="21">Miniratna-2</option>
+                                            </select>
+                                        </div>
+                                        <!--form-group-->
+                                    </div>
+                                    <!--col-->
+                                </div>
+								  <div class="row" id="year" style="display:none">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="email">Year</label>
+
+                                            <select class="form-control" name="select_year" id="select_year">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+												<option value="5">5</option>
                                             </select>
                                         </div>
                                         <!--form-group-->

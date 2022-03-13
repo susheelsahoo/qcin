@@ -54,6 +54,7 @@
         <script type="text/javascript" src="{{ asset('fronted/js/jquery-ui.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('fronted/js/jquery.mousewheel.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('fronted/js/jquery.scrollable.js') }}"></script>
+		<script type="text/javascript" src="{{asset('js/frontend/auth/registration.js')}}"></script>
         {!! script(mix('js/manifest.js')) !!}
         {!! script(mix('js/vendor.js')) !!}
         {!! script(mix('js/frontend.js')) !!}
