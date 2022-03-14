@@ -24,6 +24,7 @@
     <link href="{{ asset('fronted/css/custom.css') }}" rel="stylesheet">
     <link href="{{ asset('fronted/css/appfqp.css') }}" rel="stylesheet">
 
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- Check if the language is set to RTL, so apply the RTL layouts -->
@@ -54,7 +55,7 @@
         <script type="text/javascript" src="{{ asset('fronted/js/jquery-ui.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('fronted/js/jquery.mousewheel.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('fronted/js/jquery.scrollable.js') }}"></script>
-		<script type="text/javascript" src="{{asset('js/frontend/auth/registration.js')}}"></script>
+        <script type="text/javascript" src="{{asset('js/frontend/auth/registration.js')}}"></script>
         {!! script(mix('js/manifest.js')) !!}
         {!! script(mix('js/vendor.js')) !!}
         {!! script(mix('js/frontend.js')) !!}
