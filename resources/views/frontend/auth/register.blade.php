@@ -73,6 +73,8 @@
                                         <div class="form-group">
                                             <label for="email">Mobile Number</label>
                                             <input class="form-control" type="text" name="mobile" placeholder="Your Mobile Number" maxlength="10" required="">
+                                            <input class="form-control" type="hidden" name="password" value="{{$password}}">
+                                            <input class="form-control" type="hidden" name="password_confirmation" value="{{$password}}">
                                         </div>
                                         <!--form-group-->
                                     </div>
@@ -103,7 +105,7 @@
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="category_drop">Category</label>
-                                             <select class="form-control" name="category" id="category_0" style="color:black;">
+                                            <select class="form-control" name="category" id="category_0" style="color:black;">
                                                 <option value="">Category</option>
                                                 <option value="1">Member</option>
                                                 <option value="2">Life Member (10 Years)</option>
@@ -117,28 +119,28 @@
                                                 <option value="7">Large</option>
                                                 <option value="8">Corporate International</option>
                                             </select>
-											 <select class="form-control" name="category" id="category_3" style="color: black;display:none;">
+                                            <select class="form-control" name="category" id="category_3" style="color: black;display:none;">
                                                 <option value="">Category</option>
                                                 <option value="9">Healthcare (<50 Beds)</option>
                                                 <option value="10">Healthcare (>50 Beds)</option>
                                                 <option value="11">Big Hospital(Above 200 Beds)</option>
                                                 <option value="12">Clonic & DayCare</option>
                                             </select>
-											 <select class="form-control" name="category" id="category_4" style="color: black;display:none;">
+                                            <select class="form-control" name="category" id="category_4" style="color: black;display:none;">
                                                 <option value="">Category</option>
                                                 <option value="13">School</option>
                                                 <option value="14">College</option>
                                                 <option value="15">University / Professional Institutions</option>
                                             </select>
-											 <select class="form-control" name="category" id="category_5" style="color: black;display:none;">
+                                            <select class="form-control" name="category" id="category_5" style="color: black;display:none;">
                                                 <option value="">Category</option>
                                                 <option value="16">All</option>
                                             </select>
-											 <select class="form-control" name="category" id="category_6" style="color: black;display:none;">
+                                            <select class="form-control" name="category" id="category_6" style="color: black;display:none;">
                                                 <option value="">Category</option>
                                                 <option value="17">All</option>
                                             </select>
-											 <select class="form-control" name="category" id="category_7" style="color: black;display:none;">
+                                            <select class="form-control" name="category" id="category_7" style="color: black;display:none;">
                                                 <option value="">Category</option>
                                                 <option value="18">Miniratna</option>
                                                 <option value="19">Navratna</option>
@@ -150,7 +152,7 @@
                                     </div>
                                     <!--col-->
                                 </div>
-								  <div class="row" id="year" style="display:none">
+                                <div class="row" id="year" style="display:none">
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="email">Year</label>
@@ -160,7 +162,7 @@
                                                 <option value="2">2</option>
                                                 <option value="3">3</option>
                                                 <option value="4">4</option>
-												<option value="5">5</option>
+                                                <option value="5">5</option>
                                             </select>
                                         </div>
                                         <!--form-group-->
