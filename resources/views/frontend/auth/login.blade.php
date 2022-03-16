@@ -1,4 +1,4 @@
-@extends('frontend.layouts.login')
+@extends('frontend.layouts.frontend')
 
 @section('title', app_name() . ' | ' . __('labels.frontend.auth.login_box_title'))
 
@@ -12,35 +12,61 @@
                         <div class="row ml-0 mr-0"> <a class="col-md-8 col-md-offset-2" href="#"><img src="https://nbqpmembership.qci.org.in/front-assets/images/nbqp_logo.jpg" alt="logo" class="img-responsive"></a> </div>
                     </div>
                     <div class="col-md-8 col-md-offset-2 small">
-                        <form class="clearfix" action="" method="post">
-                            <h3>Login</h3>
-                            <div class="form-group">
-                                <label><span>Email</span></label>
-                                <input type="email" name="Email" class="form-control" value="">
+                        {{ html()->form('POST', route('frontend.auth.login.post'))->open() }}
+                        <h3>Login</h3>
+                        <div class="form-group">
+                            {{ html()->label(__('validation.attributes.frontend.email'))->for('email') }}
+
+                            {{ html()->email('email')
+                                ->class('form-control')
+                                ->placeholder(__('validation.attributes.frontend.email'))
+                                ->attribute('maxlength', 191)
+                                ->required() }}
+                        </div>
+                        <div class="form-group">
+                            {{ html()->label(__('validation.attributes.frontend.password'))->for('password') }}
+
+                            {{ html()->password('password')
+                                ->class('form-control')
+                                ->placeholder(__('validation.attributes.frontend.password'))
+                                ->required() }}
+                        </div>
+
+                        @if(config('access.captcha.login'))
+                        <div class="row">
+                            <div class="col">
+                                @captcha
+                                {{ html()->hidden('captcha_status', 'true') }}
                             </div>
-                            <div class="form-group">
-                                <label><span>Password</span></label>
-                                <input type="password" name="Password" class="form-control" value="">
-                            </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox">
-                                    <small>Remember me</small></label>
-                            </div>
-                            <div class="row ml-0 mr-0">
-                                <div class="col-md-6 p-0">
-                                    <div class="form-group">
-                                        <input type="submit" name="login" class="btn btn-block btn-success" value="Login">
-                                    </div>
+                            <!--col-->
+                        </div>
+                        <!--row-->
+                        @endif
+                        <div class="checkbox">
+                            {{ html()->label(html()->checkbox('remember', true, 1) . ' ' . __('labels.frontend.auth.remember_me'))->for('remember') }}
+                        </div>
+                        <div class="row ml-0 mr-0">
+                            <div class="col-md-6 p-0">
+                                <div class="form-group">
+                                    <input type="submit" name="login" class="btn btn-block btn-success" value="Login">
                                 </div>
-                                <div class="col-md-6 text-right"> <a href="https://nbqpmembership.qci.org.in/forgot-password"> Forgot password?</a> </div>
+                                <!-- <div class="form-group clearfix">
+                                    {{ form_submit(__('labels.frontend.auth.login_button')) }}
+                                </div> -->
                             </div>
-                        </form>
+                            <div class="col-md-6 text-right">
+                                <a href="{{ route('frontend.auth.password.reset') }}">@lang('labels.frontend.passwords.forgot_password')</a>
+                            </div>
+                        </div>
+                        {{ html()->form()->close() }}
                     </div>
                     <div class="row ml-0 mr-0">
                         <div class="col-md-8 col-md-offset-2 copyright"> <small>© 2022 All Rights Reserved</small> </div>
                         <div class="col-md-12 footer">
-                            <div class="col-md-10 col-md-offset-1 mobile-padding-0"> <small style="font-size: 82%;">Don't have an account? <a href="" data-toggle="modal" data-target="#RegModal"><strong> Sign up</strong>.</a> <a href="https://nbqpmembership.qci.org.in/term-conditions" class="">Terms &amp; Conditions</a></small> </div>
+                            <div class="col-md-10 col-md-offset-1 mobile-padding-0"> <small style="font-size: 82%;">Don't have an account?
+                                    <a href="{{ route('frontend.auth.register') }}">@lang('labels.frontend.auth.register_now')</a>
+                                    <a href="#" class="">Terms &amp; Conditions</a></small>
+                            </div>
 
                         </div>
                     </div>
