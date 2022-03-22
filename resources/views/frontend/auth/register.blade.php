@@ -73,8 +73,26 @@
                                         <div class="form-group">
                                             <label for="email">Mobile Number</label>
                                             <input class="form-control" type="text" name="mobile" placeholder="Your Mobile Number" maxlength="10" required="">
-                                            <input class="form-control" type="hidden" name="password" value="{{$password}}">
-                                            <input class="form-control" type="hidden" name="password_confirmation" value="{{$password}}">
+                                        </div>
+                                        <!--form-group-->
+                                    </div>
+                                    <!--col-->
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="email">Passwrod</label>
+                                            <input class="form-control" type="text" name="password" placeholder="Your Password">
+                                        </div>
+                                        <!--form-group-->
+                                    </div>
+                                    <!--col-->
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="email">Confirm Password</label>
+                                            <input class="form-control" type="text" name="password_confirmation" placeholder="confirmation password">
                                         </div>
                                         <!--form-group-->
                                     </div>
@@ -170,7 +188,7 @@
                                     <!--col-->
                                 </div>
                                 <!--row-->
-                                <div class="row">
+                                <!-- <div class="row">
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="email">User Type</label>
@@ -181,10 +199,8 @@
                                                 <option value="Existing User">Existing User</option>
                                             </select>
                                         </div>
-                                        <!--form-group-->
                                     </div>
-                                    <!--col-->
-                                </div>
+                                </div> -->
                                 <!--row-->
 
 

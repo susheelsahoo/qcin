@@ -49,10 +49,9 @@ class RegisterController extends Controller
     public function showRegistrationForm()
     {
         abort_unless(config('access.registration'), 404);
-        $str = "SUSHEELSAHOO_abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()";
-        $password = $this->get_password($str, 8);
 
-        return view('frontend.auth.register', compact('password'));
+
+        return view('frontend.auth.register');
     }
 
     public function get_password($str, $len = 0)
@@ -100,6 +99,7 @@ class RegisterController extends Controller
 
         abort_unless(config('access.registration'), 404);
         $postData = $request->all();
+
         $param = array(
             'first_name'    => $postData['first_name'],
             'last_name'     => $postData['last_name'],
@@ -109,7 +109,6 @@ class RegisterController extends Controller
             'Membership_Type' => $postData['Membership_Type'],
             'category'      => $postData['category'],
             'select_year'   => $postData['select_year'],
-            'UserType'      => $postData['UserType'],
         );
         $user = $this->userRepository->create($param);
 
