@@ -1,4 +1,4 @@
-@extends('frontend.layouts.app')
+@extends('frontend.layouts.frontend')
 
 @section('title', app_name() . ' | ' . __('navs.frontend.dashboard') )
 
@@ -23,7 +23,7 @@
                                 <section id="main-content">
                                     <div id="page-main">
                                         <!-- <form role="form" action="#" method="post" id="Ngo" enctype="multipart/form-data" novalidate="novalidate"> -->
-                                        {{ Form::open(['route' => 'frontend.user.membership.store', 'class' => 'form-horizontal', 'role' => 'form', 'method' => 'post', 'id' => 'create-permission', 'files' => true]) }}
+                                        {{ Form::open(['route' => 'frontend.user.membership.store', 'class' => '', 'role' => 'form', 'method' => 'post', 'id' => 'create-permission', 'files' => true]) }}
 
                                         <input type="hidden" id="add_more_count" value="0">
                                         <section class="">

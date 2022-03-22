@@ -50,8 +50,43 @@ class RegisterController extends Controller
     {
         abort_unless(config('access.registration'), 404);
 
+
         return view('frontend.auth.register');
     }
+
+    public function get_password($str, $len = 0)
+    {
+
+        // Variable $pass to store password
+        $pass = "";
+
+        // Variable $str_length to store
+        // length of the given string
+        $str_length = strlen($str);
+
+        // Check if the $len is not provided
+        // or $len is greater than $str_length
+        // then assign $str_length to $len
+        if ($len == 0 || $len > $str_length) {
+            $len = $str_length;
+        }
+
+        // Iterate $len times so that the
+        // resulting string's length is
+        // equal to $len
+        for ($i = 0; $i < $len; $i++) {
+
+            // Concatenate random character
+            // from $str with $pass
+            $pass .= $str[rand(0, $str_length)];
+        }
+        return $pass;
+    }
+
+
+    // Print password of length 5 from
+    // the given string
+
 
     /**
      * @param RegisterRequest $request
@@ -63,8 +98,19 @@ class RegisterController extends Controller
     {
 
         abort_unless(config('access.registration'), 404);
+        $postData = $request->all();
 
-        $user = $this->userRepository->create($request->only('first_name', 'last_name', 'email', 'password'));
+        $param = array(
+            'first_name'    => $postData['first_name'],
+            'last_name'     => $postData['last_name'],
+            'email'         => $postData['email'],
+            'mobile'        => $postData['mobile'],
+            'password'      => $postData['password'],
+            'Membership_Type' => $postData['Membership_Type'],
+            'category'      => $postData['category'],
+            'select_year'   => $postData['select_year'],
+        );
+        $user = $this->userRepository->create($param);
 
         // If the user must confirm their email or their account requires approval,
         // create the account but don't log them in.

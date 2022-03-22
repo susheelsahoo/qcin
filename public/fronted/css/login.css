@@ -1,0 +1,57 @@
+
+	
+	body{font-family: 'Lato', sans-serif;font-weight:400; letter-spacing:0.03em; background-image:url(../data/bg.jpg); background-size:cover; background-attachment:fixed; background-repeat:no-repeat;}
+	
+	.navbar {margin-bottom: 0;border-radius: 0; background-color:#80d6f7;}
+	.navbar-collapse{padding-left:0px;}
+	.navbar-fixed-top .navbar-right{float:right!important;margin-right:0px}
+	.nav>li{border-left:0px solid #999;}
+	.nav>li:last-child{border-right:1px solid #999;}
+	.nav a{ color:#fff; font-size:14px; font-weight:400; word-spacing:0.02em;}
+	.mycon{ padding:40px 0 0 0;}
+	.bg-color{background-color:#fff; position:relative; height:500px;}
+	.bg-color-con{margin:40px 0 30px 0;}
+	.bg-color .form-group {margin-bottom: 5px;}
+	.footer {
+    background-color: #f2f2f2;
+    line-height: 60px;
+    position: absolute;
+    bottom: 0;
+}
+	.bg{background-image:url(../images/corporate.jpg); background-size:contain; background-position: center right; background-repeat:no-repeat;}
+	.bg .con{height:500px; color:#fff; background-color:rgba(0,51,102,0.4);}
+	.bg .con h3{ margin-bottom:20px; color:#fff; position:relative;}
+	.bg .con h3:after{ position:absolute; content:''; width:130px; height:3px; left:0px; bottom:-20px;margin-bottom:10px; background-color:#ffcc00;-webkit-animation-name: example; -webkit-animation: example 1s ease-in-out; animation: example 1s ease-in-out;}
+	@keyframes example {from {width:0px;} to {width:130px;}}
+	@-webkit-keyframes example { from {width:0px;} to {width:130px;}}
+	
+/* responsive css start here */
+@media (max-width: 1024px){
+	.ipad-header {margin-top: 100px !important;}
+}
+@media (max-width: 768px){
+	.navbar-nav{margin: 10px !important;}
+	.bg-color, .bg .con{height: 570px;}
+	.small, small {font-size: 88%;}
+	.bg{background-size: cover;}
+	.scroll{height: 455px;}
+	.footer{width: 100%;}
+}
+
+@media (max-width:767px){
+	.bg-color{height: 563px;}
+	.footer{width: 100%; left: 0; line-height: 1.7em; padding: 10px; text-align: center;}
+	.row{margin-left: 0 !important; margin-right: 0 !important;}
+	.nbqp_logo{width: 66px !important;}
+}
+
+@media (max-width: 667px){
+	.mobile-padding-0{padding: 0 !important;}
+}
+@media (max-width: 320px){
+	.bg-color {height: 561px;}
+
+}
+
+
+

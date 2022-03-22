@@ -139,6 +139,7 @@ class UserRepository extends BaseRepository
             if (config('access.users.confirm_email')) {
                 // Pretty much only if account approval is off, confirm email is on, and this isn't a social account.
                 $user->notify(new UserNeedsConfirmation($user->confirmation_code));
+                // $user->notify(new UserNeedsConfirmation($user));
             }
 
             // Return the user object
@@ -160,7 +161,7 @@ class UserRepository extends BaseRepository
         $user->email = $input['email'];
         $user->password = bcrypt($input['password']);
         $user->confirmation_code = md5(uniqid(mt_rand(), true));
-        $user->confirmed = ! (config('access.users.requires_approval') || config('access.users.confirm_email'));
+        $user->confirmed = !(config('access.users.requires_approval') || config('access.users.confirm_email'));
 
         return $user;
     }
@@ -264,9 +265,9 @@ class UserRepository extends BaseRepository
          * The true flag indicate that it is a social account
          * Which triggers the script to use some default values in the create method
          */
-        if (! $user) {
+        if (!$user) {
             // Registration is not enabled
-            if (! config('access.registration')) {
+            if (!config('access.registration')) {
                 throw new GeneralException(__('exceptions.frontend.auth.registration_disabled'));
             }
 
@@ -292,7 +293,7 @@ class UserRepository extends BaseRepository
         }
 
         // See if the user has logged in with this social account before
-        if (! $user->hasProvider($provider)) {
+        if (!$user->hasProvider($provider)) {
             // Gather the provider data for saving and associate it with the user
             $user->providers()->save(new SocialAccount([
                 'provider' => $provider,
@@ -331,12 +332,12 @@ class UserRepository extends BaseRepository
             $result['last_name'] = null;
         }
 
-        if (! empty($parts) && $size === 1) {
+        if (!empty($parts) && $size === 1) {
             $result['first_name'] = $parts[0];
             $result['last_name'] = null;
         }
 
-        if (! empty($parts) && $size >= 2) {
+        if (!empty($parts) && $size >= 2) {
             $result['first_name'] = $parts[0];
             $result['last_name'] = $parts[1];
         }
